@@ -1,0 +1,18 @@
+{
+	"id": "reddit",
+	"name": "Reddit Bonanza",
+	"author": ["ItsGraphax"],
+	"description": "Adds loads of Joker concepts provided by redditors to Balatro",
+	"prefix": "reddit",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "ff4b08",
+	"badge_text_colour": "ffffff",
+	"display_name": "Reddit Bonanza",
+	"version": "1.12.2",
+	"dependencies": [
+		"Steamodded (>=1.*)",
+		"Lovely (>=0.6)"
+	],
+	"dump_loc": false
+}

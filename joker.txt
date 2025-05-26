@@ -1,0 +1,31 @@
+-- JOKER NAME
+SMODS.Joker {
+	key = 'JOKER ID',
+	blueprint_compat = true,
+	loc_txt = {
+		name = 'JOKER NAME',
+		text = {
+			"JOKER DESC"
+		}
+	},
+
+	config = { extra = {  } },
+    loc_vars = function(self, info_queue, card)
+		return { vars = {  } }
+	end,
+
+	rarity = RARITY,
+	
+	atlas = 'reddit_jokers',
+	pos = { x = X, y = Y },
+
+	cost = COST,
+
+	calculate = function(self, card, context)
+        -- CALCULATE
+	end,
+
+    set_badges = function(self, card, badges)
+        badges[#badges+1] = create_badge('by u/USER', G.C.RED, G.C.WHITE, 1)
+    end
+}
