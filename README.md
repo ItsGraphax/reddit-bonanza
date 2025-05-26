@@ -1,5 +1,9 @@
 # Reddit Bonanza
-A Balatro Mod
+Reddit Bonanza is a Balatro Mod that adds Jokers suggested by users on Reddit!
+At the moment there are 18 Jokers in the Mod, so you should try giving it a shot!
+
+NOTE: This Mod is still in early development stages so expect Bugs and Imbalances.
+Feel Free to open an Issue when you find a Problem!
 
 ## Jokers
 ### Common
