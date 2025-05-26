@@ -26,6 +26,7 @@ A Balatro Mod
 
 ## Credits
 - Mod Author: [u/ItsGraphax](https://reddit.com/u/ItsGraphax) - [ItsGraphax](github.com/ItsGraphax)
+- Co Author: [u/Natural_Builder_3170](https://reddit.com/u/Natural_Builder_3170) - [Eric Nwogbo](https://github.com/Git-i)
 - Jokers:
     - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
     - [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
