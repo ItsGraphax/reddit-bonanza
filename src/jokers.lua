@@ -670,7 +670,7 @@ SMODS.Joker {
         end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/USER', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/PerfectAstronaut5998', G.C.RED, G.C.WHITE, 1)
     end
 }
 
@@ -756,7 +756,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/USER', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
     end
 }
 
