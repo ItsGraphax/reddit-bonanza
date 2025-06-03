@@ -42,3 +42,6 @@ Feel Free to open an Issue when you find a Problem!
     - [u/knockoutn336](https://reddit.com/u/knockoutn336)
     - [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_)
     - [u/Ulik](https://reddit.com/u/Ulik)
+- Special Thanks
+    - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+    - [u/VALERock](https://reddit.com/u/VALERock)
