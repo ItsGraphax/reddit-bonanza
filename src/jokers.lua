@@ -979,7 +979,7 @@ SMODS.Joker {
     rarity = 2,
     
     atlas = 'reddit_jokers',
-    pos = { x = 1, y = 3 },
+    pos = { x = 3, y = 3 },
 
     cost = 5,
 
@@ -1004,4 +1004,55 @@ SMODS.Joker {
     set_badges = function(self, card, badges)
         badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
 	end
+}
+
+-- Hi Five
+get_tally = function ()
+	local tally = 0
+	for _, playing_card in ipairs(G.playing_cards) do
+		if playing_card:get_id() == 5 then tally = tally + 1 end
+	end
+	return tally
+end
+
+SMODS.Joker {
+	key = 'hi_five',
+	blueprint_compat = true,
+	loc_txt = {
+		name = 'Hi Five',
+		text = {
+			"Gives {C:money}$#1#{} per",
+			"{C:money}#2#{} in your deck",
+			"{C:inactive}(Currently {C:money}$#3#{C:inactive}){}"
+		}
+	},
+
+	config = { extra = { dollars = 5, rank = 5, sell_cost = 0 } },
+    loc_vars = function(self, info_queue, card)
+        tally = get_tally()
+		return { vars = { card.ability.extra.dollars,card.ability.extra.rank, card.ability.extra.dollars * tally} }
+	end,
+
+	rarity = 3,
+	
+	atlas = 'reddit_jokers',
+	pos = { x = 4, y = 3 },
+
+	cost = 8,
+
+	add_to_deck = function (self, card, from_debuff)
+		tally = get_tally()
+		card.sell_cost = tally * card.ability.extra.dollars
+	end,
+
+	calculate = function (self, card, context)
+		if context.selling_self or context.playing_card_added and not context.blueprint then
+			tally = get_tally()
+			card.sell_cost = tally * card.ability.extra.dollars
+		end
+	end,
+
+    set_badges = function(self, card, badges)
+        badges[#badges+1] = create_badge('by u/Thomassaurus', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+    end
 }
