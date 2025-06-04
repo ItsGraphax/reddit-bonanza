@@ -1,6 +1,6 @@
 -- Feelin' lucky
 SMODS.Joker {
-	key = 'j_reddit_feelin_lucky',
+	key = 'feelin_lucky',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Feelin\' Lucky',
@@ -101,7 +101,7 @@ SMODS.Joker {
 
 -- Slothful Joker
 SMODS.Joker {
-	key = 'j_reddit_slothful',
+	key = 'slothful',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Slothful Joker',
@@ -136,7 +136,7 @@ SMODS.Joker {
 
 -- Rainbow Joker
 SMODS.Joker {
-	key = 'j_reddit_rainbow',
+	key = 'rainbow',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Rainbow Joker',
@@ -206,7 +206,7 @@ get_hand_loc = function(card)
 end
 
 SMODS.Joker {
-	key = 'j_reddit_chocolate_treadmill',
+	key = 'chocolate_treadmill',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Chocolate Treadmill',
@@ -288,7 +288,7 @@ SMODS.Joker {
 
 -- Touchdown
 SMODS.Joker {
-	key = 'j_reddit_touchdown',
+	key = 'touchdown',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Touchdown',
@@ -341,7 +341,7 @@ SMODS.Joker {
 
 -- Haunted House
 SMODS.Joker {
-	key = 'j_reddit_haunted_house',
+	key = 'haunted_house',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Haunted House',
@@ -390,7 +390,7 @@ SMODS.Joker {
 
 -- Jimbo's Loss
 SMODS.Joker {
-	key = 'j_reddit_jimbos_loss',
+	key = 'jimbos_loss',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Jimbo\'s Loss',
@@ -438,7 +438,7 @@ SMODS.Joker {
 
 -- Trippy Joker
 SMODS.Joker {
-	key = 'j_reddit_trippy',
+	key = 'trippy',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Trippy Joker',
@@ -479,7 +479,7 @@ SMODS.Joker {
 
 -- Enigma
 SMODS.Joker {
-	key = 'j_reddit_enigma',
+	key = 'enigma',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Enigma',
@@ -540,7 +540,7 @@ win_blind = function()
 end
 
 SMODS.Joker {
-	key = 'j_reddit_mad',
+	key = 'mad',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'M.A.D.',
@@ -593,7 +593,7 @@ amount_of_jokers = function (card, mm)
 end
 
 SMODS.Joker {
-	key = 'j_reddit_sinister_joker',
+	key = 'sinister_joker',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Sinister Joker',
@@ -627,7 +627,7 @@ SMODS.Joker {
 
 -- Medusa
 SMODS.Joker {
-	key = 'j_reddit_medusa',
+	key = 'medusa',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Medusa',
@@ -676,7 +676,7 @@ SMODS.Joker {
 
 -- Engagement Ring
 SMODS.Joker {
-	key = 'j_reddit_engagement_ring',
+	key = 'engagement_ring',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Engagement Ring',
@@ -713,7 +713,7 @@ SMODS.Joker {
 
 -- Glass House
 SMODS.Joker {
-	key = 'j_reddit_glass_house',
+	key = 'glass_house',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Glass House',
@@ -762,7 +762,7 @@ SMODS.Joker {
 
 -- All In
 SMODS.Joker {
-	key = 'j_reddit_all_in',
+	key = 'all_in',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'All In',
@@ -803,7 +803,7 @@ SMODS.Joker {
 
 -- Blank Joker
 SMODS.Joker {
-	key = 'j_reddit_blank_joker',
+	key = 'blank_joker',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Blank Joker',
@@ -852,7 +852,7 @@ SMODS.Joker {
 
 -- Diamond Pickaxe 
 SMODS.Joker {
-	key = 'j_reddit_diamond_pickaxe',
+	key = 'diamond_pickaxe',
 	blueprint_compat = true,
 	loc_txt = {
 		name = 'Diamond Pickaxe',
@@ -892,7 +892,7 @@ SMODS.Joker {
 
 -- Legally Distinct
 SMODS.Joker {
-    key = 'j_reddit_legally_distinct',
+    key = 'legally_distinct',
     blueprint_compat = true,
     loc_txt = {
         name = 'Legally Distinct',
@@ -946,13 +946,13 @@ SMODS.Joker {
 
 -- Bingo
 SMODS.Joker {
-    key = 'j_reddit_bingo',
+    key = 'bingo',
     blueprint_compat = false,
     loc_txt = {
         name = 'Bingo!',
         text = {
-            "Earn {C:money}$#1#{} when you play",
-			"a card of every rank"
+            "Earn {C:money}$#1#{} when a",
+			"card of every rank has been played"
         }
     },
 
@@ -961,7 +961,7 @@ SMODS.Joker {
         return { vars = { card.ability.extra.money } }
     end,
 
-    rarity = 1,
+    rarity = 2,
     
     atlas = 'reddit_jokers',
     pos = { x = 1, y = 3 },
@@ -981,7 +981,7 @@ SMODS.Joker {
 			card.ability.extra.played_ranks = {}
 			return {
 				message = "Bingo!",
-				dollars = 13
+				dollars = card.ability.extra.dollars
 			}
 		end
     end,
