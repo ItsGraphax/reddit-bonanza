@@ -952,6 +952,13 @@ SMODS.Joker {
 }
 
 -- Bingo
+
+tablelength = function (T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
 SMODS.Joker {
     key = 'bingo',
     blueprint_compat = false,
