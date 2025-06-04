@@ -1,0 +1,45 @@
+# Jokers
+## Done
+- [x] Feelin' Lucky [Link](https://www.reddit.com/r/balatro/comments/1kq0ff8/very_niche_but_maybe_powerful_joker/)
+- [x] Chocolate Treadmill [Link](https://www.reddit.com/r/balatro/comments/1kqntx3/run_off_the_fat_from_all_those_ice_creams/)
+- [x] Slothful Joker [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
+- [x] Rainbow Joker [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
+- [x] Kleptomaniac [Link](https://www.reddit.com/r/balatro/comments/1kpdhv3/lets_go_stealing/)
+- [x] Touchdown [Link](https://www.reddit.com/r/balatro/comments/1khy2uv/everywhere_i_go_i_see_a_joker_idea/)
+- [x] Trippy Joker [Link](https://www.reddit.com/r/balatro/comments/1kjf8bc/cooked_this_idea_while_i_was_in_the_zone/)
+- [x] Jimbo's Loss [Link](https://www.reddit.com/r/balatro/comments/1kj5klm/jimbos_loss/)
+- [x] Haunted House [Link](https://www.reddit.com/r/balatro/comments/1kdezay/joker_concept_haunted_house/) 
+- [x] M.A.D. [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [x] Enigma [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Smaller Odds)
+- [x] Sinister Joker [Link](https://www.reddit.com/r/balatro/comments/1klnvnb/pause_that_score/)
+- [x] Engagement Ring  [Link](https://www.reddit.com/r/balatro/comments/1kiegwz/i_just_got_engaged_so_i_made_a_joker_based_on_my/)
+- [x] Glass House [Link](https://www.reddit.com/r/balatro/comments/1kps35w/joker_concept_for_full_house/)
+- [x] Medusa [Link](https://www.reddit.com/r/balatro/comments/1kfupzh/stone_cards_are_underrated_and_unused_so_i_made/)
+- [x] All-In [Link](https://www.reddit.com/r/balatro/comments/1kimkkl/a_custom_joker_for_people_with_terrible_econ/)
+- [x] Blank Joker [Link](https://www.reddit.com/r/balatro/comments/1krkaam/update_blank_joker_2_optimized_for_ante_8_and/)
+
+# Waiting List
+- [ ] Doppelganger [Link](https://www.reddit.com/r/balatro/comments/1kiw3s0/joker_is_different_for_every_run/) (Note: Make the card to be duplicated all/one card in hand?) # ASSIGNED TO ITSGRAPHAX
+- [ ] Equivalent Exchange [Link](https://www.reddit.com/r/balatro/comments/1klukvy/fuck_it_reposting_it_again/)
+- [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
+- [ ] Bingo! [Link](https://www.reddit.com/r/balatro/comments/1kci768/how_about_this_for_a_fun_joker_idea/)
+- [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
+- [ ] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/) [UNAPPROVED - SENT]
+- [ ] Hi Five [Link](https://www.reddit.com/r/balatro/comments/1khcu0v/joker_concept_that_wants_to_be_sold_hi_five/) (Note: Change Art, Make it "Give 2$ for each 5 in your deck")
+- [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
+- [ ] Lamb [Link](https://www.reddit.com/r/balatro/comments/1kpz7nt/wish_we_had_more_questlike_jokers_similar_to/)
+- [ ] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED - SENT]
+- [ ] LINK Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED]
+- [ ] LINK Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED] (Note: Hard)
+- [ ] Brainfart [Link](https://www.reddit.com/r/balatro/comments/1kman09/a_more_consistent_get_for_a_less_consistent_result/) [UNAPPROVED]
+- [ ] Diamond Pickaxe [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Artist [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Thunderstruck [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
+- [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)
+- [ ] Wizard [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Class Notes [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Match 3 [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Entangled Joker [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
+
+# To-Do
