@@ -1,3 +1,8 @@
+CREDIT_TEXT_BG_COLOR = G.C.RED
+CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
+CREDIT_TEXT_COLOR = G.C.WHITE
+CREDIT_TEXT_SIZE = 0.6
+
 -- Feelin' lucky
 SMODS.Joker {
 	key = 'j_reddit_feelin_lucky',
@@ -33,7 +38,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -64,7 +69,7 @@ SMODS.Joker {
 	atlas = 'reddit_jokers',
     pos = { x = 1, y = 0 },
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end,
 	calculate = function(self, card, context)
 		-- On Pay
@@ -130,7 +135,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/NeoShard1', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/NeoShard1', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -192,7 +197,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/NeoShard1', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/NeoShard1', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -282,7 +287,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/jah2277', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/jah2277', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -335,7 +340,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -384,7 +389,7 @@ SMODS.Joker {
         end
     end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/Ulik', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/Ulik', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -432,7 +437,7 @@ SMODS.Joker {
         end
     end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/aTOMic_Games', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/aTOMic_Games', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -473,7 +478,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -524,7 +529,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -573,7 +578,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -621,7 +626,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/knockoutn336', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/knockoutn336', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -670,7 +675,8 @@ SMODS.Joker {
         end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/PerfectAstronaut5998', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/PerfectAstronaut5998', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+		badges[#badges+1] = create_badge('art by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR_ALT, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -707,7 +713,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/LittlePetiteGirl', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/LittlePetiteGirl', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -756,7 +762,8 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = create_badge('art by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR_ALT, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -797,7 +804,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/Kyuuseishu_', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/Kyuuseishu_', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -846,7 +853,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -886,7 +893,7 @@ SMODS.Joker {
 	end,
 
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
 
@@ -940,6 +947,6 @@ SMODS.Joker {
     end,
 
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/Princemerkimer', G.C.RED, G.C.WHITE, 1)
+        badges[#badges+1] = create_badge('by u/Princemerkimer', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }
