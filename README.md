@@ -31,6 +31,9 @@ Feel Free to open an Issue when you find a Problem!
 ## Credits
 - Mod Author: [u/ItsGraphax](https://reddit.com/u/ItsGraphax) - [ItsGraphax](github.com/ItsGraphax)
 - Co Author: [u/Natural_Builder_3170](https://reddit.com/u/Natural_Builder_3170) - [Eric Nwogbo](https://github.com/Git-i)
+- Special Thanks
+    - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit) - Thank You for the Excessive Amount of Jokers you gave me and the awesome art you made.
+    - [u/VALERock](https://reddit.com/u/VALERock) - Thank you for the support <3
 - Jokers:
     - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
     - [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
