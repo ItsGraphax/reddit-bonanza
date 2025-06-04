@@ -17,12 +17,12 @@
 - [x] Medusa [Link](https://www.reddit.com/r/balatro/comments/1kfupzh/stone_cards_are_underrated_and_unused_so_i_made/)
 - [x] All-In [Link](https://www.reddit.com/r/balatro/comments/1kimkkl/a_custom_joker_for_people_with_terrible_econ/)
 - [x] Blank Joker [Link](https://www.reddit.com/r/balatro/comments/1krkaam/update_blank_joker_2_optimized_for_ante_8_and/)
+- [x] Bingo! [Link](https://www.reddit.com/r/balatro/comments/1kci768/how_about_this_for_a_fun_joker_idea/)
 
 # Waiting List
 - [ ] Doppelganger [Link](https://www.reddit.com/r/balatro/comments/1kiw3s0/joker_is_different_for_every_run/) (Note: Make the card to be duplicated all/one card in hand?) # ASSIGNED TO ITSGRAPHAX
 - [ ] Equivalent Exchange [Link](https://www.reddit.com/r/balatro/comments/1klukvy/fuck_it_reposting_it_again/)
 - [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
-- [ ] Bingo! [Link](https://www.reddit.com/r/balatro/comments/1kci768/how_about_this_for_a_fun_joker_idea/)
 - [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
 - [ ] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/) [UNAPPROVED - SENT]
 - [ ] Hi Five [Link](https://www.reddit.com/r/balatro/comments/1khcu0v/joker_concept_that_wants_to_be_sold_hi_five/) (Note: Change Art, Make it "Give 2$ for each 5 in your deck")

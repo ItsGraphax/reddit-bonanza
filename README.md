@@ -17,9 +17,10 @@ Feel Free to open an Issue when you find a Problem!
 - Jimbo's Loss by [u/aTOMic_Games](https://reddit.com/u/aTOMic_Games): Gains X0.2 mult when 3 or more face cards are discarded
 - [MISSING TEXTURE] Trippy Joker by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Gains X0.2 mult if played hand is High Card, else lose X0.2 mult 
 - Sinister Joker by [u/knockoutn336](https://reddit.com/u/knockoutn336): Gives X0.5 Mult for every Joker to the right
-- [MISSING TEXTURE] Glass House by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Enhances last played card into a Glass Card if played hand contains a Full House
+- Glass House by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Enhances last played card into a Glass Card if played hand contains a Full House
 - All In by [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_): Gives X5 Mult, lose all money when Blind is selected.
 - Diamond Pickaxe by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 16 chance to give $15 when discarding any enhanced card.
+- Bingo! by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Earn $13 when you play a card of every rank
 ### Rare
 - Kleptomaniac by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Refund all Items bought in the Shop. 1 in 10 chance to deduct all money owed
 - Rainbow Joker by [u/NeoShard1](https://reddit.com/u/NeoShard1): Gives X1 Mult pre unique suit in played Hand
