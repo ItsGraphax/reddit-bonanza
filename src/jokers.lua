@@ -943,3 +943,50 @@ SMODS.Joker {
         badges[#badges+1] = create_badge('by u/Princemerkimer', G.C.RED, G.C.WHITE, 1)
     end
 }
+
+-- Bingo
+SMODS.Joker {
+    key = 'j_reddit_bingo',
+    blueprint_compat = false,
+    loc_txt = {
+        name = 'Bingo!',
+        text = {
+            "Earn {C:money}$#1#{} when you play",
+			"a card of every rank"
+        }
+    },
+
+    config = { extra = { money = 13, played_ranks = {} } },
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.money } }
+    end,
+
+    rarity = 1,
+    
+    atlas = 'reddit_jokers',
+    pos = { x = 1, y = 3 },
+
+    cost = 5,
+
+    calculate = function(self, card, context)
+        if context.before and not context.blueprint then
+			for idx, played_card in pairs(context.full_hand) do
+				card.ability.extra.played_ranks[played_card:get_id()] = true				
+			end
+			for _, rank in pairs(SMODS.Ranks) do
+				if card.ability.extra.played_ranks[rank.id] ~= true then
+					return
+				end
+			end
+			card.ability.extra.played_ranks = {}
+			return {
+				message = "Bingo!",
+				dollars = 13
+			}
+		end
+    end,
+
+    set_badges = function(self, card, badges)
+        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+	end
+}
