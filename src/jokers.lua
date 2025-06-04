@@ -958,14 +958,30 @@ SMODS.Joker {
     loc_txt = {
         name = 'Bingo!',
         text = {
-            "Earn {C:money}$#1#{} when a",
-			"card of every rank has been played"
+            "Earn {C:money}$#1#{} when a card",
+			"of every rank has been played",
+			"{C:inactive}(Currently played: #2#){}"
         }
     },
 
     config = { extra = { money = 13, played_ranks = {} } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.money } }
+		local played_rank_strs = {}
+		for _, rank in pairs(SMODS.Ranks) do
+			if card.ability.extra.played_ranks[rank.id] == true then
+				played_rank_strs[#played_rank_strs+1] = rank.key
+			end
+		end
+		local final_string = ""
+		if #played_rank_strs == 0 then
+			final_string = "None"
+		else
+			for idx, str in pairs(played_rank_strs) do
+				final_string = final_string .. str
+				if idx ~= #played_rank_strs then final_string = final_string .. ", " end
+			end
+		end
+        return { vars = { card.ability.extra.money, final_string } }
     end,
 
     rarity = 2,
@@ -988,7 +1004,7 @@ SMODS.Joker {
 			card.ability.extra.played_ranks = {}
 			return {
 				message = "Bingo!",
-				dollars = card.ability.extra.dollars
+				dollars = card.ability.extra.money
 			}
 		end
     end,
