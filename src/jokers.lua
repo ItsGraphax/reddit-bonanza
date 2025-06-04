@@ -952,6 +952,13 @@ SMODS.Joker {
 }
 
 -- Bingo
+
+tablelength = function (T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
 SMODS.Joker {
     key = 'bingo',
     blueprint_compat = false,
@@ -966,7 +973,7 @@ SMODS.Joker {
 
     config = { extra = { money = 13, played_ranks = {} } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.money, #card.ability.extra.played_ranks } }
+        return { vars = { card.ability.extra.money, tablelength(card.ability.extra.played_ranks) } }
     end,
 
     rarity = 2,
