@@ -959,13 +959,14 @@ SMODS.Joker {
         name = 'Bingo!',
         text = {
             "Earn {C:money}$#1#{} when a",
-			"card of every rank has been played"
+			"card of every rank has been played",
+			"{C:inactive}(#2#/13){}"
         }
     },
 
     config = { extra = { money = 13, played_ranks = {} } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.money } }
+        return { vars = { card.ability.extra.money, #card.ability.extra.played_ranks } }
     end,
 
     rarity = 2,
