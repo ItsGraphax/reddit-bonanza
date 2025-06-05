@@ -21,6 +21,7 @@ Feel Free to open an Issue when you find a Problem!
 - All In by [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_): Gives X5 Mult, lose all money when Blind is selected.
 - Diamond Pickaxe by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 16 chance to give $15 when discarding any enhanced card.
 - Bingo! by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Earn $13 when you play a card of every rank
+- Wild West by [u/GreedyHase](https://reddit.com/u/GreedyHase): Gives X3 Mult if played hand contains 3 or more Wild Cards
 ### Rare
 - Kleptomaniac by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Refund all Items bought in the Shop. 1 in 10 chance to deduct all money owed
 - Rainbow Joker by [u/NeoShard1](https://reddit.com/u/NeoShard1): Gives X1 Mult pre unique suit in played Hand
@@ -28,6 +29,8 @@ Feel Free to open an Issue when you find a Problem!
 - Enigma by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 5 chance to create a Negative Spectral Card when using a Tarrot or Planet card
 - M.A.D. by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): Sell this joker to increase ante by +1, beat this blind and set money to 0
 - Blank Joker by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Sell this card after beating 2 Boss Blinds to create an extra Joker Slot
+- Hi Five by [u/Thomassaurus](https://reddit.com/u/Thomassaurus): Gives $2 for every 5 in your deck when sold
+- Lamb by [u/Beasstvg](https://reddit.com/u/Beasstvg): After playing every base poker hand, sell this card to create a Legendary Joker
 
 ## Credits
 - Mod Author: [u/ItsGraphax](https://reddit.com/u/ItsGraphax) - [ItsGraphax](github.com/ItsGraphax)
