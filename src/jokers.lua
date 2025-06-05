@@ -1042,7 +1042,7 @@ SMODS.Joker {
 		}
 	},
 
-	config = { extra = { dollars = 5, rank = 5, sell_cost = 0 } },
+	config = { extra = { dollars = 2, rank = 5, sell_cost = 0 } },
     loc_vars = function(self, info_queue, card)
 		tally = 0
 		if G.playing_cards then
