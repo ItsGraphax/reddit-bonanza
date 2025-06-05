@@ -1,7 +1,7 @@
 {
 	"id": "reddit",
 	"name": "Reddit Bonanza",
-	"author": ["ItsGraphax"],
+	"author": ["ItsGraphax", "mindoftony"],
 	"description": "Adds loads of Joker concepts provided by redditors to Balatro",
 	"prefix": "reddit",
 	"main_file": "main.lua",
