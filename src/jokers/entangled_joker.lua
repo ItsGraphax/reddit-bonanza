@@ -104,7 +104,7 @@ SMODS.Joker {
     update = function (self, card, dt)
         local target = card.ability.extra.other_joker
         if target == nil then return end
-        if get_joker_idx(target) == 0 then target = nil end
+        if get_joker_idx(target) == 0 then card.ability.extra.other_joker = nil end
     end,
 	calculate = function(self, card, context)
         if context.setting_blind and not context.blueprint then
