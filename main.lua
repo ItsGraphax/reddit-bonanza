@@ -10,4 +10,6 @@ SMODS.Atlas {
 }
 
 assert(SMODS.load_file("src/jokers.lua"))()
+assert(SMODS.load_file("src/vouchers.lua"))()
+assert(SMODS.load_file("src/overrides.lua"))()
 -- assert(SMODS.load_file("src/credits_tab.lua"))()
