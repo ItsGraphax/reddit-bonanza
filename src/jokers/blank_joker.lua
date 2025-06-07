@@ -29,6 +29,10 @@ SMODS.Joker {
         if context.end_of_round and context.cardarea == G.jokers and not context.blueprint and
 		card.ability.extra.blind then
 			card.ability.extra.current_bosses = card.ability.extra.current_bosses + 1
+			if card.ability.extra.current_bosses >= card.ability.extra.total_bosses then
+				local eval = function(card) return not card.REMOVED end
+                juice_card_until(card, eval, true)
+			end
 			return {
 				message = "Boss Beaten!"
 			}
