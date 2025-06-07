@@ -48,3 +48,6 @@
 - [ ] Update Waiting List: [Just Let Go](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)/
 - [ ] Update Waiting List: [Goldfinger](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Update Waiting List: [Laundromat](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
+- [ ] Update Waiting List [Jokers](https://www.reddit.com/user/Omegza/submitted/)
+- [ ] Update Waiting List: [Where is the Joker?](https://www.reddit.com/r/balatro/comments/1kvmahd/where_is_joker_custom_joker/)
+- [ ] Update Waiting List: [Artificial Sweetenrr](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
