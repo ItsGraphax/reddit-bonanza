@@ -7,7 +7,7 @@ SMODS.Joker {
 		text = {
 			"Gives {X:mult,C:white}X1{} mult",
 			"per unique {C:attention}suit{}",
-			"in played hand"
+			"in scoring hand"
 		}
 	},
 
