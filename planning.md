@@ -51,3 +51,6 @@
 - [ ] Update Waiting List [Jokers](https://www.reddit.com/user/Omegza/submitted/)
 - [ ] Update Waiting List: [Where is the Joker?](https://www.reddit.com/r/balatro/comments/1kvmahd/where_is_joker_custom_joker/)
 - [ ] Update Waiting List: [Artificial Sweetenrr](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
+- [ ] Update Waiting List: [Marvin](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
+- [ ] Update Waiting List: [M](https://www.reddit.com/r/balatro/comments/1kwq1um/mccreadys_monster/)
+- [ ] Update Waiting List: [Refrigerator](https://www.reddit.com/r/balatro/comments/1kr8n39/refrigerator/)
