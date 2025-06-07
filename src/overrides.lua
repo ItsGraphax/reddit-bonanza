@@ -110,6 +110,8 @@ function create_UIBox_blind_tag(blind_choice, run_info)
   _tag_sprite2.states.collide.can = not not run_info
 
   if G.GAME.track_active then
+    _tag_sprite.states.collide.can = true
+    _tag_sprite2.states.collide.can = true
     return {n=G.UIT.C, config={id = 'tag_container_track', ref_table = {_tag, _tag2}, align = "cm"}, nodes={
         {n=G.UIT.R, config={align = 'tm', minh = 0.65}, nodes={
             {n=G.UIT.T, config={text = localize('k_or'), scale = 0.55, colour = disabled and G.C.UI.TEXT_INACTIVE or G.C.WHITE, shadow = not disabled}},
@@ -117,8 +119,10 @@ function create_UIBox_blind_tag(blind_choice, run_info)
         {n=G.UIT.R, config={id = 'tags_'..blind_choice, align = "cm", r = 0.1, padding = 0.1, can_collide = true, ref_table = {_tag_sprite, _tag_sprite2}}, nodes={
             _tag_ui, _tag_ui2
         }},
-        {n=G.UIT.R, config={align = "cm", colour = G.C.UI.BACKGROUND_INACTIVE, minh = 1, minw = 1, padding = 0.07, r = 0.1, shadow = true, hover = true, one_press = true, button = 'skip_blind3', func = 'hover_tag_proxy', ref_table = _tag}, nodes={
+        not run_info and {n=G.UIT.R, config={align = "cm", colour = G.C.UI.BACKGROUND_INACTIVE, minh = 1, minw = 1, padding = 0.07, r = 0.1, shadow = true, hover = true, one_press = true, button = 'skip_blind3', ref_table = _tag}, nodes={
             {n=G.UIT.T, config={text = localize('b_skip_blind'), scale = 0.4, colour = G.C.UI.TEXT_INACTIVE}}
+        }} or {n=G.UIT.R, config={align = "cm", padding = 0.1, emboss = 0.05, colour = mix_colours(G.C.BLUE, G.C.BLACK, 0.4), r = 0.1, maxw = 2, minh = 1}, nodes={
+            {n=G.UIT.T, config={text = localize('b_skip_reward'), scale = 0.35, colour = G.C.WHITE}},
         }}
     }}
   end
@@ -167,9 +171,7 @@ G.FUNCS.blind_choice_handler = function (e)
                 local skip_btn = nil
                 if _tag_container then skip_btn = _tag_container.children[3] end
                 if e.config.id == G.GAME.blind_on_deck then
-                    if _tag and _tag_container then 
-                        _tag_container.children[3].config.draw_after = false
-                        _tag_container.children[3].config.colour = G.C.BLACK
+                    if _tag and _tag_container then
                         _tag_container.children[2].config.draw_after = false
                         _tag_container.children[2].config.colour = G.C.BLACK
                         skip_btn.config.button = 'skip_blind3'
@@ -181,13 +183,15 @@ G.FUNCS.blind_choice_handler = function (e)
                         _tag.config.ref_table[2].config.force_focus = nil
                     end
                 elseif e.config.id ~= G.GAME.blind_on_deck then
-                  if _tag and _tag_container then 
+                  if _tag and _tag_container then
                     if G.GAME.round_resets.blind_states[e.config.id] == 'Skipped' or
                        G.GAME.round_resets.blind_states[e.config.id] == 'Defeated' then
                       _tag_container.children[3]:set_role({xy_bond = 'Weak'})
                       _tag_container.children[2]:set_role({xy_bond = 'Weak'})
+                      _tag_container.children[1]:set_role({xy_bond = 'Weak'})
                       _tag_container.children[3]:align(0, 10)
                       _tag_container.children[2]:align(0, 10)
+                      _tag_container.children[1]:align(0, 10)
                     end
                     skip_btn.config.button = nil
                     _tag.config.outline_colour = G.C.UI.BACKGROUND_INACTIVE
