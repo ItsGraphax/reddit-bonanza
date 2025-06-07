@@ -24,7 +24,7 @@ jobs:
             --arg title "$TITLE" \
             --arg description "$DESCRIPTION" \
             '{
-              content: null,
+              content: '@<1380928942558679133>',
               embeds: [
                 {
                   title: $title,
