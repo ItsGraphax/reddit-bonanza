@@ -44,6 +44,7 @@
 - [ ] Match 3 [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 # To-Do
-- [ ] Update Waiting List: Jimbo Mod (https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
-- [ ] Update Waiting List: https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/
-- [ ] 
+- [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
+- [ ] Update Waiting List: [Just Let Go](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)/
+- [ ] Update Waiting List: [Goldfinger](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
+- [ ] Update Waiting List: [Laundromat](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
