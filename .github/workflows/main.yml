@@ -1,0 +1,40 @@
+name: Watch File Commits
+
+on:
+  push:
+
+jobs:
+  notify-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Send Discord Embed
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE=$(git log -1 --pretty=%s)
+          DESCRIPTION=$(git log -1 --pretty=%b)
+          DESCRIPTION=${DESCRIPTION:-"No description"}
+          
+          # Send payload
+          jq -n \
+            --arg title "$TITLE" \
+            --arg description "$DESCRIPTION" \
+            '{
+              content: null,
+              embeds: [
+                {
+                  title: $title,
+                  description: $description,
+                  color: 16730184,
+                }
+              ],
+              attachments: []
+            }' > payload.json
+
+          curl -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -d @payload.json
