@@ -16,7 +16,7 @@ SMODS.Joker {
 		return { vars = {  } }
 	end,
 
-	rarity = 3,
+	rarity = 2,
 	atlas = 'reddit_jokers',
 	pos = { x = 4, y = 0 },
 	cost = 6,
