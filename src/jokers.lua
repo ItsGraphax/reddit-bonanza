@@ -1,7 +1,11 @@
 CREDIT_TEXT_BG_COLOR = G.C.RED
 CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
 CREDIT_TEXT_COLOR = G.C.WHITE
-CREDIT_TEXT_SIZE = 0.6
+CREDIT_TEXT_SIZE = 1
+
+credit_badge = function (username, alt)
+    return create_badge('by u/'..username, CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+end
 
 assert(SMODS.load_file("src/jokers/feelin_lucky.lua"))()
 assert(SMODS.load_file("src/jokers/kleptomaniac.lua"))()

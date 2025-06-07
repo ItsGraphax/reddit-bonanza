@@ -27,6 +27,7 @@ function save_run()
 
     og_save_run()
 end
+
 SMODS.Joker {
 	key = 'entangled_joker',
 	blueprint_compat = true,
