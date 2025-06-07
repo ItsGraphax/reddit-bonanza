@@ -1,3 +1,5 @@
+[Discord Server](https://discord.gg/yKfuuu9vBg)
+
 # Reddit Bonanza
 Reddit Bonanza is a Balatro Mod that adds Jokers suggested by users on Reddit!
 At the moment there are 18 Jokers in the Mod, so you should try giving it a shot!
