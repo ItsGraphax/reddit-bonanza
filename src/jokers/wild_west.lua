@@ -12,6 +12,7 @@ SMODS.Joker {
 
 	config = { extra = { Xmult = 3 } },
     loc_vars = function(self, info_queue, card)
+		info_queue[#info_queue+1] = G.P_CENTERS['m_wild']
 		return { vars = { card.ability.extra.Xmult } }
 	end,
 

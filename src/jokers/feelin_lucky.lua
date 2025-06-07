@@ -13,6 +13,7 @@ SMODS.Joker {
 
 	config = { extra = { repetitions = 3, suit = 'Clubs', odds = 3 } },
     loc_vars = function(self, info_queue, card)
+		info_queue[#info_queue+1] = G.P_CENTERS['m_lucky']
 		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds, localize(card.ability.extra.suit, 'suits_singular') } }
 	end,
 
