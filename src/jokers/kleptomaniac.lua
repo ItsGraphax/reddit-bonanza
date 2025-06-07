@@ -25,7 +25,7 @@ SMODS.Joker {
 	atlas = 'reddit_jokers',
     pos = { x = 1, y = 0 },
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = credit_badge('WarmTranslator6633', false)
     end,
 	calculate = function(self, card, context)
 		-- On Pay
