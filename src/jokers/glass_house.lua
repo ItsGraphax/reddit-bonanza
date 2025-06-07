@@ -43,7 +43,7 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/WarmTranslator6633', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = credit_badge('WarmTranslator6633', false)
         badges[#badges+1] = create_badge('art by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR_ALT, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
     end
 }

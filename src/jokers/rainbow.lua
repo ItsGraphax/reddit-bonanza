@@ -16,7 +16,7 @@ SMODS.Joker {
 		return { vars = {  } }
 	end,
 
-	rarity = 3,
+	rarity = 2,
 	atlas = 'reddit_jokers',
 	pos = { x = 4, y = 0 },
 	cost = 6,
@@ -56,6 +56,6 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/NeoShard1', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = credit_badge('NeoShard1', false)
     end
 }

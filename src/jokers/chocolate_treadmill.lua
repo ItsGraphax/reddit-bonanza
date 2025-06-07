@@ -84,6 +84,6 @@ SMODS.Joker {
 		end
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/jah2277', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = credit_badge('jah2277', false)
     end
 }

@@ -120,6 +120,6 @@ SMODS.Joker {
         return SMODS.blueprint_effect(card, card.ability.extra.other_joker, context)
 	end,
     set_badges = function(self, card, badges)
-        badges[#badges+1] = create_badge('by u/TSAMarioYTReddit', CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+        badges[#badges+1] = credit_badge('TSAMarioYTReddit', false)
     end
 }
