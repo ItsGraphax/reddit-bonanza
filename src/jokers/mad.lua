@@ -38,6 +38,24 @@ SMODS.Joker {
 					G.GAME.round_resets.ante = G.GAME.round_resets.ante + 1
 					win_blind()
 					ease_dollars(-G.GAME.dollars)
+					if 
+						G.GAME.round_resets.ante > G.GAME.win_ante
+						and not G.GAME.won
+					then
+						G.GAME.won = true
+                		G.GAME.win_notified = true
+                		G.E_MANAGER:add_event(Event({
+                		    trigger = 'immediate',
+                		    blocking = false,
+                		    blockable = false,
+                		    func = (function()
+                		        if G.STATE == G.STATES.ROUND_EVAL then 
+                		            win_game()
+                		            return true
+                		        end
+                		    end)
+                		}))
+					end
 				end
 			}
 		end
