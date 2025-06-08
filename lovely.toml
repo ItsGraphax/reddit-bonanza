@@ -1,0 +1,15 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 1
+
+# Double Glazing (description)
+[[patches]]
+[patches.pattern]
+target = 'functions/common_events.lua'
+pattern = "elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, G.GAME.probabilities.normal, cfg.extra}"
+position = 'at'
+match_indent = true
+payload = '''
+elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, double_glaze_glass_odds(), cfg.extra}
+'''
