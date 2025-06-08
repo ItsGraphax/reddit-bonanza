@@ -20,10 +20,11 @@
 - [x] Bingo! [Link](https://www.reddit.com/r/balatro/comments/1kci768/how_about_this_for_a_fun_joker_idea/)
 - [x] Hi Five [Link](https://www.reddit.com/r/balatro/comments/1khcu0v/joker_concept_that_wants_to_be_sold_hi_five/) (Note: Change Art, Make it "Give 2$ for each 5 in your deck")
 - [x] Lamb [Link](https://www.reddit.com/r/balatro/comments/1kpz7nt/wish_we_had_more_questlike_jokers_similar_to/)
-- [x] Entangled Joker [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
+- [x] Entangled Joker [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Wizard [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Artist [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Match 3 [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [x] Where is the Joker? [Link](https://www.reddit.com/r/balatro/comments/1kvmahd/where_is_joker_custom_joker/)
 
 
 # Waiting List
@@ -46,10 +47,8 @@
 # To-Do
 - [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
 - [ ] Update Waiting List: [Just Let Go](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)/
-- [ ] Update Waiting List: [Goldfinger](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Update Waiting List: [Laundromat](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
 - [ ] Update Waiting List [Jokers](https://www.reddit.com/user/Omegza/submitted/)
-- [ ] Update Waiting List: [Where is the Joker?](https://www.reddit.com/r/balatro/comments/1kvmahd/where_is_joker_custom_joker/)
 - [ ] Update Waiting List: [Artificial Sweetenrr](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
 - [ ] Update Waiting List: [Marvin](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
 - [ ] Update Waiting List: [M](https://www.reddit.com/r/balatro/comments/1kwq1um/mccreadys_monster/)
