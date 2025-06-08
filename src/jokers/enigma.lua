@@ -6,13 +6,13 @@ SMODS.Joker {
 		name = 'Enigma',
 		text = {
 			"{C:green}#1# in #2#{} chance to create",
-			"a {C:blue}Negative Spectral{}",
+			"a {C:dark_edition}Negative {C:blue}Spectral{}",
 			"card when you use a",
 			"{C:attention}Tarrot {}or {C:attention}Planet{} card"
 		}
 	},
 
-	config = { extra = { odds = 5 } },
+	config = { extra = { odds = 10 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds } }
 	end,
