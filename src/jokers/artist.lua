@@ -34,7 +34,9 @@ SMODS.Joker {
             local old_hand_size = card.ability.extra.hand_size_mod * card.ability.extra.num_editions
             local new_hand_size = card.ability.extra.hand_size_mod * new_editions
             card.ability.extra.num_editions = new_editions
-            G.hand:change_size(new_hand_size - old_hand_size)
+            if card.area == G.jokers then
+                G.hand:change_size(new_hand_size - old_hand_size)
+            end
         end
     end,
 
