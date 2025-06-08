@@ -32,14 +32,23 @@ SMODS.Joker {
 			for i = 1, #context.scoring_hand do
 				local card = context.scoring_hand[i]
 				local check_modded = not SMODS.has_any_suit(card)
-
+				if context.scoring_hand[i].ability.name == 'Wild Card' then
+					suits.Hearts = true
+					suits.Diamonds = true
+					suits.Spades = true
+					suits.Clubs = true
+					break
+				end
 				if not suits.Hearts and card:is_suit("Hearts", check_modded) then
 					suits.Hearts = true
-				elseif not suits.Diamonds and card:is_suit("Diamonds", check_modded) then
+				end
+				if not suits.Diamonds and card:is_suit("Diamonds", check_modded) then
 					suits.Diamonds = true
-				elseif not suits.Spades and card:is_suit("Spades", check_modded) then
+				end
+				if not suits.Spades and card:is_suit("Spades", check_modded) then
 					suits.Spades = true
-				elseif not suits.Clubs and card:is_suit("Clubs", check_modded) then
+				end
+				if not suits.Clubs and card:is_suit("Clubs", check_modded) then
 					suits.Clubs = true
 				end
 			end
