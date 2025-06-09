@@ -1,7 +1,7 @@
 -- Glass House
 SMODS.Joker {
 	key = 'glass_house',
-	blueprint_compat = true,
+	blueprint_compat = false,
 	loc_txt = {
 		name = 'Glass House',
 		text = {
