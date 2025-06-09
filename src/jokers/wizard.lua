@@ -8,7 +8,7 @@ SMODS.Joker {
 			"{C:attention}+#1#{} Consumable Slots.",
 			"{C:chips}+#2#{} chips for every",
 			"consumable held",
-            "{C:inactive}(Currently: {C:chips}+#3#{} chips){}"
+            "{C:inactive}(Currently: {C:chips}+#3#{C:inactive} chips){}"
 		}
 	},
 

@@ -9,7 +9,7 @@ SMODS.Joker {
             "of the {C:attention}leftmost joker{} at",
             "end of round",
             "{C:inactive}(Max {C:money}$#1#{C:inactive})",
-			"{C:inactive}(Currently: {C:money}$#2#{}){}"
+			"{C:inactive}(Currently: {C:money}$#2#{C:inactive}){}"
 		}
 	},
 

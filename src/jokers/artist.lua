@@ -16,7 +16,7 @@ SMODS.Joker {
 			"{C:attention}+#1#{} hand size",
 			"for every joker",
 			"with an edition",
-            "{C:inactive}(Currently {C:attention}+#2#{} hand size){}"
+            "{C:inactive}(Currently {C:attention}+#2#{C:inactive} hand size){}"
 		}
 	},
 
