@@ -12,7 +12,7 @@ SMODS.Joker {
 		}
 	},
 
-	config = { extra = { slots = 3, chips = 50 } },
+	config = { extra = { slots = 3, chips = 40 } },
     loc_vars = function(self, info_queue, card)
         local consumeable_count = 0
         if G.consumeables then consumeable_count = #G.consumeables.cards end
@@ -23,7 +23,7 @@ SMODS.Joker {
         } }
 	end,
 
-	rarity = 2,
+	rarity = 3,
 	atlas = 'reddit_jokers',
 	pos = { x = 2, y = 4 },
 	cost = 6,

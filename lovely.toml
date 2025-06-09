@@ -11,5 +11,5 @@ pattern = "elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, G.GAME.p
 position = 'at'
 match_indent = true
 payload = '''
-elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, double_glaze_glass_odds(), cfg.extra}
+elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, G.GAME.probabilities.normal, double_glaze_glass_odds(cfg.extra)}
 '''
