@@ -28,7 +28,7 @@ SMODS.Joker {
 	config = { },
 	rarity = 2,
 	atlas = 'reddit_jokers',
-	pos = { x = 0, y = 5 },
+	pos = { x = 5, y = 0 },
 	cost = 6,
     set_badges = function(self, card, badges)
         badges[#badges+1] = credit_badge('USER', false)
