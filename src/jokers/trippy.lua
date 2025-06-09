@@ -7,7 +7,7 @@ SMODS.Joker {
 		text = {
 			"Gains {X:mult,C:white}X#1#{} mult",
 			"if played hand is {C:attention}#2#{},",
-			"else lose {X:mult,C:white}X#1#{} mult",
+			"resets otherwise",
 			"{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} mult)"
 		}
 	},
@@ -17,18 +17,21 @@ SMODS.Joker {
 		return { vars = { card.ability.extra.mult_mod, card.ability.extra.hand, card.ability.extra.Xmult } }
 	end,
 
-	rarity = 2,
+	rarity = 3,
 	atlas = 'reddit_jokers',
 	pos = { x = 4, y = 1 },
 	cost = 4,
 	calculate = function(self, card, context)
-        if context.joker_main then
+		if context.before and not context.blueprint then
 			if context.scoring_name == card.ability.extra.hand then
 				card.ability.extra.Xmult = card.ability.extra.Xmult + card.ability.extra.mult_mod
 			else
-				card.ability.extra.Xmult = card.ability.extra.Xmult - card.ability.extra.mult_mod
+				local should_give_message = card.ability.extra.Xmult > 1
+				card.ability.extra.Xmult = 1
+				if should_give_message then return { message = localize('k_reset') } end
 			end
-
+		end
+        if context.joker_main then
 			return {
 				Xmult = card.ability.extra.Xmult
 			}
