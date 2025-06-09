@@ -5,7 +5,7 @@ SMODS.Joker {
 	loc_txt = {
 		name = 'Where is the Joker?',
 		text = {
-			"Gives half the total sell value",
+			"Gives the sell value",
             "of the {C:attention}leftmost joker{} at",
             "end of round",
             "{C:inactive}(Max {C:money}$#1#{C:inactive})",
@@ -13,10 +13,10 @@ SMODS.Joker {
 		}
 	},
 
-	config = { extra = { max = 20 } },
+	config = { extra = { max = 30 } },
     loc_vars = function(self, info_queue, card)
 		local current = 0
-		if G.jokers then current = math.floor(G.jokers.cards[1].sell_cost / 2) end
+		if G.jokers then current = math.min(G.jokers.cards[1].sell_cost, card.ability.extra.max) end
 		return { vars = { card.ability.extra.max, current } }
 	end,
 
@@ -28,7 +28,7 @@ SMODS.Joker {
 	cost = 6,
 
 	calc_dollar_bonus = function(self, card)
-        return math.floor(G.jokers.cards[1].sell_cost / 2)
+        return math.min(G.jokers.cards[1].sell_cost, card.ability.extra.max)
 	end,
 
     set_badges = function(self, card, badges)
