@@ -29,10 +29,8 @@ SMODS.Joker {
         chips = G.GAME.chips
 		blindreq = G.GAME.blind.chips
 		percentage = ( (chips - blindreq) / blindreq ) * 100
-		print(percentage)
 		money = math.floor(math.log(percentage / 5) / math.log(2)) + 1
 		money = money * card.ability.extra.dollars
-		print(money)
 		if money > card.ability.extra.dollars_max then
 			money = card.ability.extra.dollars_max
 		end
