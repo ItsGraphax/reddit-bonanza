@@ -9,6 +9,13 @@ SMODS.Atlas {
 	py = 95
 }
 
+SMODS.Atlas({
+	key = "modicon",
+	path = "modicon.png",
+	px = 34,
+	py = 34
+})
+
 assert(SMODS.load_file("src/jokers.lua"))()
 assert(SMODS.load_file("src/vouchers.lua"))()
 assert(SMODS.load_file("src/overrides.lua"))()
