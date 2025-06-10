@@ -15,8 +15,13 @@ SMODS.Joker {
 
 	config = { extra = { max = 30 } },
     loc_vars = function(self, info_queue, card)
-		local current = 0
-		if G.jokers.cards[1] then current = math.min(G.jokers.cards[1].sell_cost, card.ability.extra.max) end
+		local current = ''
+		if G.jokers and G.jokers.cards[1] then
+			current = math.min(G.jokers.cards[1].sell_cost, card.ability.extra.max)
+		else
+			current = '?'
+		end
+		
 		return { vars = { card.ability.extra.max, current } }
 	end,
 
