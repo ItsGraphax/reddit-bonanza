@@ -25,6 +25,9 @@
 - [x] Artist [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Match 3 [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Where is the Joker? [Link](https://www.reddit.com/r/balatro/comments/1kvmahd/where_is_joker_custom_joker/)
+- [x] Diamond Pickaxe [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [x] Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
+- [x] Laundromat [Link](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
 
 
 # Waiting List
@@ -35,10 +38,8 @@
 - [ ] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/) [UNAPPROVED - SENT]
 - [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
 - [ ] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED - SENT]
-- [ ] LINK Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED]
-- [ ] LINK Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED] (Note: Hard)
+- [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/) [UNAPPROVED]
 - [ ] Brainfart [Link](https://www.reddit.com/r/balatro/comments/1kman09/a_more_consistent_get_for_a_less_consistent_result/) [UNAPPROVED]
-- [ ] Diamond Pickaxe [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Thunderstruck [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
 - [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)
 - [ ] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
@@ -47,7 +48,6 @@
 # To-Do
 - [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
 - [ ] Update Waiting List: [Just Let Go](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)/
-- [ ] Update Waiting List: [Laundromat](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
 - [ ] Update Waiting List [Jokers](https://www.reddit.com/user/Omegza/submitted/)
 - [ ] Update Waiting List: [Artificial Sweetenrr](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
 - [ ] Update Waiting List: [Marvin](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
