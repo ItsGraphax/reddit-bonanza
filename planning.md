@@ -45,6 +45,7 @@
 - [ ] Class Notes [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Card Counting [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Deterioration [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Decay [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 NEWPOSTREP
 
 # To-Do
