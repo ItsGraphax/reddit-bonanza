@@ -27,10 +27,12 @@ SMODS.Joker {
             card.ability.extra.hand_size_mod * card.ability.extra.num_editions
         } }
 	end,
-    
+    remove_from_deck =  function(self, card, from_debuff)
+        G.hand:change_size(-card.ability.extra.hand_size_mod * card.ability.extra.num_editions)
+    end,
     update = function (self, card, dt)
         local new_editions = count_editions()
-        if card.ability.extra.num_editions ~= new_editions then
+        if card.ability.extra.num_editions ~= new_editions and not card.getting_sliced then
             local old_hand_size = card.ability.extra.hand_size_mod * card.ability.extra.num_editions
             local new_hand_size = card.ability.extra.hand_size_mod * new_editions
             card.ability.extra.num_editions = new_editions
