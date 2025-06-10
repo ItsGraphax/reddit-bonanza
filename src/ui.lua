@@ -47,7 +47,7 @@ function wheel_of_fortune_the_card(card)
 			{name = 'e_foil', weight = 499},
 			{name = 'e_holo', weight = 350},
 			{name = 'e_polychrome', weight = 150},
-			{name = 'e_negative', weight = 1}
+			{name = 'e_negative', weight = 15}
 		}
 		local edition = poll_edition("main_menu"..os.time(), nil, true, true, editions)
 		card:set_edition(edition, true)
