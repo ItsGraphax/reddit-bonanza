@@ -47,6 +47,7 @@
 - [ ] Deterioration [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Decay [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Green Seal [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 NEWPOSTREP
 
 # To-Do
