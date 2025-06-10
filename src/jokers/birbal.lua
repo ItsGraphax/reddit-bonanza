@@ -18,7 +18,10 @@ SMODS.Joker {
     rarity = 4,
 	calculate = function (self, card, context)
         if context.before then card.ability.extra.in_scoring = true end
-		if context.post_trigger and card.ability.extra.in_scoring then
+		if context.post_trigger
+            and card.ability.extra.in_scoring
+            and context.other_card.area == G.jokers
+        then
 			return {
 				Xmult = card.ability.extra.xmult
 			}
