@@ -9,6 +9,17 @@ SMODS.Atlas {
 	py = 95
 }
 
+SMODS.Atlas {
+	-- Key for code to find it with
+	key = "reddit_mmc",
+	-- The name of the file, for the code to pull the atlas from
+	path = "mmc.png",
+	-- Width of each sprite in 1x size
+	px = 69,
+	-- Height of each sprite in 1x size
+	py = 94
+}
+
 SMODS.Atlas({
 	key = "modicon",
 	path = "modicon.png",
@@ -16,7 +27,11 @@ SMODS.Atlas({
 	py = 34
 })
 
+REDDIT = SMODS.current_mod
+
 assert(SMODS.load_file("src/jokers.lua"))()
 assert(SMODS.load_file("src/vouchers.lua"))()
+assert(SMODS.load_file("src/enhancements.lua"))()
 assert(SMODS.load_file("src/overrides.lua"))()
+assert(SMODS.load_file("src/ui.lua"))()
 -- assert(SMODS.load_file("src/credits_tab.lua"))()

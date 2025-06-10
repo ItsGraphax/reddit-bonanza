@@ -1,0 +1,1 @@
+assert(SMODS.load_file("src/enhancements/main_menu_card.lua"))()
