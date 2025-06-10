@@ -57,6 +57,6 @@ SMODS.Joker {
 	end,
 
     set_badges = function(self, card, badges)
-        badges[#badges+1] = credit_badge('USER', false)
+        badges[#badges+1] = credit_badge('Unlikely_Movie_9073', false)
 	end
 }
