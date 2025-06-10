@@ -11,6 +11,10 @@ SMODS.Joker {
         }
     },
     rarity = 3,
+
+    atlas = 'reddit_jokers',
+    pos = { x = 2, y = 5},
+
     calculate = function(self, card, context)
         if context.after and not context.blueprint then
             SMODS.calculate_context({end_of_round = true, game_over = game_over })
