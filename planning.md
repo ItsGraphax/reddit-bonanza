@@ -43,6 +43,7 @@
 - [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)
 - [ ] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Class Notes [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+NEWPOSTREP
 
 # To-Do
 - [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
