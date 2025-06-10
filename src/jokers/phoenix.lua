@@ -51,6 +51,7 @@ SMODS.Joker {
 		end
         if context.end_of_round and context.main_eval and not context.blueprint then
             if pseudorandom('j_reddit_bird') < G.GAME.probabilities.normal / G.GAME.reddit_phoenix_odds then
+                card.getting_sliced = true
                 G.E_MANAGER:add_event(Event({
                     func = function()
                         card:start_dissolve({ G.C.RED }, nil, 1.6)
