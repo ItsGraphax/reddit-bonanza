@@ -49,6 +49,7 @@
 - [ ] Green Seal [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Cash Back [Link](https://www.reddit.com/r/balatro/comments/1l6iud1/joker_concepts_for_shops/)
+- [ ] Chasm [Link](https://www.reddit.com/r/balatro/comments/1l89253/the_solution_to_make_stone_cards_viable_remove/)
 NEWPOSTREP
 
 # To-Do
