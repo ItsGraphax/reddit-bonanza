@@ -28,6 +28,10 @@
 - [x] Diamond Pickaxe [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
 - [x] Laundromat [Link](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
+- [x] Superstition [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Sphinx of Black Quartz [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Crimson Dawn [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+
 
 # Waiting List
 - [ ] Doppelganger [Link](https://www.reddit.com/r/balatro/comments/1kiw3s0/joker_is_different_for_every_run/) (Note: Make the card to be duplicated all/one card in hand?) # ASSIGNED TO ITSGRAPHAX
@@ -63,11 +67,6 @@
 - [ ] [SPECTRAL] Skyfall [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SPECTRAL] Frostbite [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SEAL] Black Seal [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
-- [ ] TEST [Link](never)
-- [ ] GONNA [Link](never)
-- [ ] GIVE [Link](never)
-- [ ] YOU [Link](never)
-- [ ] UP [Link](never)
 NEWPOSTREP
 
 # To-Do
