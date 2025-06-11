@@ -64,6 +64,7 @@
 - [ ] [SPECTRAL] Frostbite [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SEAL] Black Seal [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
+- [ ] Up The Sleeve [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 NEWPOSTREP
 
 # To-Do
