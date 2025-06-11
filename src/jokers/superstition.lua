@@ -32,7 +32,7 @@ SMODS.Joker {
 
 	rarity = 2,
 	atlas = 'reddit_jokers',
-	pos = { x = 0, y = 6 },
+	pos = { x = 3, y = 6 },
 	cost = 6,
 	calculate = function(self, card, context)
         if context.joker_main then
