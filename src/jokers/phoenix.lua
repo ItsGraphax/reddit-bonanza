@@ -38,7 +38,7 @@ SMODS.Joker {
     end,
 	rarity = 1,
 	atlas = 'reddit_jokers',
-	pos = { x = 4, y = 4 },
+	pos = { x = 1, y = 6 },
 	cost = 3,
 	calculate = function(self, card, context)
         if context.selling_self and not context.blueprint then
