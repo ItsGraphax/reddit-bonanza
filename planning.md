@@ -71,6 +71,9 @@
 - [ ] Artificial Sweetener [Link](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
 - [ ] McCreadys Monster [Link](https://www.reddit.com/r/balatro/comments/1kwq1um/mccreadys_monster/)
 - [ ] Refrigerator [Link](https://www.reddit.com/r/balatro/comments/1kr8n39/refrigerator/)
+- [ ] Up The Sleeve [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
+- [ ] The Promotion [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
+- [ ] The Werewolf [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 NEWPOSTREP
 
 # To-Do
