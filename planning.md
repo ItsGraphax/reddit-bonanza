@@ -32,6 +32,9 @@
 - [x] Sphinx of Black Quartz [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Crimson Dawn [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [x] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
+- [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
 
 # Waiting List
 - [ ] Doppelganger [Link](https://www.reddit.com/r/balatro/comments/1kiw3s0/joker_is_different_for_every_run/) (Note: Make the card to be duplicated all/one card in hand?) # ASSIGNED TO ITSGRAPHAX
@@ -63,14 +66,11 @@
 - [ ] [SPECTRAL] Skyfall [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SPECTRAL] Frostbite [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SEAL] Black Seal [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
-- [ ] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
+- [ ] [MODIFICATION] Jimbo Modification [Link]((https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/))
+- [ ] Just Let Go [Link](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)
+- [ ] Artificial Sweetener [Link](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
+- [ ] McCreadys Monster [Link](https://www.reddit.com/r/balatro/comments/1kwq1um/mccreadys_monster/)
+- [ ] Refrigerator [Link](https://www.reddit.com/r/balatro/comments/1kr8n39/refrigerator/)
 NEWPOSTREP
 
 # To-Do
-- [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)
-- [ ] Update Waiting List: [Just Let Go](https://www.reddit.com/r/balatro/comments/1kvxz2a/found_this_on_my_computer/)/
-- [ ] Update Waiting List [Jokers](https://www.reddit.com/user/Omegza/submitted/)
-- [ ] Update Waiting List: [Artificial Sweetenrr](https://www.reddit.com/r/balatro/comments/1kx8m5l/perkeo_if_it_were_a_food_joker_and_had_bad_art/)
-- [ ] Update Waiting List: [Marvin](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
-- [ ] Update Waiting List: [M](https://www.reddit.com/r/balatro/comments/1kwq1um/mccreadys_monster/)
-- [ ] Update Waiting List: [Refrigerator](https://www.reddit.com/r/balatro/comments/1kr8n39/refrigerator/)
