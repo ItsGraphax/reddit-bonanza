@@ -29,7 +29,6 @@
 - [x] Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
 - [x] Laundromat [Link](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
 
-
 # Waiting List
 - [ ] Doppelganger [Link](https://www.reddit.com/r/balatro/comments/1kiw3s0/joker_is_different_for_every_run/) (Note: Make the card to be duplicated all/one card in hand?) # ASSIGNED TO ITSGRAPHAX
 - [ ] Equivalent Exchange [Link](https://www.reddit.com/r/balatro/comments/1klukvy/fuck_it_reposting_it_again/)
@@ -44,6 +43,14 @@
 - [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)
 - [ ] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Class Notes [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Card Counting [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Deterioration [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Decay [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Green Seal [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [ ] Cash Back [Link](https://www.reddit.com/r/balatro/comments/1l6iud1/joker_concepts_for_shops/)
+- [ ] Chasm [Link](https://www.reddit.com/r/balatro/comments/1l89253/the_solution_to_make_stone_cards_viable_remove/)
+NEWPOSTREP
 
 # To-Do
 - [ ] Update Waiting List: [Jimbo Mod](https://www.reddit.com/r/balatro/comments/1kw968a/had_this_idea_while_playing_isaac_coop/)

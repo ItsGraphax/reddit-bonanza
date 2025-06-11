@@ -2,6 +2,8 @@ name: Watch File Commits
 
 on:
   push:
+    paths-ignore:
+      - 'planning.md'
 
 jobs:
   notify-discord:
