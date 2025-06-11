@@ -27,5 +27,8 @@ SMODS.Joker {
 	end,
     set_badges = function(self, card, badges)
         badges[#badges+1] = credit_badge('TSAMarioYTReddit', false)
-    end
+    end,
+    atlas = 'reddit_jokers',
+    pos = { x = 4, y = 5 },
+    soul_pos = { x = 5, y = 5 }
 }
