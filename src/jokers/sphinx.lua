@@ -24,7 +24,7 @@ SMODS.Joker {
 	cost = 6,
 
 	calculate = function(self, card, context)
-        if context.setting_blind and #G.jokers.cards + G.GAME.joker_buffer < G.jokers.config.card_limit - 1 then
+        if context.setting_blind and #G.jokers.cards + G.GAME.joker_buffer < G.jokers.config.card_limit then
             G.E_MANAGER:add_event(Event({
                 func = function()
                     SMODS.add_card {
