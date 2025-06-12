@@ -35,7 +35,6 @@
 - [x] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
 - [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
-- [x] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/)
 FINISHPOSTREP
 
 # Waiting List
@@ -43,7 +42,6 @@ FINISHPOSTREP
 - [ ] Equivalent Exchange [Link](https://www.reddit.com/r/balatro/comments/1klukvy/fuck_it_reposting_it_again/)
 - [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
-- [ ] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/) [UNAPPROVED - SENT]
 - [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
 - [ ] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED - SENT]
 - [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/) [UNAPPROVED]
