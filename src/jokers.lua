@@ -7,43 +7,49 @@ credit_badge = function (username, alt)
     return create_badge('by u/'..username, CREDIT_TEXT_BG_COLOR, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
 end
 
-assert(SMODS.load_file("src/jokers/feelin_lucky.lua"))()
-assert(SMODS.load_file("src/jokers/kleptomaniac.lua"))()
-assert(SMODS.load_file("src/jokers/slothful.lua"))()
-assert(SMODS.load_file("src/jokers/rainbow.lua"))()
-assert(SMODS.load_file("src/jokers/chocolate_treadmill.lua"))()
-assert(SMODS.load_file("src/jokers/touchdown.lua"))()
-assert(SMODS.load_file("src/jokers/haunted_house.lua"))()
-assert(SMODS.load_file("src/jokers/jimbos_loss.lua"))()
-assert(SMODS.load_file("src/jokers/trippy.lua"))()
-assert(SMODS.load_file("src/jokers/enigma.lua"))()
-assert(SMODS.load_file("src/jokers/mad.lua"))()
-assert(SMODS.load_file("src/jokers/sinister_joker.lua"))()
-assert(SMODS.load_file("src/jokers/medusa.lua"))()
-assert(SMODS.load_file("src/jokers/engagement_ring.lua"))()
-assert(SMODS.load_file("src/jokers/glass_house.lua"))()
-assert(SMODS.load_file("src/jokers/all_in.lua"))()
-assert(SMODS.load_file("src/jokers/blank_joker.lua"))()
-assert(SMODS.load_file("src/jokers/diamond_pickaxe.lua"))()
-assert(SMODS.load_file("src/jokers/legally_distinct.lua"))()
-assert(SMODS.load_file("src/jokers/bingo.lua"))()
-assert(SMODS.load_file("src/jokers/hi_five.lua"))()
-assert(SMODS.load_file("src/jokers/wild_west.lua"))()
-assert(SMODS.load_file("src/jokers/lamb.lua"))()
-assert(SMODS.load_file("src/jokers/entangled_joker.lua"))()
-assert(SMODS.load_file("src/jokers/metronome.lua"))()
-assert(SMODS.load_file("src/jokers/wizard.lua"))()
-assert(SMODS.load_file("src/jokers/artist.lua"))()
-assert(SMODS.load_file("src/jokers/match3.lua"))()
-assert(SMODS.load_file("src/jokers/where_is_the_joker.lua"))()
-assert(SMODS.load_file("src/jokers/double_glazing.lua"))()
-assert(SMODS.load_file("src/jokers/laundromat.lua"))()
-assert(SMODS.load_file("src/jokers/contagious_laughter.lua"))()
-assert(SMODS.load_file("src/jokers/ad_break.lua"))()
-assert(SMODS.load_file("src/jokers/marvin.lua"))()
-assert(SMODS.load_file("src/jokers/birbal.lua"))()
-assert(SMODS.load_file("src/jokers/phoenix.lua"))()
-assert(SMODS.load_file("src/jokers/crimson_dawn.lua"))()
-assert(SMODS.load_file("src/jokers/sphinx.lua"))()
-assert(SMODS.load_file("src/jokers/superstition.lua"))()
-assert(SMODS.load_file("src/jokers/hollow_point.lua"))()
+local joker_files = {
+    "feelin_lucky.lua",
+    "kleptomaniac.lua",
+    "slothful.lua",
+    "rainbow.lua",
+    "chocolate_treadmill.lua",
+    "touchdown.lua",
+    "haunted_house.lua",
+    "jimbos_loss.lua",
+    "trippy.lua",
+    "enigma.lua",
+    "mad.lua",
+    "sinister_joker.lua",
+    "medusa.lua",
+    "engagement_ring.lua",
+    "glass_house.lua",
+    "all_in.lua",
+    "blank_joker.lua",
+    "diamond_pickaxe.lua",
+    "legally_distinct.lua",
+    "bingo.lua",
+    "hi_five.lua",
+    "wild_west.lua",
+    "lamb.lua",
+    "entangled_joker.lua",
+    "metronome.lua",
+    "wizard.lua",
+    "artist.lua",
+    "match3.lua",
+    "where_is_the_joker.lua",
+    "double_glazing.lua",
+    "laundromat.lua",
+    "contagious_laughter.lua",
+    "ad_break.lua",
+    "marvin.lua",
+    "birbal.lua",
+    "phoenix.lua",
+    "crimson_dawn.lua",
+    "sphinx.lua",
+    "superstition.lua",
+    "hollow_point.lua"
+}
+
+for _, file in ipairs(joker_files) do
+    assert(SMODS.load_file("src/jokers/" .. file))()
+end
