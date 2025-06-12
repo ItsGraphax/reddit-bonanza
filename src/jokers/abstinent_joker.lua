@@ -1,16 +1,16 @@
--- Chaste Joker
+-- Abstinent Joker
 SMODS.Joker {
-    key = 'chaste_joker',
+    key = 'abstinent_joker',
     blueprint_compat = true,
     loc_txt = {
-        name = 'Chaste Joker',
+        name = 'Abstinent Joker',
         text = {
             '{C:green}#1# in #2#{} chance to retrigger',
-            '{C:attention}Scored {C:hearts}#3#'
+            '{C:attention}Scored {C:clubs}#3#'
         }
     },
 
-    config = { extra = { odds = 2, suit = 'Hearts', repetitions = 1 } },
+    config = { extra = { odds = 2, suit = 'Clubs', repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
         return { vars = { G.GAME.probabilities.normal, card.ability.extra.odds, card.ability.extra.suit } }
     end,
@@ -18,14 +18,14 @@ SMODS.Joker {
     rarity = 1,
 
     atlas = 'reddit_jokers',
-    pos = { x = 5, y = 6 },
+    pos = { x = 2, y = 7 },
 
     cost = 4,
 
     calculate = function(self, card, context)
         if context.cardarea == G.play and context.repetition and not context.repetition_only and
 		context.other_card:is_suit(card.ability.extra.suit) and
-        pseudorandom('j_reddit_chaste_joker') < G.GAME.probabilities.normal / card.ability.extra.odds then
+        pseudorandom('j_reddit_abstinent_joker') < G.GAME.probabilities.normal / card.ability.extra.odds then
             return {
                 message = 'Again!',
 				message_card = card,
