@@ -35,6 +35,7 @@
 - [x] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
 - [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
+- [x] Jackpot [Link](https://www.reddit.com/r/balatro/comments/1kjr6ev/a_couple_custom_joker_ideas/)
 FINISHPOSTREP
 
 # Waiting List
