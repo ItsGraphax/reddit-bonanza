@@ -35,6 +35,7 @@
 - [x] Phoenix [Link](https://www.reddit.com/r/balatro/comments/1l45s5n/bored_at_work_and_decided_to_create_a_joker_idea/)
 - [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
+- [x] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 FINISHPOSTREP
 
 # Waiting List
