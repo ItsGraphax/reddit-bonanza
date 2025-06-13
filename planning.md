@@ -36,6 +36,7 @@
 - [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
 - [x] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
+- [x] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought of a plumber joker idea that would give a/)
 FINISHPOSTREP
 
 # Waiting List
@@ -77,6 +78,7 @@ FINISHPOSTREP
 - [ ] The Werewolf [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
 - [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought of a plumber joker idea that would give a/)
+- [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
 NEWPOSTREP
 
 # To-Do
