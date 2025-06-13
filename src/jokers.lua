@@ -35,6 +35,7 @@ local preferred_order = {
     'pier',
     'sphinx',
     'superstition',
+    'rover',
     'chaste_joker',
     'charitable_joker',
     'kind_joker',
