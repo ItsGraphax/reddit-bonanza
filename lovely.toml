@@ -13,3 +13,14 @@ match_indent = true
 payload = '''
 elseif _c.effect == 'Glass Card' then loc_vars = {cfg.Xmult, G.GAME.probabilities.normal, double_glaze_glass_odds(cfg.extra)}
 '''
+
+# Extra pack options for Album Cover
+[[patches]]
+[patches.pattern]
+target = 'card.lua'
+pattern = "SMODS.OPENED_BOOSTER = self"
+position = "after"
+match_indent = true
+payload = '''
+    SMODS.OPENED_BOOSTER.ability.extra = SMODS.OPENED_BOOSTER.ability.extra + (G.GAME.extra_pack_cards or 0)
+'''

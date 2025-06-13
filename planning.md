@@ -75,6 +75,8 @@ FINISHPOSTREP
 - [ ] Up The Sleeve [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] The Promotion [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] The Werewolf [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
+- [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
+- [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought of a plumber joker idea that would give a/)
 NEWPOSTREP
 
 # To-Do
