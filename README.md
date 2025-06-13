@@ -9,45 +9,86 @@ Feel Free to open an Issue when you find a Problem!
 
 ## Jokers
 ### Common
-- Feelin' Lucky by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 3 Chance to retrigger Lucky Club Cards thrice
-- Slothful Joker by [u/NeoShard1](https://reddit.com/u/NeoShard1): Scored Stone Cards give +5 Mult
-- Medusa by [u/PerfectAstronaut5998](https://reddit.com/u/PerfectAstronaut5998): All scored Face Cards turn into stone cards
-- [MISSING TEXTURE] Engagement Ring by [u/LittlePetiteGirl](https://reddit.com/u/LittlePetiteGirl): Retriggers all scored Diamonds
+- Abstinent Joker by [submiss1vefemb0y](https://reddit.com/u/submiss1vefemb0y)
+- Album Cover by [Omicra98](https://reddit.com/u/Omicra98)
+- CashBack by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Charitable Joker by [submiss1vefemb0y](https://reddit.com/u/submiss1vefemb0y)
+- Chaste Joker by [submiss1vefemb0y](https://reddit.com/u/submiss1vefemb0y)
+- Engagement Ring by [LittlePetiteGirl](https://reddit.com/u/LittlePetiteGirl)
+- Feelin' by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Hollow Point by [Omicra98](https://reddit.com/u/Omicra98)
+- Kind Joker by [submiss1vefemb0y](https://reddit.com/u/submiss1vefemb0y)
+- Marvin by [BrilliantClerk](https://reddit.com/u/BrilliantClerk)
+- Medusa by [PerfectAstronaut5998](https://reddit.com/u/PerfectAstronaut5998)
+- Phoenix by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Plumber by [Kid4U_Reddit](https://reddit.com/u/Kid4U_Reddit)
+- Slothful Joker by [NeoShard1](https://reddit.com/u/NeoShard1)
 ### Uncommon
-- Chocolate Treadmill by [u/jah2277](https://reddit.com/u/jah2277): Joker gains +1 Hand and loses X0.5 Chips if played hand contains a Straight. Elsewise gain X2 Chips
-- Touchdown by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Gains +7 mult once playing cards scores exeed 100
-- Jimbo's Loss by [u/aTOMic_Games](https://reddit.com/u/aTOMic_Games): Gains X0.2 mult when 3 or more face cards are discarded
-- [MISSING TEXTURE] Trippy Joker by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Gains X0.2 mult if played hand is High Card, else lose X0.2 mult 
-- Sinister Joker by [u/knockoutn336](https://reddit.com/u/knockoutn336): Gives X0.5 Mult for every Joker to the right
-- Glass House by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Enhances last played card into a Glass Card if played hand contains a Full House
-- All In by [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_): Gives X5 Mult, lose all money when Blind is selected.
-- Diamond Pickaxe by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 16 chance to give $15 when discarding any enhanced card.
-- Bingo! by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Earn $13 when you play a card of every rank
-- Wild West by [u/GreedyHase](https://reddit.com/u/GreedyHase): Gives X3 Mult if played hand contains 3 or more Wild Cards
+- All In by [Kyuuseishu_](https://reddit.com/u/Kyuuseishu_)
+- Artist by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Bingo! by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Chocolate Treadmill by [jah2277](https://reddit.com/u/jah2277)
+- Contagious Laughter by [Unlikely_Movie_9073](https://reddit.com/u/Unlikely_Movie_9073)
+- Crimson Dawn by [Omicra98](https://reddit.com/u/Omicra98)
+- Diamond Pickaxe by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Double Glazing by [NeoShard1](https://reddit.com/u/NeoShard1)
+- Glass House by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Jimbo\ by [aTOMic_Games](https://reddit.com/u/aTOMic_Games)
+- Laundromat by [PokeAreddit](https://reddit.com/u/PokeAreddit)
+- Match 3 by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Metronome by [Jkjsupremo](https://reddit.com/u/Jkjsupremo)
+- Pier by [Omicra98](https://reddit.com/u/Omicra98)
+- Rainbow Joker by [NeoShard1](https://reddit.com/u/NeoShard1)
+- Sinister Joker by [knockoutn336](https://reddit.com/u/knockoutn336)
+- Sphinx of Black Quartz by [Omicra98](https://reddit.com/u/Omicra98)
+- Superstition by [Omicra98](https://reddit.com/u/Omicra98)
+- Touchdown by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Where is the Joker? by [babisme](https://reddit.com/u/babisme)
+- Wild West by [GreedyHase](https://reddit.com/u/GreedyHase)
 ### Rare
-- Kleptomaniac by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Refund all Items bought in the Shop. 1 in 10 chance to deduct all money owed
-- Rainbow Joker by [u/NeoShard1](https://reddit.com/u/NeoShard1): Gives X1 Mult pre unique suit in played Hand
-- [MISSING TEXTURE] Haunted House by [u/Ulik](https://reddit.com/u/Ulik): 1 in 4 chance to create a Spectral Card when the played hand contains a Full House
-- Enigma by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): 1 in 5 chance to create a Negative Spectral Card when using a Tarrot or Planet card
-- M.A.D. by [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit): Sell this joker to increase ante by +1, beat this blind and set money to 0
-- Blank Joker by [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633): Sell this card after beating 2 Boss Blinds to create an extra Joker Slot
-- Hi Five by [u/Thomassaurus](https://reddit.com/u/Thomassaurus): Gives $2 for every 5 in your deck when sold
-- Lamb by [u/Beasstvg](https://reddit.com/u/Beasstvg): After playing every base poker hand, sell this card to create a Legendary Joker
+- Ad Break by [Kid4U_Reddit](https://reddit.com/u/Kid4U_Reddit)
+- Blank Joker by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Enigma by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Entangled Joker by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Haunted House by [Ulik](https://reddit.com/u/Ulik)
+- Hi Five by [Thomassaurus](https://reddit.com/u/Thomassaurus)
+- Kleptomaniac by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Lamb by [Beasstvg](https://reddit.com/u/Beasstvg)
+- Legally Distinct by [Princemerkimer](https://reddit.com/u/Princemerkimer)
+- M.A.D. by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+- Pharaoh by [Omicra98](https://reddit.com/u/Omicra98)
+- Trippy Joker by [WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+- Wizard by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+
+### Legendary
+- Birbal by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
 
 ## Credits
 - Mod Author: [u/ItsGraphax](https://reddit.com/u/ItsGraphax) - [ItsGraphax](github.com/ItsGraphax)
 - Co Author: [u/Natural_Builder_3170](https://reddit.com/u/Natural_Builder_3170) - [mindoftony](https://github.com/Git-i)
+- Artist: [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
 - Special Thanks
-    - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit) - Thank You for the Excessive Amount of Jokers you gave me and the awesome art you made.
     - [u/VALERock](https://reddit.com/u/VALERock) - Thank you for the support <3
 - Jokers:
-    - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
-    - [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
-    - [u/NeoShard1](https://reddit.com/u/NeoShard1)
-    - [u/PerfectAstronaut5998](https://reddit.com/u/PerfectAstronaut5998)
-    - [u/jah2277](https://reddit.com/u/jah2277)
-    - [u/LittlePetiteGirl](https://reddit.com/u/LittlePetiteGirl)
     - [u/aTOMic_Games](https://reddit.com/u/aTOMic_Games)
-    - [u/knockoutn336](https://reddit.com/u/knockoutn336)
-    - [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_)
     - [u/Ulik](https://reddit.com/u/Ulik)
+    - [u/GreedyHase](https://reddit.com/u/GreedyHase)
+    - [u/Jkjsupremo](https://reddit.com/u/Jkjsupremo)
+    - [u/PerfectAstronaut5998](https://reddit.com/u/PerfectAstronaut5998)
+    - [u/NeoShard1](https://reddit.com/u/NeoShard1)
+    - [u/Kid4U_Reddit](https://reddit.com/u/Kid4U_Reddit)
+    - [u/BrilliantClerk](https://reddit.com/u/BrilliantClerk)
+    - [u/LittlePetiteGirl](https://reddit.com/u/LittlePetiteGirl)
+    - [u/WarmTranslator6633](https://reddit.com/u/WarmTranslator6633)
+    - [u/Princemerkimer](https://reddit.com/u/Princemerkimer)
+    - [u/Beasstvg](https://reddit.com/u/Beasstvg)
+    - [u/babisme](https://reddit.com/u/babisme)
+    - [u/Omicra98](https://reddit.com/u/Omicra98)
+    - [u/Kyuuseishu_](https://reddit.com/u/Kyuuseishu_)
+    - [u/jah2277](https://reddit.com/u/jah2277)
+    - [u/Unlikely_Movie_9073](https://reddit.com/u/Unlikely_Movie_9073)
+    - [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
+    - [u/submiss1vefemb0y](https://reddit.com/u/submiss1vefemb0y)
+    - [u/knockoutn336](https://reddit.com/u/knockoutn336)
+    - [u/Thomassaurus](https://reddit.com/u/Thomassaurus)
+    - [u/PokeAreddit](https://reddit.com/u/PokeAreddit)

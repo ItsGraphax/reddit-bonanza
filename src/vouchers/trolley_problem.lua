@@ -7,6 +7,10 @@ SMODS.Voucher {
             "between 2 available tags"
         }
     },
+
+    atlas = 'reddit_vouchers',
+    pos = { x = 0, y = 0 },
+
     redeem = function (self, voucher)
         G.GAME.trolley_active = true
     end,
@@ -23,6 +27,10 @@ SMODS.Voucher {
             "gain 2 tags"
         }
     },
+
+    atlas = 'reddit_vouchers',
+    pos = { x = 1, y = 0 },
+
     redeem = function (self, voucher)
         G.GAME.track_active = true
     end,

@@ -11,6 +11,17 @@ SMODS.Atlas {
 
 SMODS.Atlas {
 	-- Key for code to find it with
+	key = "reddit_vouchers",
+	-- The name of the file, for the code to pull the atlas from
+	path = "vouchers.png",
+	-- Width of each sprite in 1x size
+	px = 72,
+	-- Height of each sprite in 1x size
+	py = 95
+}
+
+SMODS.Atlas {
+	-- Key for code to find it with
 	key = "reddit_mmc",
 	-- The name of the file, for the code to pull the atlas from
 	path = "mmc.png",

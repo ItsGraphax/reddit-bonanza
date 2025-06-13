@@ -40,6 +40,12 @@
 - [x] Cash Back [Link](https://www.reddit.com/r/balatro/comments/1l6iud1/joker_concepts_for_shops/)
 - [x] Pier [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/)
+- [x] Ad Break
+- [x] Album Cover [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] All In
+- [x] CashBack
+- [x] Metronome
+- [x] Wild West
 FINISHPOSTREP
 
 # Waiting List
@@ -48,8 +54,7 @@ FINISHPOSTREP
 - [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
 - [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
-- [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/) [UNAPPROVED]
-- [ ] Brainfart [Link](https://www.reddit.com/r/balatro/comments/1kman09/a_more_consistent_get_for_a_less_consistent_result/) [UNAPPROVED]
+- [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
 - [ ] Thunderstruck [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
 - [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)
 - [ ] Class Notes [Link](https://www.reddit.com/r/balatro/comments/1jfljha/custom_jokers_after_a_lot_of_thoughts_100/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
@@ -62,7 +67,6 @@ FINISHPOSTREP
 - [ ] Rover [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Pharaoh [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Tough Crowd [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
-- [ ] Album Cover [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Sheet Music [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SPECTRAL] Skyfall [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SPECTRAL] Frostbite [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
@@ -78,7 +82,7 @@ FINISHPOSTREP
 - [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
 - [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
 - [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
-- [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here is a buff for 8 ball as well as some art to/)
+- [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here_is_a_buff_for_8_ball_as_well_as_some_art_to/)
 - [ ] Lucky Saver [Link](https://discord.com/channels/1380892511081463889/1383166608674918591/1383166608674918591)
 NEWPOSTREP
 

@@ -4,7 +4,8 @@ import re
 files = os.listdir('src/jokers')
 nameregex = r'name = \'(.+?)\''
 creditregex = r'credit_badge\(\'(.+?)\''
-rarityregex = r'rarity = (\d)'
+
+users = set()
 
 for file in files:
     file = 'src/jokers/' + file
@@ -12,8 +13,9 @@ for file in files:
 
     name = re.findall(nameregex, filetext)[0]
     credit = re.findall(creditregex, filetext)[0]
-    rarity = re.search(rarityregex, filetext)
-    rarity = rarity.group(1).strip()
     
-    if rarity == '4':
-        print(f'- {name} by [{credit}](https://reddit.com/u/{credit})')
+
+    users.add(f'    - [u/{credit}](https://reddit.com/u/{credit})')
+
+for user in users:
+    print(user)
