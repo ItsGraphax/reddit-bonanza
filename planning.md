@@ -78,6 +78,8 @@ FINISHPOSTREP
 - [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
 - [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
 - [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
+- [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here is a buff for 8 ball as well as some art to/)
+- [ ] Lucky Saver [Link](https://discord.com/channels/1380892511081463889/1383166608674918591/1383166608674918591)
 NEWPOSTREP
 
 # To-Do
