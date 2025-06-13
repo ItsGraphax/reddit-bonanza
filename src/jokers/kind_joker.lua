@@ -6,7 +6,7 @@ SMODS.Joker {
         name = 'Kind Joker',
         text = {
             '{C:green}#1# in #2#{} chance to retrigger',
-            '{C:attention}Scored {C:spade}#3#'
+            '{C:attention}Scored {C:spades}#3#'
         }
     },
 
