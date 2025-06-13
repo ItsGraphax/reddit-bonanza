@@ -80,6 +80,7 @@ FINISHPOSTREP
 - [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
 - [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here is a buff for 8 ball as well as some art to/)
 - [ ] Lucky Saver [Link](https://discord.com/channels/1380892511081463889/1383166608674918591/1383166608674918591)
+- [ ] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 NEWPOSTREP
 
 # To-Do
