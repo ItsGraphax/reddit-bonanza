@@ -36,7 +36,10 @@
 - [x] Hollow Point [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Marvin [Link](https://www.reddit.com/r/balatro/comments/1kx76fw/i_got_bored_again/)
 - [x] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
-- [x] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought of a plumber joker idea that would give a/)
+- [x] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
+- [x] Cash Back [Link](https://www.reddit.com/r/balatro/comments/1l6iud1/joker_concepts_for_shops/)
+- [x] Pier [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/)
 FINISHPOSTREP
 
 # Waiting List
@@ -45,7 +48,6 @@ FINISHPOSTREP
 - [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
 - [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
-- [ ] Legally Distinct [Link](https://www.reddit.com/r/balatro/comments/1kov6fo/had_these_joker_ideas_rattling_around_in_my_head/) [UNAPPROVED - SENT]
 - [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/) [UNAPPROVED]
 - [ ] Brainfart [Link](https://www.reddit.com/r/balatro/comments/1kman09/a_more_consistent_get_for_a_less_consistent_result/) [UNAPPROVED]
 - [ ] Thunderstruck [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
@@ -55,11 +57,8 @@ FINISHPOSTREP
 - [ ] Deterioration [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] Decay [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
 - [ ] [SEAL] Green Seeal [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
-- [ ] Chaste, Kind, Charitable, Abstinent Joker [Link](https://www.reddit.com/r/balatro/comments/1l7vmnh/all_the_jokercard_ideas_ive_had_while_playing/)
-- [ ] Cash Back [Link](https://www.reddit.com/r/balatro/comments/1l6iud1/joker_concepts_for_shops/)
 - [ ] Chasm [Link](https://www.reddit.com/r/balatro/comments/1l89253/the_solution_to_make_stone_cards_viable_remove/)
 - [ ] Distinguished [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
-- [ ] Pier [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Rover [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Pharaoh [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Tough Crowd [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
@@ -77,7 +76,7 @@ FINISHPOSTREP
 - [ ] The Promotion [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] The Werewolf [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
-- [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought of a plumber joker idea that would give a/)
+- [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
 - [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
 NEWPOSTREP
 
