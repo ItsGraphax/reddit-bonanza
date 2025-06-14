@@ -8,7 +8,7 @@ SMODS.Joker {
 			"{C:green}#1# in #2#{} chance to create",
 			"a {C:dark_edition}Negative {C:blue}Spectral{}",
 			"card when you use a",
-			"{C:attention}Tarrot {}or {C:attention}Planet{} card"
+			"{C:attention}Tarot {}or {C:attention}Planet{} card"
 		}
 	},
 
