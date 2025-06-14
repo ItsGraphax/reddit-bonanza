@@ -28,10 +28,12 @@ SMODS.Joker {
             card.ability.extra.active = true
 
         elseif context.repetition and context.cardarea == G.play and card.ability.extra.active then
-            card.ability.extra.active = false
             return {
                 repetitions = card.ability.extra.repetitions
             }
+
+		elseif context.joker_main then
+			card.ability.extra.active = false
         end
 	end,
 

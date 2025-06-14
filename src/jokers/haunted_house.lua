@@ -21,25 +21,30 @@ SMODS.Joker {
 	pos = { x = 2, y = 1 },
 	cost = 8,
     calculate = function(self, card, context)
-        if context.joker_main and next(context.poker_hands[card.ability.extra.poker_hand]) and
-            #G.consumeables.cards + G.GAME.consumeable_buffer < G.consumeables.config.card_limit and
-			pseudorandom('j_reddit_haunted_house') < G.GAME.probabilities.normal / card.ability.extra.odds then
+        random = pseudorandom('j_reddit_haunted_house')
+        if context.joker_main then
+            if next(context.poker_hands[card.ability.extra.poker_hand]) then
+                if #G.consumeables.cards + G.GAME.consumeable_buffer < G.consumeables.config.card_limit then
+			        if random < G.GAME.probabilities.normal / card.ability.extra.odds then
 
-            G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
-            G.E_MANAGER:add_event(Event({
-                func = (function()
-                    SMODS.add_card {
-                        set = 'Spectral',
-                        key_append = 'j_reddit_haunted_house' -- Optional, useful for checking the source of the creation in `in_pool`.
-                    }
-                    G.GAME.consumeable_buffer = 0
-                    return true
-                end)
-            }))
-            return {
-                message = localize('k_plus_spectral'),
-                colour = G.C.SECONDARY_SET.Spectral
-			}
+                        G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
+                        G.E_MANAGER:add_event(Event({
+                            func = (function()
+                                SMODS.add_card {
+                                    set = 'Spectral',
+                                    key_append = 'j_reddit_haunted_house' -- Optional, useful for checking the source of the creation in `in_pool`.
+                                }
+                                G.GAME.consumeable_buffer = 0
+                                return true
+                            end)
+                        }))
+                        return {
+                            message = localize('k_plus_spectral'),
+                            colour = G.C.SECONDARY_SET.Spectral
+                        }
+                    end
+                end
+            end
         end
     end,
     set_badges = function(self, card, badges)

@@ -24,7 +24,7 @@ SMODS.Joker {
         G.GAME.extra_pack_cards = G.GAME.extra_pack_cards - 1
     end,
 	atlas = 'reddit_jokers',
-	pos = { x = 7, y = 0 },
+	pos = { x = 6, y = 3 },
 
 	cost = 5,
 

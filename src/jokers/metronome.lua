@@ -5,7 +5,7 @@ SMODS.Joker {
 	loc_txt = {
 		name = 'Metronome',
 		text = {
-			"Gains {C:mult}+#1#{} if",
+			"Gains {C:mult}+#1#{} Mult if",
             "played hand is same as",
             "second last hand, but not last",
             "{C:inactive}(Currently {C:mult}+#2#{C:inactive})",

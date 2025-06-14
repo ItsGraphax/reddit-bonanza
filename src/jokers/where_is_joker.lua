@@ -1,9 +1,9 @@
--- Where is the Joker?
+-- Where is Joker?
 SMODS.Joker {
-	key = 'where_is_the_joker',
+	key = 'where_is_joker',
 	blueprint_compat = false,
 	loc_txt = {
-		name = 'Where is the Joker?',
+		name = 'Where is Joker?',
 		text = {
 			"Gives the sell value",
             "of the {C:attention}leftmost joker{} at",
