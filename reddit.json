@@ -9,7 +9,7 @@
 	"badge_colour": "ff4b08",
 	"badge_text_colour": "ffffff",
 	"display_name": "Reddit Bonanza",
-	"version": "1a.25.0",
+	"version": "1.2.1",
 	"dependencies": [
 		"Steamodded (>=1.*)",
 		"Lovely (>=0.6)"
