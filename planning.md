@@ -85,6 +85,7 @@ FINISHPOSTREP
 - [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here_is_a_buff_for_8_ball_as_well_as_some_art_to/)
 - [ ] Lucky Saver [Link](https://discord.com/channels/1380892511081463889/1383166608674918591/1383166608674918591)
 - [ ] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
+- [ ] ['Molotov'] [Link](https://www.reddit.com/r/balatro/comments/1la1tzm/heres_another_joker/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 NEWPOSTREP
 
 # To-Do
