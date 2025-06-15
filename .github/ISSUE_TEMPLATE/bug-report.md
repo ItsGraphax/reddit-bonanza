@@ -7,6 +7,10 @@ assignees: ''
 
 ---
 
+**Provide your Version**
+Please Provide your SMODS version (Found in the main menu top right)
+And the Mod Version (Found under "Reddit Bonanza" in the Mods tab)
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
