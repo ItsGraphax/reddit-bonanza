@@ -24,3 +24,13 @@ match_indent = true
 payload = '''
     SMODS.OPENED_BOOSTER.ability.extra = SMODS.OPENED_BOOSTER.ability.extra + (G.GAME.extra_pack_cards or 0)
 '''
+
+[[patches]]
+[patches.pattern]
+target = 'functions/common_events.lua'
+pattern = "function add_round_eval_row(config)"
+position = "after"
+match_indent = true
+payload = '''
+    if config and config.name == 'interest' then G.GAME.interest_this_round = config.dollars end
+'''
