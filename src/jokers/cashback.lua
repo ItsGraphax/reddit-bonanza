@@ -5,7 +5,7 @@ SMODS.Joker {
     loc_txt = {
         name = 'CashBack',
         text = {
-            'Gives {C:money}$#1# {C:attention}Sell Value',
+            'Gains {C:money}$#1# {C:attention}Sell Value',
             'for every purchase'
         }
     },

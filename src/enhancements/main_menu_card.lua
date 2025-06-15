@@ -8,5 +8,6 @@ SMODS.Enhancement {
         return { }
     end,
     replace_base_card = true,
-    overrides_base_rank = true
+    overrides_base_rank = true,
+    weight = 0
 }

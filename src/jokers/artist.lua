@@ -36,10 +36,13 @@ SMODS.Joker {
             local old_hand_size = card.ability.extra.hand_size_mod * card.ability.extra.num_editions
             local new_hand_size = card.ability.extra.hand_size_mod * new_editions
             card.ability.extra.num_editions = new_editions
-            if card.area == G.jokers then
+            if card.area == G.jokers or dt == 'add' then
                 G.hand:change_size(new_hand_size - old_hand_size)
             end
         end
+    end,
+    add_to_deck = function(self, card, from_debuff)
+        self:update(card, 'add')
     end,
 
 	rarity = 2,

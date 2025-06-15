@@ -5,8 +5,8 @@ SMODS.Joker {
     loc_txt = {
         name = 'Pharaoh',
         text = {
-            '{X:mult}{C:white}X#1#{} Mult when money held',
-            'is greater than {C:money}$#2#',
+            'Gives {X:mult,C:white}X#1#{} Mult when money',
+            'held is greater than {C:money}$#2#',
             '{C:inactive}(Increases by {C:money}$#3#{C:inactive} every round)'
         }
     },
