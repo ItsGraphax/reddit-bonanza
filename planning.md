@@ -46,6 +46,7 @@
 - [x] CashBack
 - [x] Metronome
 - [x] Wild West
+- [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 FINISHPOSTREP
 
 # Waiting List
@@ -87,6 +88,9 @@ FINISHPOSTREP
 - [ ] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 - [ ] ['Molotov'] [Link](https://www.reddit.com/r/balatro/comments/1la1tzm/heres_another_joker/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] ['Flying_Strawberry'] [Link](https://www.reddit.com/r/balatro/comments/1lb47yq/my_gf_who_does_not_like_balatro_did_the_art_for/)
+- [ ] ['Glimpse'] [Link](https://www.reddit.com/r/balatro/comments/1lc0v0m/joker_idea_by_me/?share_id=ZpQZ_b87WgDdsLpAkSdiF&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1)
+- [ ] ['Lets_go_gambling'] [Link](https://www.reddit.com/r/balatro/comments/1lc774n/comment/mxy8v0o/?context=3)
+- [ ] ['Scratching_Ticket'] [Link](https://www.reddit.com/r/balatro/comments/1lc2ipl/scratcher_ticket_gamble_your_way_into_more_lucky/)
 NEWPOSTREP
 
 # To-Do

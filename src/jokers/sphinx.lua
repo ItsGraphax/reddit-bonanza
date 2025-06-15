@@ -30,7 +30,7 @@ SMODS.Joker {
                     SMODS.add_card {
                         set = 'Joker',
                         rarity = 'Uncommon',
-                        key_append = 'reddit_sphinx' -- Optional, useful for manipulating the random seed and checking the source of the creation in `in_pool`.
+                        key_append = 'reddit_sphinx'
                     }
                     G.GAME.joker_buffer = 0
                     return true
