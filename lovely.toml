@@ -22,8 +22,19 @@ pattern = "SMODS.OPENED_BOOSTER = self"
 position = "after"
 match_indent = true
 payload = '''
-    SMODS.OPENED_BOOSTER.ability.extra = SMODS.OPENED_BOOSTER.ability.extra + (G.GAME.extra_pack_cards or 0)
+SMODS.OPENED_BOOSTER.ability.extra = SMODS.OPENED_BOOSTER.ability.extra + (G.GAME.extra_pack_cards or 0)
 '''
+# Extra pack choices for con artist
+[[patches]]
+[patches.pattern]
+target = 'card.lua'
+pattern = "G.GAME.pack_choices = self.ability.choose or self.config.center.config.choose or 1"
+position = "after"
+match_indent = true
+payload = '''
+G.GAME.pack_choices = G.GAME.pack_choices + (G.GAME.extra_pack_choice or 0)
+'''
+
 
 [[patches]]
 [patches.pattern]
