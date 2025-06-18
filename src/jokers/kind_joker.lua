@@ -5,14 +5,15 @@ SMODS.Joker {
     loc_txt = {
         name = 'Kind Joker',
         text = {
-            '{C:green}#1# in #2#{} chance to retrigger',
-            '{C:attention}Scored {C:spades}#3#'
+            'Played cards with',
+            '{C:spades}#1#{} suit give',
+            '{C:chips}+#2#{} chips when scored'
         }
     },
 
-    config = { extra = { odds = 2, suit = 'Spades', repetitions = 1 } },
+    config = { extra = { suit = 'Spades', chips = 20 } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { G.GAME.probabilities.normal, card.ability.extra.odds, card.ability.extra.suit } }
+        return { vars = { card.ability.extra.suit, card.ability.extra.chips } }
     end,
 
     rarity = 1,
@@ -23,15 +24,10 @@ SMODS.Joker {
     cost = 4,
 
     calculate = function(self, card, context)
-        if context.cardarea == G.play and context.repetition and not context.repetition_only and
-		context.other_card:is_suit(card.ability.extra.suit) and
-        pseudorandom('j_reddit_kind_joker') < G.GAME.probabilities.normal / card.ability.extra.odds then
-            return {
-                message = 'Again!',
-				message_card = card,
-                repetitions = card.ability.extra.repetitions,
-                card = context.other_card
-            }
+        if context.cardarea == G.play and context.individual and 
+            context.other_card:is_suit(card.ability.extra.suit) 
+        then
+            return { chips = card.ability.extra.chips }
 		end
     end,
 

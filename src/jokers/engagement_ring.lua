@@ -5,14 +5,14 @@ SMODS.Joker {
 	loc_txt = {
 		name = 'Engagement Ring',
 		text = {
-			"Retriggers all scored",
-			"{C:diamonds}#1#{}"
+			'{C:green}#1# in #2#{} chance to retrigger',
+            '{C:attention}Scored {C:diamonds}#3#'
 		}
 	},
 
-	config = { extra = { suit = 'Diamonds', repetitions = 1 } },
+	config = { extra = { odds = 2, suit = 'Diamonds', repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.suit } }
+		return { vars = { G.GAME.probabilities.normal, card.ability.extra.odds, card.ability.extra.suit } }
 	end,
 
 	rarity = 1,
@@ -21,13 +21,14 @@ SMODS.Joker {
 	cost = 4,
 	calculate = function(self, card, context)
         if context.cardarea == G.play and context.repetition and not context.repetition_only and
-		context.other_card:is_suit(card.ability.extra.suit) then
-			return {
-				message = 'Again!',
-				repetitions = card.ability.extra.repetitions,
+		context.other_card:is_suit(card.ability.extra.suit) and
+        pseudorandom('j_reddit_charitable_joker') < G.GAME.probabilities.normal / card.ability.extra.odds then
+            return {
+                message = 'Again!',
 				message_card = card,
-				card = context.other_card
-			}
+                repetitions = card.ability.extra.repetitions,
+                card = context.other_card
+            }
 		end
 	end,
     set_badges = function(self, card, badges)
