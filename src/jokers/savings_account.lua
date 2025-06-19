@@ -2,6 +2,7 @@
 local cash_out = G.FUNCS.cash_out
 G.FUNCS.cash_out = function(e)
     SMODS.calculate_context({pre_cash_out = true})
+	G.GAME.interest_this_round = 0
     cash_out(e)
 end
 

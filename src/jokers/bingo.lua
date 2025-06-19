@@ -1,10 +1,4 @@
 -- Bingo
-tablelength = function (T)
-  local count = 0
-  for _ in pairs(T) do count = count + 1 end
-  return count
-end
-
 SMODS.Joker {
     key = 'bingo',
     blueprint_compat = false,
@@ -29,8 +23,11 @@ SMODS.Joker {
 		if #played_rank_strs == 0 then
 			final_string = "None"
 		else
+			table.sort(played_rank_strs, function (a, b)
+				return SMODS.Ranks[a].id < SMODS.Ranks[b].id
+			end)
 			for idx, str in pairs(played_rank_strs) do
-				final_string = final_string .. str
+				final_string = final_string .. localize(str, 'ranks')
 				if idx ~= #played_rank_strs then final_string = final_string .. ", " end
 			end
 		end
@@ -47,7 +44,9 @@ SMODS.Joker {
     calculate = function(self, card, context)
         if context.before and not context.blueprint then
 			for idx, played_card in pairs(context.full_hand) do
-				card.ability.extra.played_ranks[played_card:get_id()] = true				
+				if not SMODS.has_no_rank(played_card) then
+					card.ability.extra.played_ranks[played_card:get_id()] = true
+				end
 			end
 			for _, rank in pairs(SMODS.Ranks) do
 				if card.ability.extra.played_ranks[rank.id] ~= true then

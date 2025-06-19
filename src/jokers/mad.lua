@@ -49,9 +49,7 @@ SMODS.Joker {
 								if G.GAME.round_resets.ante > G.GAME.win_ante and not G.GAME.won then
 									G.GAME.won = true
 									G.GAME.win_notified = true
-                		        	if G.STATE == G.STATES.ROUND_EVAL then 
-                		            	win_game()
-                		        	end
+                		            win_game()
 								end
 								return true
                 		    end)

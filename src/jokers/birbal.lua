@@ -16,6 +16,7 @@ SMODS.Joker {
         return { vars = { card.ability.extra.xmult } }
     end,
     rarity = 4,
+    cost = 20,
 	calculate = function (self, card, context)
         if context.before then card.ability.extra.in_scoring = true end
 		if context.post_trigger
