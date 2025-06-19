@@ -6,7 +6,7 @@ SMODS.Joker {
 		name = 'Marvin',
 		text = {
 			'Gives {X:mult,C:white}X#1#{} Mult if',
-            'you have less than {C:money}$#2#{}'
+            'you have {C:money}$#2#{} or less'
 		}
 	},
 
