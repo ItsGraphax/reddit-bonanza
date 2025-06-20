@@ -92,6 +92,7 @@ FINISHPOSTREP
 - [ ] ['Lets_go_gambling'] [Link](https://www.reddit.com/r/balatro/comments/1lc774n/comment/mxy8v0o/?context=3)
 - [ ] ['Scratching_Ticket'] [Link](https://www.reddit.com/r/balatro/comments/1lc2ipl/scratcher_ticket_gamble_your_way_into_more_lucky/)
 - [ ] ['Glimpse'] [Link](https://www.reddit.com/r/balatro/comments/1lc0v0m/joker_idea_by_me/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] ['UFO'] [Link](https://www.reddit.com/r/balatro/comments/1lfq1lp/wanted_to_make_a_joker_concept_revolving_around/)
 NEWPOSTREP
 
 # To-Do
