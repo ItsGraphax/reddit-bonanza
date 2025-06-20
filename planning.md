@@ -47,6 +47,7 @@
 - [x] Metronome
 - [x] Wild West
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
+- [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 FINISHPOSTREP
 
 # Waiting List
