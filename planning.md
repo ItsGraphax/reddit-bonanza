@@ -47,6 +47,7 @@
 - [x] Metronome
 - [x] Wild West
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
+- [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 FINISHPOSTREP
 
 # Waiting List
@@ -93,6 +94,7 @@ FINISHPOSTREP
 - [ ] ['Scratching_Ticket'] [Link](https://www.reddit.com/r/balatro/comments/1lc2ipl/scratcher_ticket_gamble_your_way_into_more_lucky/)
 - [ ] ['Glimpse'] [Link](https://www.reddit.com/r/balatro/comments/1lc0v0m/joker_idea_by_me/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] ['UFO'] [Link](https://www.reddit.com/r/balatro/comments/1lfq1lp/wanted_to_make_a_joker_concept_revolving_around/)
+- [ ] ['Sisyphus'] [Link](https://www.reddit.com/r/balatro/comments/1lg8lh7/my_joker_idea_for_sisyphus_art_taken_from/)
 NEWPOSTREP
 
 # To-Do
