@@ -38,6 +38,13 @@ SMODS.Atlas({
 	py = 34
 })
 
+SMODS.Atlas({
+	key = "boosters",
+	path = "boosters.png",
+	px = 71,
+    py = 95
+})
+
 REDDIT = SMODS.current_mod
 
 assert(SMODS.load_file("src/jokers.lua"))()

@@ -16,6 +16,10 @@ SMODS.Booster {
             colours = { reddit_orange } 
         } }
     end,
+
+    atlas = 'boosters',
+	pos = { x = 2, y = 0 },
+
     weight = 0.7,
     select_card = 'jokers',
     create_card = function (self, card, i)
