@@ -30,7 +30,7 @@ SMODS.Joker {
         } }
 	end,
 
-	rarity = 2,
+	rarity = 3,
 	atlas = 'reddit_jokers',
 	pos = { x = 3, y = 6 },
 	cost = 6,
