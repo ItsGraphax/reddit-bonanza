@@ -6,7 +6,7 @@ SMODS.Joker {
 		name = 'Promotion',
 		text = {
 			"Increase Rank of",
-            "{C:attention}first{} played Card by {C:attention}1{}"
+            "{C:attention}first{} scoring Card by {C:attention}1{}"
 		}
 	},
 
