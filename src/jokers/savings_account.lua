@@ -1,9 +1,9 @@
 -- Savings Account
 local cash_out = G.FUNCS.cash_out
 G.FUNCS.cash_out = function(e)
-    SMODS.calculate_context({pre_cash_out = true})
-	G.GAME.interest_this_round = 0
     cash_out(e)
+    SMODS.calculate_context({post_cash_out = true})
+	G.GAME.interest_this_round = 0
 end
 
 SMODS.Joker {
@@ -12,16 +12,19 @@ SMODS.Joker {
 	loc_txt = {
 		name = 'Savings Account',
 		text = {
-			"This {C:attention}Joker{} gains {C:chips}+#1#{} chips",
-			"for every {C:money}$1{} of interest",
-			"earned",
+			"{C:chips}+#1#{} chips for every {C:money}$1{} of",
+			"{C:attention}interest{} earned this",
+			"run",
 			"{C:inactive}(Currently {C:chips}+#2#{C:inactive} chips)"
 		}
 	},
 
-	config = { extra = { chip_mod = 2, chips = 0 } },
+	config = { extra = { chip_mod = 2 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.chip_mod, card.ability.extra.chips } }
+		return { vars = { 
+			card.ability.extra.chip_mod, 
+			card.ability.extra.chip_mod * (G.GAME.interest_this_run or 0)
+		} }
 	end,
 
 	rarity = 1,
@@ -32,17 +35,14 @@ SMODS.Joker {
 	cost = 4,
 
 	calculate = function(self, card, context)
-		if context.pre_cash_out and not context.blueprint then
+		if context.post_cash_out and not context.blueprint then
 			if G.GAME.interest_this_round and G.GAME.interest_this_round > 0 then
-				card.ability.extra.chips = 
-					card.ability.extra.chips + 
-					card.ability.extra.chip_mod * G.GAME.interest_this_round
 				return { message = localize('k_upgrade_ex') }
 			end
 			
         elseif context.joker_main then
 			return {
-				chips = card.ability.extra.chips
+				chips = card.ability.extra.chip_mod * (G.GAME.interest_this_run or 0)
 			}
 		end
 	end,

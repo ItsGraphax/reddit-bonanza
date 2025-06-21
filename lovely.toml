@@ -43,5 +43,9 @@ pattern = "function add_round_eval_row(config)"
 position = "after"
 match_indent = true
 payload = '''
-    if config and config.name == 'interest' then G.GAME.interest_this_round = config.dollars end
+    if config and config.name == 'interest' then 
+        G.GAME.interest_this_round = config.dollars
+        G.GAME.interest_this_run = G.GAME.interest_this_run or 0
+        G.GAME.interest_this_run = G.GAME.interest_this_run + config.dollars
+    end
 '''
