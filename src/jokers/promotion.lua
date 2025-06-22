@@ -6,7 +6,7 @@ SMODS.Joker {
 		name = 'Promotion',
 		text = {
 			"Increase Rank of",
-            "{C:attention}first{} played Card by {C:attention}1{}"
+            "{C:attention}first{} scoring Card by {C:attention}1{}"
 		}
 	},
 
@@ -32,6 +32,6 @@ SMODS.Joker {
 	end,
 
     set_badges = function(self, card, badges)
-        badges[#badges+1] = credit_badge('USER', false)
+        badges[#badges+1] = credit_badge('Omegza', false)
 	end
 }

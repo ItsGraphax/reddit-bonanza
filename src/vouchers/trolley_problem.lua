@@ -21,7 +21,7 @@ SMODS.Voucher {
 SMODS.Voucher {
     key = "track_drift",
     loc_txt = {
-        name = "Track Drift",
+        name = "Multi-Track Drift",
         text = {
             "When skipping a blind,",
             "gain 2 tags"

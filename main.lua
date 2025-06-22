@@ -38,6 +38,13 @@ SMODS.Atlas({
 	py = 34
 })
 
+SMODS.Atlas({
+	key = "boosters",
+	path = "boosters.png",
+	px = 71,
+    py = 95
+})
+
 REDDIT = SMODS.current_mod
 
 assert(SMODS.load_file("src/jokers.lua"))()
@@ -45,4 +52,5 @@ assert(SMODS.load_file("src/vouchers.lua"))()
 assert(SMODS.load_file("src/enhancements.lua"))()
 assert(SMODS.load_file("src/overrides.lua"))()
 assert(SMODS.load_file("src/ui.lua"))()
+assert(SMODS.load_file("src/boosters.lua"))()
 -- assert(SMODS.load_file("src/credits_tab.lua"))()
