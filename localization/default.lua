@@ -20,7 +20,7 @@ return {
         challenge_names = {},
         collabs = {},
         dictionary = {
-            b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs'
+            b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs (Requires Restart!)'
         },
         high_scores = {},
         labels = {},

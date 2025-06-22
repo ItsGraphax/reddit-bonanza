@@ -1,3 +1,3 @@
 return {
-    ['bonanza_packs_enabled'] = true
+    enable_bonanza_pack = true
 }

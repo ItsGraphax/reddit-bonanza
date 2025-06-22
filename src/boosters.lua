@@ -35,7 +35,7 @@ create_card_for_bonanza_pack = function ()
         key_append = 'bonanza_pack'
     }
 end
-if config.enable_reddit_pack then
+if config.enable_bonanza_pack then
     assert(SMODS.load_file('src/boosters/bonanza_pack1.lua'))()
     assert(SMODS.load_file('src/boosters/bonanza_pack2.lua'))()
     assert(SMODS.load_file('src/boosters/jumbo_bonanza_pack1.lua'))()

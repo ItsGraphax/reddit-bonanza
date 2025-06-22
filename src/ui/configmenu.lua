@@ -19,7 +19,7 @@ SMODS.current_mod.config_tab = function()
                         n = G.UIT.C,
                         config = { align = "cl", padding = 0.05 },
                         nodes = {
-                            create_toggle { col = true, label = "", scale = 1, w = 0, shadow = true, ref_table = reddit_config, ref_value = 'bonanza_packs_enabled' },
+                            create_toggle { col = true, label = "", scale = 1, w = 0, shadow = true, ref_table = reddit_config, ref_value = 'enable_bonanza_packs' },
                         }
                     },
                     {
