@@ -14,7 +14,7 @@ SMODS.Joker {
 
 	config = { extra = { odds = 10 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds } }
+		return { vars = { SMODS.get_probability_vars(card, 1, card.ability.extra.odds) } }
 	end,
 
 	rarity = 3,
@@ -23,7 +23,7 @@ SMODS.Joker {
 	cost = 8,
 	calculate = function(self, card, context)
         if context.using_consumeable then
-			if pseudorandom('j_reddit_enigma') < G.GAME.probabilities.normal / card.ability.extra.odds then
+			if SMODS.pseudorandom_probability(card, 'j_reddit_enigma', 1, card.ability.extra.odds) then
 				if context.consumeable.ability.set == 'Planet' or context.consumeable.ability.set == 'Tarot' then
 					G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
 					G.E_MANAGER:add_event(Event({

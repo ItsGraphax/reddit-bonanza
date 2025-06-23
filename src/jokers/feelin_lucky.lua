@@ -14,7 +14,8 @@ SMODS.Joker {
 	config = { extra = { repetitions = 3, suit = 'Clubs', odds = 3 } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_lucky']
-		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds, localize(card.ability.extra.suit, 'suits_singular') } }
+		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
+		return { vars = { num, denum, localize(card.ability.extra.suit, 'suits_singular') } }
 	end,
 
 	rarity = 1,
@@ -24,7 +25,7 @@ SMODS.Joker {
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and
 			context.other_card:is_suit(card.ability.extra.suit) and SMODS.has_enhancement(context.other_card, 'm_lucky') and 
-            pseudorandom('j_reddit_feelin_lucky') < G.GAME.probabilities.normal / card.ability.extra.odds then
+            SMODS.pseudorandom_probability(card, 'j_reddit_feelin_lucky', 1, card.ability.extra.odds) then
             return {
                 message = 'Again!',
 				message_card = card,

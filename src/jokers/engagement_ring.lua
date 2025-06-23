@@ -12,7 +12,8 @@ SMODS.Joker {
 
 	config = { extra = { odds = 2, suit = 'Diamonds', repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { G.GAME.probabilities.normal, card.ability.extra.odds, card.ability.extra.suit } }
+		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
+		return { vars = { num, denum, card.ability.extra.suit } }
 	end,
 
 	rarity = 1,
@@ -22,7 +23,7 @@ SMODS.Joker {
 	calculate = function(self, card, context)
         if context.cardarea == G.play and context.repetition and not context.repetition_only and
 		context.other_card:is_suit(card.ability.extra.suit) and
-        pseudorandom('j_reddit_engagement_ring') < G.GAME.probabilities.normal / card.ability.extra.odds then
+        SMODS.pseudorandom_probability(card, 'j_reddit_engagement_ring', 1, card.ability.extra.odds) then
             return {
                 message = 'Again!',
 				message_card = card,

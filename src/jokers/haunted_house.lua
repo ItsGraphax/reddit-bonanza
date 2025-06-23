@@ -13,7 +13,8 @@ SMODS.Joker {
 
 	config = { extra = { odds = 4, poker_hand = 'Full House' } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds, card.ability.extra.poker_hand } }
+        local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
+		return { vars = { num, denum, card.ability.extra.poker_hand } }
 	end,
 
 	rarity = 3,
@@ -21,12 +22,10 @@ SMODS.Joker {
 	pos = { x = 2, y = 1 },
 	cost = 8,
     calculate = function(self, card, context)
-        random = pseudorandom('j_reddit_haunted_house')
         if context.joker_main then
             if next(context.poker_hands[card.ability.extra.poker_hand]) then
                 if #G.consumeables.cards + G.GAME.consumeable_buffer < G.consumeables.config.card_limit then
-			        if random < G.GAME.probabilities.normal / card.ability.extra.odds then
-
+			        if SMODS.pseudorandom_probability(card, 'j_reddit_haunted_house', 1, card.ability.extra.odds) then
                         G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
                         G.E_MANAGER:add_event(Event({
                             func = (function()

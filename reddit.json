@@ -11,7 +11,7 @@
 	"display_name": "Reddit Bonanza",
 	"version": "1.2.5",
 	"dependencies": [
-		"Steamodded (>=1.*)",
+		"Steamodded (>=1.0.0~BETA-0623b)",
 		"Lovely (>=0.6)"
 	],
 	"dump_loc": false

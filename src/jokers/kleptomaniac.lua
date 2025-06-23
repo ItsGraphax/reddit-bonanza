@@ -15,7 +15,8 @@ SMODS.Joker {
 
 	config = { extra = { odds = 10, owed = 0 } },
 	loc_vars = function(self, info_queue, card)
-		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds, card.ability.extra.owed}}
+		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
+		return { vars = { num, denum, card.ability.extra.owed}}
 	end,
 
     unlocked = true,
@@ -31,7 +32,8 @@ SMODS.Joker {
 		-- On Pay
         if context.buying_card or context.open_booster then
 			-- Check if Caught
-			if pseudorandom('j_reddit_kleptomaniac') < G.GAME.probabilities.normal / card.ability.extra.odds and context.card.cost >= 1 then
+			if SMODS.pseudorandom_probability(card, 'j_reddit_kleptomaniac', 1, card.ability.extra.odds)
+			and context.card.cost >= 1 then
 				money = -card.ability.extra.owed
 				card.ability.extra.owed = 0
 

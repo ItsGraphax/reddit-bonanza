@@ -19,10 +19,11 @@ SMODS.Joker {
 
 	config = { extra = { being_sold = false } },
     loc_vars = function(self, info_queue, card)
+        local num, denum = SMODS.get_probability_vars(card, 1, G.GAME.reddit_phoenix_odds or 1)
 		return { vars = { 
             G.GAME.reddit_phoenix_mult or 1, 
-            G.GAME.probabilities.normal or 1,
-            G.GAME.reddit_phoenix_odds or 1,
+            num,
+            denum,
         } }
 	end,
     remove_from_deck = function(self, card, from_debuff)
@@ -50,7 +51,7 @@ SMODS.Joker {
 			}
 		end
         if context.end_of_round and context.main_eval and not context.blueprint then
-            if pseudorandom('j_reddit_bird') < G.GAME.probabilities.normal / G.GAME.reddit_phoenix_odds then
+            if SMODS.pseudorandom_probability(card, 'j_reddit_bird', 1, G.GAME.reddit_phoenix_odds) then
                 card.getting_sliced = true
                 G.E_MANAGER:add_event(Event({
                     func = function()

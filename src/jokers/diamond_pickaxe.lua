@@ -13,7 +13,8 @@ SMODS.Joker {
 
 	config = { extra = { odds = 8, money = 40 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { G.GAME.probabilities.normal or 1, card.ability.extra.odds, card.ability.extra.money } }
+		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
+		return { vars = { num, denum, card.ability.extra.money } }
 	end,
 
 	rarity = 2,
@@ -26,7 +27,7 @@ SMODS.Joker {
 	calculate = function(self, card, context)
         if context.discard and
 		next(SMODS.get_enhancements(context.other_card)) and
-		pseudorandom('j_reddit_diamond_pickaxe') < G.GAME.probabilities.normal / card.ability.extra.odds then
+		SMODS.pseudorandom_probability(card, 'j_reddit_diamond_pickaxe', 1, card.ability.extra.odds) then
 			return {
 				dollars = card.ability.extra.money
 			}

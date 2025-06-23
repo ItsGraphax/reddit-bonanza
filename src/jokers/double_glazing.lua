@@ -1,12 +1,9 @@
-function double_glaze_glass_odds(og_odds)
-    if G.jokers then
-        for i, joker in ipairs(G.jokers.cards) do
-            if joker.ability.name == 'j_reddit_double_glazing' then
-                return 8
-            end
-        end
+local gpv = SMODS.get_probability_vars
+function SMODS.get_probability_vars(trigger_obj, base_numerator, base_denominator)
+    if trigger_obj and trigger_obj.ability.name == "Glass Card" then
+        base_denominator = base_denominator * (2 ^ #SMODS.find_card('j_reddit_double_glazing'))
     end
-    return og_odds
+    return gpv(trigger_obj, base_numerator, base_denominator)
 end
 
 -- Double glazing
@@ -17,9 +14,8 @@ SMODS.Joker {
 	loc_txt = {
 		name = 'Double Glazing',
 		text = {
-			"Glass cards have a",
-			"{C:green}#1# in #2#{} chance to",
-            "be destroyed"
+			"{C:attention}Glass cards{} are half as",
+			"likely to be destroyed"
 		}
 	},
     loc_vars = function(self, info_queue, card)
@@ -35,12 +31,3 @@ SMODS.Joker {
         badges[#badges+1] = credit_badge('NeoShard1', false)
     end
 }
-
-SMODS.Enhancement:take_ownership('glass', {
-    calculate = function(self, card, context)
-        if context.destroy_card and context.cardarea == G.play and context.destroy_card == card and pseudorandom('glass') < G.GAME.probabilities.normal/double_glaze_glass_odds(card.ability.extra) then
-            card.glass_trigger = true
-            return { remove = true }
-        end
-    end,
-})
