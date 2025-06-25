@@ -4,7 +4,14 @@ return {
         Blind = {},
         Edition = {},
         Enhanced = {},
-        Joker = {},
+        Joker = {
+            j_reddit_gourmand = {
+                name = "Gourmand",
+                text = {
+                    "{C:attention}+1{} consumable slot"
+                }
+            }
+        },
         Other = {},
         Planet = {},
         Spectral = {},

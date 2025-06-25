@@ -1,6 +1,6 @@
 local gpv = SMODS.get_probability_vars
 function SMODS.get_probability_vars(trigger_obj, base_numerator, base_denominator)
-    if trigger_obj and trigger_obj.ability.name == "Glass Card" then
+    if trigger_obj and trigger_obj.ability and trigger_obj.ability.name == "Glass Card" then
         base_denominator = base_denominator * (2 ^ #SMODS.find_card('j_reddit_double_glazing'))
     end
     return gpv(trigger_obj, base_numerator, base_denominator)
