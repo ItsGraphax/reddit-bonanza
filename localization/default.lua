@@ -5,6 +5,14 @@ return {
         Edition = {},
         Enhanced = {},
         Joker = {
+            j_reddit_gourmand = {
+                name = "Gourmand",
+                text = {
+                    "{C:attention}+1{} consumable slot"
+                }
+            }
+        },
+        Joker = {
             j_reddit_abstinent_joker = {
                 name = 'Abstinent Joker',
                 text = {
