@@ -2,17 +2,7 @@
 SMODS.Joker {
 	key = 'laundromat',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Laundromat',
-		text = {
-			"Gives {C:money}$#1#{} for each time you exceed",
-            "the blind requirement by 5%",
-            "Requirement doubles with every $#1#",
-			"{C:inactive}(Max of {C:money}$#2#{C:inactive})",
-            "{C:inactive}(Ex: {C:attention}#1#$=5%{C:inactive}, {C:attention}#2#$=10%{C:inactive}, {C:attention}#3#$=20%{C:inactive}, {C:attention}etc.{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { dollars = 1, dollars_max = 20 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.dollars, card.ability.extra.dollars * 2, card.ability.extra.dollars * 3 } }

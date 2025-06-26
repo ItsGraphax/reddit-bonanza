@@ -10,16 +10,7 @@ end
 SMODS.Joker {
 	key = 'artist',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Artist',
-		text = {
-			"{C:attention}+#1#{} hand size",
-			"for every joker",
-			"with an edition",
-            "{C:inactive}(Currently {C:attention}+#2#{C:inactive} hand size){}"
-		}
-	},
-
+	
 	config = { extra = { hand_size_mod = 1, num_editions = 0 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { 

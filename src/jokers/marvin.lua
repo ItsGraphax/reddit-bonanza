@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'marvin',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Marvin',
-		text = {
-			'Gives {X:mult,C:white}X#1#{} Mult if',
-            'you have {C:money}$#2#{} or less'
-		}
-	},
-
+	
 	config = { extra = { Xmult = 3, money_cap = 0 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.Xmult, card.ability.extra.money_cap } }

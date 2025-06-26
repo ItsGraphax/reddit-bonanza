@@ -16,15 +16,7 @@ end
 SMODS.Joker {
 	key = 'nichola',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Nichola',
-		text = {
-			"Prevent the ante from",
-            "going up",
-            "{C:inactive}(Remaining: {C:attention}#1#{C:inactive} times)"
-		}
-	},
-
+	
 	config = { extra = { antes_left = 3 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.antes_left } }

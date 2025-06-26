@@ -3,20 +3,7 @@ SMODS.Joker {
 	key = 'phoenix',
 	blueprint_compat = true,
     eternal_compat = false,
-	loc_txt = {
-		name = 'Phoenix',
-		text = {
-			"{X:mult,C:white}X#1#{} mult.",
-			"{C:green}#2# in #3#{} chance to destroy",
-			"this card at the end of",
-            "round",
-            "{C:inactive}({X:mult,C:white}X1{C:inactive} and half the",
-            "{C:inactive}odds of destruction per{}",
-            "{C:attention}Phoenix{C:inactive} destroyed this",
-            "{C:attention}run{C:inactive}){}"
-		}
-	},
-
+	
 	config = { extra = { being_sold = false } },
     loc_vars = function(self, info_queue, card)
         local num, denum = SMODS.get_probability_vars(card, 1, G.GAME.reddit_phoenix_odds or 1)

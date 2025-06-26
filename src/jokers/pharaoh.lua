@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'pharaoh',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Pharaoh',
-        text = {
-            'Gives {X:mult,C:white}X#1#{} Mult when money',
-            'held is greater than {C:money}$#2#',
-            '{C:inactive}(Increases by {C:money}$#3#{C:inactive} every round)'
-        }
-    },
 
     config = { extra = { Xmult = 3, buffer = 25, increase = 5 } },
     loc_vars = function(self, info_queue, card)

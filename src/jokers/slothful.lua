@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'slothful',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Slothful Joker',
-		text = {
-			"Scored {C:attention}Stone Cards{}",
-			"give {C:mult}+#1#{} Mult"
-		}
-	},
-
+	
 	config = { extra = { mult = 5 } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_stone']

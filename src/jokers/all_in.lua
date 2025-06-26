@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'all_in',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'All In',
-		text = {
-			"Gives {X:mult,C:white}X#1#{} mult",
-			"Lose all your money when",
-			"{C:attention}Blind{} is selected"
-		}
-	},
-
+	
 	config = { extra = { Xmult = 5 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.Xmult } }

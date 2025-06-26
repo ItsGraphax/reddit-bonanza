@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'oracle',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Oracle',
-		text = {
-			"Gives {X:mult,C:white}X#1#{} Mult per",
-            "{C:spectral}Spectral{} card used this",
-            "run",
-            "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { x_mult_per = 0.5 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { 

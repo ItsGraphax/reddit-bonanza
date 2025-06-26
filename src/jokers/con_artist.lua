@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'con_artist',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Con Artist',
-		text = {
-			"Choose an extra card",
-            "from any {C:attention}Booster Pack{}"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

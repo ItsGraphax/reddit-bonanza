@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'promotion',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Promotion',
-		text = {
-			"Increase Rank of",
-            "{C:attention}first{} scoring Card by {C:attention}1{}"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

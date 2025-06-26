@@ -1,18 +1,7 @@
 -- Kleptomaniac
 SMODS.Joker {
     key = "j_reddit_kleptomaniac",
-	loc_txt = {
-		name = 'Kleptomaniac',
-		text = {
-			"Refund all {C:attention}Items{} bought",
-			"in the {C:attention}Shop{}",
-            "{C:green} #1# in #2#{} Chance to deduct",
-            "all money owed, on buying",
-			"{C:inactive}Deducts 30% of owed money on sell{}",
-            "{C:inactive}(Currently {C:money}#3#${C:inactive}){}"
-		}
-	},
-
+	
 	config = { extra = { odds = 10, owed = 0 } },
 	loc_vars = function(self, info_queue, card)
 		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)

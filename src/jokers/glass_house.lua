@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'glass_house',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Glass House',
-		text = {
-			"Enhances last played card",
-			"into a {C:attention}Glass Card{} if",
-			"played hand contains a {C:attention}Full House{}"
-		}
-	},
-
+	
 	config = { extra = { enhancement = 'm_glass' } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_glass']

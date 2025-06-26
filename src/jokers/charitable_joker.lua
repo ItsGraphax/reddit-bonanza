@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'charitable_joker',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Charitable Joker',
-        text = {
-            'Played cards with',
-            '{C:diamonds}#1#{} suit give',
-            '{C:chips}+#2#{} chips when scored'
-        }
-    },
 
     config = { extra = { suit = 'Diamonds', chips = 20 } },
     loc_vars = function(self, info_queue, card)

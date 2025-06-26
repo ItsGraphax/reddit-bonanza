@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'jimbos_loss',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Jimbo\'s Loss',
-		text = {
-			"Gains {X:mult,C:white}X#1#{} mult when",
-			"{C:attention}#2#{} or more {C:attention}face cards{}",
-			"get discarded",
-			"{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} mult)"
-		}
-	},
-
+	
 	config = { extra = { faces = 3, mult_mod = 0.2, Xmult = 1 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.mult_mod, card.ability.extra.faces, card.ability.extra.Xmult } }

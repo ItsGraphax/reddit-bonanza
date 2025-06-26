@@ -2,13 +2,6 @@
 SMODS.Joker {
     key = 'cashback',
     blueprint_compat = false,
-    loc_txt = {
-        name = 'CashBack',
-        text = {
-            'Gains {C:money}$#1# {C:attention}Sell Value',
-            'for every purchase'
-        }
-    },
 
     config = { extra = { gain = 1 } },
     loc_vars = function(self, info_queue, card)

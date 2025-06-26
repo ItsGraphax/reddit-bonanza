@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'wild_west',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Wild West',
-		text = {
-			"{X:mult,C:white}X#1#{} Mult if played Hand",
-			"contains {C:attention}3 or more wild cards{}"
-		}
-	},
-
+	
 	config = { extra = { Xmult = 3 } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_wild']

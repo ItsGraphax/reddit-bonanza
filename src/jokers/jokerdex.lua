@@ -35,16 +35,7 @@ end
 SMODS.Joker {
 	key = 'jokerdex',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Jokerdex',
-		text = {
-			"{C:mult}+#1#{} Mult for every",
-            "unique {C:attention}Joker{} obtained",
-            "this run",
-            "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
-		}
-	},
-
+	
 	config = { extra = { mult_per = 2 } },
     loc_vars = function(self, info_queue, card)
         G.GAME.num_jokers_this_run = G.GAME.num_jokers_this_run or 0

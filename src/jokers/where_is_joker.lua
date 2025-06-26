@@ -2,17 +2,7 @@
 SMODS.Joker {
 	key = 'where_is_joker',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Where is Joker?',
-		text = {
-			"Gives the sell value",
-            "of the {C:attention}leftmost joker{} at",
-            "end of round",
-            "{C:inactive}(Max {C:money}$#1#{C:inactive})",
-			"{C:inactive}(Currently: {C:money}$#2#{C:inactive}){}"
-		}
-	},
-
+	
 	config = { extra = { max = 30 } },
     loc_vars = function(self, info_queue, card)
 		local current = ''

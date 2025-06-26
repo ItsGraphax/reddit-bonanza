@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'crimson_dawn',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Crimson Dawn',
-		text = {
-			"Retrigger all played",
-            "cards in {C:attention}first",
-            "{C:attention}hand{} of round"
-		}
-	},
-
+	
 	config = { extra = { active = false, repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'lets_go_gambling',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Let\'s go Gambling!',
-        text = {
-            'Creates a {C:purple}Wheel of Fortune',
-        'at the end of',
-        'every round'
-        }
-    },
 
     config = { extra = {  } },
     loc_vars = function(self, info_queue, card)

@@ -10,17 +10,7 @@ end
 SMODS.Joker {
 	key = 'chocolate_treadmill',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Chocolate Treadmill',
-		text = {
-			"Joker gains {C:attention}+1 hand{} and",
-			"loses {X:chips,C:white}X#5#{} chips if played",
-			"hand contains a {C:attention}straight{}, else",
-			"gains {X:chips,C:white}X#4#{} chips.",
-			"{C:inactive}(Curently {C:attention}#1# #2#{C:inactive} and {C:chips}+#3# Chips{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { chips = 500, hands = 2, good_mult = 2, bad_mult = 0.5 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.hands,  get_hand_loc(card), card.ability.extra.chips, card.ability.extra.good_mult, card.ability.extra.bad_mult } }

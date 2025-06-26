@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'hollow_point',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Hollow Point',
-		text = {
-			"{C:mult}+#1#{} Mult for each",
-			"empty {C:attention}Joker{} slot.",
-            "{s:0.8}Hollow Point included{}",
-            "{C:inactive}(Currently {C:mult}+#2#{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { mult_fac = 5 } },
     loc_vars = function(self, info_queue, card)
         local mult = 0

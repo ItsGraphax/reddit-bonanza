@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'ad_break',
     blueprint_compat = false,
-    loc_txt = {
-        name = 'Ad Break',
-        text = {
-            "End of round effects",
-            "trigger after every",
-            "{C:attention}hand{} played"
-        }
-    },
     rarity = 3,
 
     atlas = 'reddit_jokers',

@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'wizard',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Wizard',
-		text = {
-			"{C:attention}+#1#{} Consumable Slots.",
-			"{C:chips}+#2#{} chips for every",
-			"consumable held",
-            "{C:inactive}(Currently: {C:chips}+#3#{C:inactive} chips){}"
-		}
-	},
-
+	
 	config = { extra = { slots = 3, chips = 40 } },
     loc_vars = function(self, info_queue, card)
         local consumeable_count = 0

@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'rainbow',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Rainbow Joker',
-		text = {
-			"Gives {X:mult,C:white}X1{} mult",
-			"per unique {C:attention}suit{}",
-			"in scoring hand"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

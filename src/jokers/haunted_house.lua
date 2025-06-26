@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'haunted_house',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Haunted House',
-		text = {
-			"{C:green}#1# in #2#{} chance to create",
-			"a {C:blue}Spectral Card{} when the",
-			"played hand contains a {C:attention}#3#{}"
-		}
-	},
-
+	
 	config = { extra = { odds = 4, poker_hand = 'Full House' } },
     loc_vars = function(self, info_queue, card)
         local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)

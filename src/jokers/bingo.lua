@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'bingo',
     blueprint_compat = false,
-    loc_txt = {
-        name = 'Bingo!',
-        text = {
-            "Earn {C:money}$#1#{} when a card",
-			"of every rank has been played",
-			"{C:inactive}(Currently played: #2#){}"
-        }
-    },
 
     config = { extra = { money = 13, played_ranks = {} } },
     loc_vars = function(self, info_queue, card)

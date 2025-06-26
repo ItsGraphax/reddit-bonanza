@@ -11,17 +11,7 @@ end
 SMODS.Joker {
 	key = 'superstition',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Superstition',
-		text = {
-			"{X:mult,C:white}X#1#{} Mult for every {C:attention}7{}",
-            "in your {C:attention}full deck{},",
-			"-{X:mult,C:white}X#1#{} Mult for every 6",
-			"in your {C:attention}full deck{}",
-            "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive}){}"
-		}
-	},
-
+	
 	config = { extra = { xmult_fac = 0.25 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { 

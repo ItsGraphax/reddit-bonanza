@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'blank_joker',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Blank Joker',
-		text = {
-			"Sell this card after beating",
-			"{C:attention}#1#{} Boss Blinds",
-			"to create an extra {C:attention}Joker Slot{}",
-			"{C:inactive}(Currently {C:attention}#2#{C:inactive}/{C:attention}#1#{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { total_bosses = 2, current_bosses = 0, blind = false } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.total_bosses, card.ability.extra.current_bosses } }

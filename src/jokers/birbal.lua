@@ -4,14 +4,7 @@ SMODS.get_optional_features()
 SMODS.Joker {
 	key = "birbal",
     blueprint_compat = true,
-	loc_txt = {
-        name = 'Birbal',
-        text = {
-            "{X:mult,C:white}X#1#{} mult when a",
-            "{C:attention}joker{} is triggered",
-        }
-    },
-    config = { extra = { xmult = 2, in_scoring = false } },
+	    config = { extra = { xmult = 2, in_scoring = false } },
     loc_vars = function (self, info_queue, card)
         return { vars = { card.ability.extra.xmult } }
     end,

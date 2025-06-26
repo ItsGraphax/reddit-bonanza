@@ -23,17 +23,7 @@ end
 SMODS.Joker {
 	key = 'match3',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Match 3',
-		text = {
-			"If at least {C:attention}#1#{} scored",
-			"cards are of the same",
-            "{C:attention}rank{} and {C:attention}suit{}, {C:chips}+#2#{} chips",
-            "and +{C:money}$#3#{} for every",
-			"scored qualifying card"
-		}
-	},
-
+	
 	config = { extra = { count = 3, chips = 50, money = 1 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { 

@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'feelin_lucky',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Feelin\' Lucky',
-		text = {
-			"{C:green}#1# in #2#{} Chance to",
-			"retrigger {C:attention}Lucky{}",
-            "{C:clubs}#3#{} {C:attention}Cards{} thrice"
-		}
-	},
-
+	
 	config = { extra = { repetitions = 3, suit = 'Clubs', odds = 3 } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_lucky']

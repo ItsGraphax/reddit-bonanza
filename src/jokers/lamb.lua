@@ -2,15 +2,6 @@
 SMODS.Joker {
     key = 'lamb',
     blueprint_compat = false,
-    loc_txt = {
-        name = 'Lamb',
-        text = {
-            "After playing every",
-			"base {C:attention}Poker hand{}, sell this",
-			"to create a {C:legendary}Legendary{} joker",
-			"{C:inactive}(#1#/9){}"
-        }
-    },
 
     config = { extra = { played_hands = {
 		["High Card"] = false,

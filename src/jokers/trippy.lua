@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'trippy',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Trippy Joker',
-		text = {
-			"Gains {X:mult,C:white}X#1#{} mult",
-			"if played hand is {C:attention}#2#{},",
-			"resets otherwise",
-			"{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} mult)"
-		}
-	},
-
+	
 	config = { extra = { Xmult = 1, mult_mod = 0.2, hand = 'High Card' } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.mult_mod, card.ability.extra.hand, card.ability.extra.Xmult } }

@@ -10,15 +10,7 @@ end
 SMODS.Joker {
 	key = 'hi_five',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Hi Five',
-		text = {
-			"Gives {C:money}$#1#{} per",
-			"{C:money}#2#{} in your deck",
-			"{C:inactive}(Currently {C:money}$#3#{C:inactive}){}"
-		}
-	},
-
+	
 	config = { extra = { dollars = 2, rank = 5, sell_cost = 0 } },
     loc_vars = function(self, info_queue, card)
 		tally = 0

@@ -11,14 +11,7 @@ SMODS.Joker {
 	key = 'double_glazing',
 	blueprint_compat = false,
     enhancement_gate = 'm_glass',
-	loc_txt = {
-		name = 'Double Glazing',
-		text = {
-			"{C:attention}Glass cards{} are half as",
-			"likely to be destroyed"
-		}
-	},
-    loc_vars = function(self, info_queue, card)
+	    loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = G.P_CENTERS.m_glass
         return { vars = { G.GAME.probabilities.normal or 1, 8 } }
     end,

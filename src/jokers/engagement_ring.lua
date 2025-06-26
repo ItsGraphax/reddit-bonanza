@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'engagement_ring',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Engagement Ring',
-		text = {
-			'{C:green}#1# in #2#{} chance to retrigger',
-            '{C:attention}Scored {C:diamonds}#3#'
-		}
-	},
-
+	
 	config = { extra = { odds = 2, suit = 'Diamonds', repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
 		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)

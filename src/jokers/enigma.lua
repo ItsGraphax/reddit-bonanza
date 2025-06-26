@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'enigma',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Enigma',
-		text = {
-			"{C:green}#1# in #2#{} chance to create",
-			"a {C:dark_edition}Negative {C:blue}Spectral{}",
-			"card when you use a",
-			"{C:attention}Tarot {}or {C:attention}Planet{} card"
-		}
-	},
-
+	
 	config = { extra = { odds = 10 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { SMODS.get_probability_vars(card, 1, card.ability.extra.odds) } }

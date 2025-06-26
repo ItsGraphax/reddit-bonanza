@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'sphinx',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Sphinx of Black Quartz',
-		text = {
-			"When {C:attention}Blind{} is selected,",
-            "create {C:attention}1{} {C:green}Uncommon{} {C:attention}Joker",
-            "{C:inactive}(Must have room)"
-		}
-	},
-
+	
 	config = { extra = { } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

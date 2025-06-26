@@ -12,16 +12,7 @@ end
 SMODS.Joker {
 	key = 'mad',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'M.A.D.',
-		text = {
-			"Sell this Joker to defeat",
-			"{C.attention}this Blind{}, Increase",
-			"{C:attention}Ante{} by {C:attention}+1{} and set",
-			"money to {C:money}0{}"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

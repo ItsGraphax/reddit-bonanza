@@ -9,16 +9,7 @@ end
 SMODS.Joker {
 	key = 'savings_account',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Savings Account',
-		text = {
-			"{C:chips}+#1#{} chips for every {C:money}$1{} of",
-			"{C:attention}interest{} earned this",
-			"run",
-			"{C:inactive}(Currently {C:chips}+#2#{C:inactive} chips)"
-		}
-	},
-
+	
 	config = { extra = { chip_mod = 2 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { 

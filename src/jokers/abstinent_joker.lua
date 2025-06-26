@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'abstinent_joker',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Abstinent Joker',
-        text = {
-            'Played cards with',
-            '{C:clubs}#1#{} suit give',
-            '{C:chips}+#2#{} chips when scored'
-        }
-    },
 
     config = { extra = { suit = 'Clubs', chips = 20 } },
     loc_vars = function(self, info_queue, card)

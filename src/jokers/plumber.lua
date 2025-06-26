@@ -42,14 +42,7 @@ end
 SMODS.Joker {
 	key = 'plumber',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Plumber',
-		text = {
-			"Leveling up one {C:attention}Flush{} type",
-            "levels up all {C:attention}Flush{} types"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

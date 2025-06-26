@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'legally_distinct',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Legally Distinct',
-        text = {
-            'All played {C:attention}Face Cards{}',
-'turn into {C:attention}Steel Cards{}',
-'when scored'
-        }
-    },
 
     config = { extra = {  } },
     loc_vars = function(self, info_queue, card)

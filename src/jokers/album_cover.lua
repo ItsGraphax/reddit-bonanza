@@ -2,14 +2,7 @@
 SMODS.Joker {
 	key = 'album_cover',
 	blueprint_compat = false,
-	loc_txt = {
-		name = 'Album Cover',
-		text = {
-			"All booster packs contain",
-            "an extra card"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

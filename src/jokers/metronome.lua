@@ -2,18 +2,7 @@
 SMODS.Joker {
 	key = 'metronome',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Metronome',
-		text = {
-			"Gains {C:mult}+#1#{} Mult if",
-            "played hand is same as",
-            "second last hand, but not last",
-            "{C:inactive}(Currently {C:mult}+#2#{C:inactive})",
-            "{C:inactive}(Current Last: {C:attention}#3#{C:inactive})",
-            "{C:inactive}(Current Second Last: {C:attention}#4#{C:inactive})"
-		}
-	},
-
+	
 	config = { extra = { mult_mod = 3, last_played = 'None', second_last_played = 'None', mult = 0 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.mult_mod, card.ability.extra.mult, card.ability.extra.last_played, card.ability.extra.second_last_played } }

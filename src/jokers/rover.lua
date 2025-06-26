@@ -2,14 +2,6 @@
 SMODS.Joker {
     key = 'rover',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Rover',
-        text = {
-            'Gains {C:mult}+#1#{} Mult per {C:attention}Stone',
-            '{C:attention}Card {}played',
-            '{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)'
-        }
-    },
 
     config = { extra = { gain = 1, mult = 0 } },
     loc_vars = function(self, info_queue, card)

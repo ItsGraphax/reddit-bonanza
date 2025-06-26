@@ -2,15 +2,7 @@
 SMODS.Joker {
 	key = 'pier',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Pier',
-		text = {
-			"If first discard of round",
-            "has only 1 card, it gains",
-            "a random seal"
-		}
-	},
-
+	
 	config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
 		return { vars = {  } }

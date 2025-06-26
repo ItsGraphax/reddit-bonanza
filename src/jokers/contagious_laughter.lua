@@ -2,16 +2,7 @@
 SMODS.Joker {
 	key = 'contagious_laughter',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Contagious Laughter',
-		text = {
-            "{C:mult}+#1#{} Mult",
-			"When {C:attention}Blind{} is selected, replace",
-            "Joker to the right with a {C:dark_edition}Negative{}",
-            "copy of {C:attention}Contagious Laughter{}"
-		}
-	},
-
+	
 	config = { extra = { mult = 4 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.mult } }

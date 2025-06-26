@@ -90,17 +90,7 @@ end
 SMODS.Joker {
 	key = 'entangled_joker',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'Entangled Joker',
-		text = {
-			"Copies the ability",
-            "of a random {C:attention}Joker{}, changes",
-            "when blind is selected",
-            "{s:0.8}Cannot copy Entangled Joker{}",
-            "{C:inactive}(Currently: #1#){}",
-		}
-	},
-    
+	    
 	config = { extra = { other_joker = nil } },
     
     load = function (self, card, card_table, other_card)

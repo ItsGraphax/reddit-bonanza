@@ -2,15 +2,6 @@
 SMODS.Joker {
     key = 'ace_up_your_sleeve',
     blueprint_compat = true,
-    loc_txt = {
-        name = 'Ace up your Sleeve',
-        text = {
-            'When round begins,',
-            'add an {C:attention}Ace{} with',
-            'a random {C:attention} Edition{} and',
-            '{C:attention}Seal{} to your Hand'
-        }
-    },
 
     config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
