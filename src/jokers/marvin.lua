@@ -17,7 +17,7 @@ SMODS.Joker {
 
 	calculate = function(self, card, context)
         if context.joker_main then
-            if G.GAME.dollars <= card.ability.extra.money_cap then
+            if to_number(G.GAME.dollars) <= card.ability.extra.money_cap then
                 return {
                     xmult = card.ability.extra.Xmult
                 }
