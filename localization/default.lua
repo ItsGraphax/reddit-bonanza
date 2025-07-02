@@ -297,15 +297,6 @@ return {
                     'every round'
                 }
             },
-            j_reddit_mad = {
-                name = 'M.A.D.',
-                text = {
-                    "Sell this Joker to defeat",
-                    "{C.attention}this Blind{}, Increase",
-                    "{C:attention}Ante{} by {C:attention}+1{} and set",
-                    "money to {C:money}0{}"
-                }
-            },
             j_reddit_marvin = {
                 name = 'Marvin',
                 text = {

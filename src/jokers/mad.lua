@@ -12,10 +12,18 @@ end
 SMODS.Joker {
 	key = 'mad',
 	blueprint_compat = true,
-	
-	config = { extra = {  } },
-    loc_vars = function(self, info_queue, card)
-		return { vars = {  } }
+
+	loc_txt = { name = 'M.A.D.',
+		text = {
+			"Sell this Joker to defeat",
+			"{C.attention}this Blind{}, Increase",
+			"{C:attention}Ante{} by {C:attention}+1{} and set",
+			"money to {C:money}0{}"
+		} },
+
+	config = { extra = {} },
+	loc_vars = function(self, info_queue, card)
+		return { vars = {} }
 	end,
 
 	rarity = 3,
@@ -23,34 +31,34 @@ SMODS.Joker {
 	pos = { x = 0, y = 2 },
 	cost = 15,
 	calculate = function(self, card, context)
-        if context.selling_self then
+		if context.selling_self then
 			return {
-				func = function ()
+				func = function()
 					ease_ante(1)
 					win_blind()
 					ease_dollars(-G.GAME.dollars)
 					if
 						not G.GAME.won
 					then
-                		G.E_MANAGER:add_event(Event({
+						G.E_MANAGER:add_event(Event({
 							trigger = 'immediate',
-                		    blocking = false,
-                		    blockable = false,
-                		    func = (function()
+							blocking = false,
+							blockable = false,
+							func = (function()
 								if G.GAME.round_resets.ante > G.GAME.win_ante and not G.GAME.won then
 									G.GAME.won = true
 									G.GAME.win_notified = true
-                		            win_game()
+									win_game()
 								end
 								return true
-                		    end)
-                		}))
+							end)
+						}))
 					end
 				end
 			}
 		end
 	end,
-    set_badges = function(self, card, badges)
-        badges[#badges+1] = credit_badge('TSAMarioYTReddit', false)
-    end
+	set_badges = function(self, card, badges)
+		badges[#badges + 1] = credit_badge('TSAMarioYTReddit', false)
+	end
 }
