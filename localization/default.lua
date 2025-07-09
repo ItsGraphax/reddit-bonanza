@@ -370,6 +370,20 @@ return {
                     "{C:attention}run{C:inactive}){}"
                 }
             },
+            j_reddit_biker = {
+                name = 'Biker',
+                text = {
+                    '{C:white,X:mult}X#1#{} Mult for each',
+                    '{C:attention}Biker{} in possession',
+                    '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
+                }
+            },
+            j_reddit_gourmand = {
+                name = 'Gourmand',
+                text = {
+                    '+1 {C:attention}Consumeable{} Slot'
+                }
+            },
             j_reddit_pier = {
                 name = 'Pier',
                 text = {
