@@ -47,6 +47,12 @@ SMODS.Atlas({
 
 REDDIT = SMODS.current_mod
 
+if not Talisman then
+	to_number = function (n)
+		return n
+	end
+end
+
 assert(SMODS.load_file("src/jokers.lua"))()
 assert(SMODS.load_file("src/vouchers.lua"))()
 assert(SMODS.load_file("src/enhancements.lua"))()
