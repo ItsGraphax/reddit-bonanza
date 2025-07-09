@@ -29,6 +29,7 @@
 - [x] Contagious Laughter [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
 - [x] Laundromat [Link](https://www.reddit.com/r/balatro/comments/1kt7joe/came_up_with_a_joker_idea_no_idea_how_balanced_it/)
 - [x] Superstition [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Butter Fingers [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Sphinx of Black Quartz [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Crimson Dawn [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [x] Birbal [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
@@ -48,6 +49,7 @@
 - [x] Wild West
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
+- [x] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
 FINISHPOSTREP
 
 # Waiting List
@@ -55,7 +57,6 @@ FINISHPOSTREP
 - [ ] Equivalent Exchange [Link](https://www.reddit.com/r/balatro/comments/1klukvy/fuck_it_reposting_it_again/)
 - [ ] Goldfinger [Link](https://www.reddit.com/r/balatro/comments/1kviylt/i_made_a_joker_that_completes_the_banana_trilogy/)
 - [ ] Double Glazing [Link](https://www.reddit.com/r/balatro/comments/1kmcvm1/decided_to_make_some_custom_joker_ideas_no_idea/)
-- [ ] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
 - [ ] Joke Free Zone [Link](https://www.reddit.com/r/balatro/comments/1kqcdt3/i_love_drawing_jokers_for_fun_so_i_tried_to_turn/)
 - [ ] Thunderstruck [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Hard)
 - [ ] Thin Ice [Link](https://www.reddit.com/r/balatro/comments/1jycf28/balanced_jonklers_volume_2/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) (Note: Debuff maybe?)

@@ -384,6 +384,13 @@ return {
                     '+1 {C:attention}Consumeable{} Slot'
                 }
             },
+            j_reddit_butter_fingers = {
+                name = 'Butter Fingers',
+                text = {
+                    'Every discarded card',
+                    'gains {C:mult}+#1#{} Mult'
+                }
+            },
             j_reddit_pier = {
                 name = 'Pier',
                 text = {
