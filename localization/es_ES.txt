@@ -14,8 +14,8 @@ return {
             j_reddit_abstinent_joker = {
                 name = 'Comodín Abstinente',
                 text = {
-                    'Jugó cartas con',
-                    '{C:clubs}#1#{} palo da',
+                    'Jugar cartas',
+                    '{C:clubs}#1#{} dan',
                     '{C:chips}+#2#{} fichas cuando se puntúa'
                 }
             },
@@ -47,8 +47,8 @@ return {
                 name = 'Todo o Nada',
                 text = {
                     "Da {X:mult,C:white}X#1#{} multiplicador",
-                    "Pierde todo tu dinero cuando",
-                    "{C:attention}Blind{} es seleccionado"
+                    "Pierde todo tu dinero cuando la",
+                    "{C:attention}Ciega{} es seleccionado"
                 }
             },
             j_reddit_artist = {
