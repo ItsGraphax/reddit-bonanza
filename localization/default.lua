@@ -532,7 +532,8 @@ return {
         challenge_names = {},
         collabs = {},
         dictionary = {
-            b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs (Requires Restart!)'
+            b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs (Requires Restart!)',
+            b_reddit_enable_joker_overrides = 'Enable Joker Overrides (Requires Restart!)',
         },
         high_scores = {},
         labels = {},

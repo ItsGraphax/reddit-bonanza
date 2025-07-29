@@ -2,17 +2,11 @@
 SMODS.Joker {
 	key = 'JOKER ID',
 	blueprint_compat = true,
-	loc_txt = {
-		name = 'JOKER NAME',
-		text = {
-			"JOKER DESC"
-		}
-	},
 
-	config = { extra = {  } },
+    config = { extra = { } },
     loc_vars = function(self, info_queue, card)
-		return { vars = {  } }
-	end,
+        return { vars = { } }
+    end,
 
 	rarity = RARITY,
 	

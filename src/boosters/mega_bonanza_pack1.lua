@@ -20,6 +20,8 @@ SMODS.Booster {
     atlas = 'boosters',
 	pos = { x = 3, y = 0 },
 
+    cost = 8,
+
     weight = 0.5,
     select_card = 'jokers',
     create_card = function (self, card, i)

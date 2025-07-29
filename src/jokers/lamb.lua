@@ -63,5 +63,6 @@ SMODS.Joker {
 
     set_badges = function(self, card, badges)
         badges[#badges+1] = credit_badge('Beasstvg', false)
+        badges[#badges+1] = credit_badge('TSAMarioYTReddit', true)
     end
 }

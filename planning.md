@@ -50,6 +50,9 @@
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 - [x] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 - [x] Biker [Link](https://www.reddit.com/r/balatro/comments/1kmxev1/wanna_join_our_biker_gang_custom_joker_post/) 
+- [x] Pharaoh [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
+- [x] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
+- [x] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here_is_a_buff_for_8_ball_as_well_as_some_art_to/)
 FINISHPOSTREP
 
 # Waiting List
@@ -68,7 +71,6 @@ FINISHPOSTREP
 - [ ] Chasm [Link](https://www.reddit.com/r/balatro/comments/1l89253/the_solution_to_make_stone_cards_viable_remove/)
 - [ ] Distinguished [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Rover [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
-- [ ] Pharaoh [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Tough Crowd [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] Sheet Music [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
 - [ ] [SPECTRAL] Skyfall [Link](https://www.reddit.com/r/balatro/comments/1hnbwvn/oc_here_are_some_custom_jokers_and_more_concepts/)
@@ -83,11 +85,8 @@ FINISHPOSTREP
 - [ ] The Promotion [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] The Werewolf [Link](https://www.reddit.com/r/balatro/comments/1kup5u1/some_unserious_joker_ideas/)
 - [ ] Slot_Machine [Link](https://www.reddit.com/r/balatro/comments/1ktd4dg/had_an_idea_for_a_slot_machine_joker_lemme_know/)
-- [ ] Plumber [Link](https://www.reddit.com/r/balatro/comments/1ku3zt4/thought_of_a_plumber_joker_idea_that_would_give_a/)
 - [ ] Social_Media [Link](https://www.reddit.com/r/balatro/comments/1l5zqj4/joker_idea/)
-- [ ] 8 Ball Mod [Link](https://www.reddit.com/r/balatro/comments/1l9vmzo/here_is_a_buff_for_8_ball_as_well_as_some_art_to/)
 - [ ] Lucky Saver [Link](https://discord.com/channels/1380892511081463889/1383166608674918591/1383166608674918591)
-- [ ] Jokerdex [Link](https://www.reddit.com/r/balatro/comments/1k7s9yr/joker_concept_jokerdex/)
 - [ ] ['Molotov'] [Link](https://www.reddit.com/r/balatro/comments/1la1tzm/heres_another_joker/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] ['Flying_Strawberry'] [Link](https://www.reddit.com/r/balatro/comments/1lb47yq/my_gf_who_does_not_like_balatro_did_the_art_for/)
 - [ ] ['Glimpse'] [Link](https://www.reddit.com/r/balatro/comments/1lc0v0m/joker_idea_by_me/?share_id=ZpQZ_b87WgDdsLpAkSdiF&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1)
