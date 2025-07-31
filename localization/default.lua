@@ -13,6 +13,13 @@ return {
                     '{C:chips}+#2#{} chips when scored'
                 }
             },
+            j_reddit_triplets = {
+                name = 'Triplets',
+                text = {
+                    'Played {C:attention}3\'s{} give',
+                    '{C:chips}+#1#{} Chips, {C:mult}+#2# Mult{} and {C:money}$#3#{}'
+                }
+            },
             j_reddit_up_the_sleeve = {
                 name = 'Up the Sleeve',
                 text = {
