@@ -23,7 +23,7 @@ SMODS.Joker {
 			-- Check if Caught
 			if SMODS.pseudorandom_probability(card, 'j_reddit_kleptomaniac', 1, card.ability.extra.odds)
 			and context.card.cost >= 1 then
-				money = -card.ability.extra.owed
+				local money = -card.ability.extra.owed
 				card.ability.extra.owed = 0
 
 				return {

@@ -5,20 +5,20 @@ return {
         Edition = {},
         Enhanced = {},
         Joker = {
-            j_reddit_gourmand = {
-                name = "Gourmand",
-                text = {
-                    "{C:attention}+1{} consumable slot"
-                }
-            }
-        },
-        Joker = {
             j_reddit_abstinent_joker = {
                 name = 'Abstinent Joker',
                 text = {
                     'Played cards with',
                     '{C:clubs}#1#{} suit give',
                     '{C:chips}+#2#{} chips when scored'
+                }
+            },
+            j_reddit_up_the_sleeve = {
+                name = 'Up the Sleeve',
+                text = {
+                    'Gives {C:white,X:mult}x#1#{} Mult',
+                    'for every undrawn {C:attention} in Deck',
+                    '{C:inactive}(Currently {C:white,X:mult}x#2#{C:inactive} Mult)'
                 }
             },
             j_reddit_ace_up_your_sleeve = {
