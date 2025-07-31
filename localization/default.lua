@@ -60,6 +60,14 @@ return {
                     "{C:attention}Blind{} is selected"
                 }
             },
+            j_reddit_slot_machine = {
+                name = 'Slot Machine',
+                text = {
+                    '{C:mult}-$#1#{} per {C:attention}Card{} Scored',
+                    'Gives between {C:money}$#2#{} and',
+                    '{C:money}$#3#{} a end of round'
+                }
+            },
             j_reddit_artist = {
                 name = 'Artist',
                 text = {
