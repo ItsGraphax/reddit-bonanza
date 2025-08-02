@@ -1,5 +1,6 @@
 local count_bikers = function ()
     local bikers = 0
+    if G.jokers == nil then return end
     for _, j in ipairs(G.jokers.cards) do
         if j.config.center_key == 'j_reddit_biker' then
             bikers = bikers + 1
@@ -16,7 +17,7 @@ SMODS.Joker {
 
 	config = { extra = { Xmult = 2 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.Xmult, count_bikers() * card.ability.extra.Xmult } }
+		return { vars = { card.ability.extra.Xmult, (count_bikers() or 1) * card.ability.extra.Xmult } }
 	end,
 
 	rarity = 2,
