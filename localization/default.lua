@@ -1,7 +1,23 @@
 return {
     descriptions = {
         Back = {},
-        Blind = {},
+        Blind = {
+            j_reddit_spotlight = {
+                name = 'The Spotlight',
+                text = {
+                    'Non-enhanced cards',
+                    'are drawn face down'
+                }
+            },
+            j_reddit_gourmet= {
+                name = 'The Gourmet',
+                text = {
+                    'All cards are debuffed',
+                    'until a consumable is',
+                    'used or sold'
+                }
+            },
+        },
         Edition = {},
         Enhanced = {},
         Joker = {
@@ -539,6 +555,98 @@ return {
                     "{C:inactive}(Currently: {C:chips}+#3#{C:inactive} chips){}"
                 }
             },
+            -- i can't be bothered to alphabetize it rn; TheNeto06
+
+            j_reddit_event_horizon = {
+                name = 'Event Horizon',
+                text = {
+                    '{C:green}#3# in #4#{} chance to {C:attention}destroy{}',
+                    'a card when scored,', '{X:mult,C:white}X#1#{} Mult for every destroyed',
+                    '{C:attention}scoring card', 
+                    '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
+                }
+            },
+            j_reddit_golden_retriever = { 
+                name = 'Golden Retriever',
+                text = {
+                    'Add a {C:attention}Gold Card{} with a',
+                    '{C:attention}Gold Seal{} at the start',
+                    'of every round'
+                }
+            },
+            j_reddit_ore_vein = { 
+                name = 'Ore Vein',
+                text = {
+                    '{C:attention}Stone Cards{} also',
+                    'count as {C:attention}Gold Cards{}'
+                }
+            },
+            j_reddit_waiting = {
+                name = 'Waiting',
+                text = {
+                    'This Joker becomes a copy',
+                    'of the next {C:rare}Rare{} Joker you',
+                    'obtain. If no {C:rare}Rare{} Jokers',
+                    'are acquired in {C:attention}#2#{} rounds,',
+                    'this card is {C:attention}destroyed',
+                    '{C:inactive}(Currently #1#/#2#)'
+                }
+            },
+            j_reddit_lemonade = {
+                name = 'Lemonade',
+                text = {
+                    '{C:white,X:mult}X#1#{} Mult',
+                    'Loses {C:white,X:mult}X#2#{} for each',
+                    'card sold or destroyed'
+                }
+            },
+            j_reddit_meninblack = {
+                name = 'Secret Agent',
+                text = {
+                    'After {C:attention}#1#{} hands, sell this card to',
+                    'create a random {C:rare}Rare{} Joker',
+                    '{C:inactive}(Must have room)',
+                    '{C:inactive}({C:attention}#2#{C:inactive} remaining)'
+                }
+            },
+            j_reddit_notfunny = {
+                name = 'Not Funny',
+                text = {
+                    'All {C:attention}Jokers{} to the left',
+                    'of this card are {C:attention}disabled{}',
+                    'when a hand is played.',
+                    '{X:mult,C:white}X#1#{} Mult for every Joker',
+                    'disabled this way',
+                    '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)',
+                    '{C:inactive,s:0.7}({C:dark_edition,s:0.7}Negative{C:inactive,s:0.7} Jokers excluded)'
+                }
+            },
+            j_reddit_toiletpaper = {
+                name = 'Toilet Paper',
+                text = {
+                    'Gains {X:mult,C:white}X#1#{} Mult for',
+                    'every {C:planet}Uranus{} used,',
+                    'resets when a {C:attention}Flush',
+                    'is played',
+                    '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
+                }
+            },
+            j_reddit_4head = {
+                name = '4Head',
+                text = {
+                    'Gains {X:mult,C:white}X#1#{} Mult for',
+                    'every {C:attention}#2# face cards',
+                    'in your {C:attention}full deck',
+                    '{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} Mult)'
+                }
+            },
+            j_reddit_newspaper = {
+                name = 'Frontpage',
+                text = {
+                    'When round begins,',
+                    'draw {C:attention}#1#{} extra cards'
+                }
+            },
         },
         Other = {},
         Planet = {},
@@ -552,6 +660,7 @@ return {
         achievement_descriptions = {},
         achievement_names = {},
         blind_states = {},
+        challenge_names = {},
         challenge_names = {},
         collabs = {},
         dictionary = {
