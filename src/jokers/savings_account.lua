@@ -27,7 +27,7 @@ SMODS.Joker {
 
 	calculate = function(self, card, context)
 		if context.post_cash_out and not context.blueprint then
-			if to_number(G.GAME.interest_this_round) and to_number(G.GAME.interest_this_round) > 0 then
+			if to_big(G.GAME.interest_this_round) and to_big(G.GAME.interest_this_round) > 0 then
 				return { message = localize('k_upgrade_ex') }
 			end
 			

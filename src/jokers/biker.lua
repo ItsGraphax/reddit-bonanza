@@ -1,4 +1,8 @@
 local count_bikers = function ()
+    if not G.jokers then
+        return 0
+    end
+
     local bikers = 0
     for _, j in ipairs(G.jokers.cards) do
         if j.config.center_key == 'j_reddit_biker' then
