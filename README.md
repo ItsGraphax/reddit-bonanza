@@ -86,7 +86,8 @@ Feel Free to open an Issue when you find a Problem!
 - Co Author: [u/the_neto06](https://reddit.com/u/the_neto06) - [TheNeto06](https://github.com/TheNeto06)
 - Artist: [u/TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
 - Translators:
-    - [u/Professional_Toe8022 \(BLUE\)](https://reddit.com/u/Professional_Toe8022/)
+    - Redsto (No Reddit) - Spanish (Incomplete due to update)
+    - [u/Professional_Toe8022 \(BLUE\)](https://reddit.com/u/Professional_Toe8022/) - Russian (Unfinished)
 - Special Thanks
     - [u/VALERock](https://reddit.com/u/VALERock) - Thank you for the support <3
 - Jokers:
