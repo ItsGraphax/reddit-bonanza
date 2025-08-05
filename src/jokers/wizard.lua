@@ -30,7 +30,7 @@ SMODS.Joker {
     remove_from_deck = function(self, card, from_debuff)
         G.E_MANAGER:add_event(Event({
             func = function()
-                G.consumeables.config.card_limit = G.consumeables.config.card_limit - card.ability.extra.slots
+                G.consumeables.config.card_limit = G.consumeables.config.card_limit - (card.ability.extra.slots or 3)
                 return true
             end }))
     end,

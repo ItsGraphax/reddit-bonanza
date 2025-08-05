@@ -48,7 +48,7 @@ SMODS.Atlas({
 REDDIT = SMODS.current_mod
 
 if not Talisman then
-	to_number = function (n)
+	to_big = function (n)
 		return n
 	end
 end

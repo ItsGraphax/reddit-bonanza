@@ -28,12 +28,20 @@ return {
                     '{C:inactive}(Currently {C:white,X:mult}x#2#{C:inactive} Mult)'
                 }
             },
+            j_reddit_doppelganger = {
+                name = 'Doppelganger',
+                text = {
+                    'When Blind is beaten with {C:attention}2x{}',
+                    'the requirement, create a {C:attention}permanent{}',
+                    '{C:attention}copy{} of the last card in hand.'
+                }
+            },
             j_reddit_ace_up_your_sleeve = {
                 name = 'Ace up your Sleeve',
                 text = {
                     'When round begins,',
                     'add an {C:attention}Ace{} with',
-                    'a random {C:attention} Edition{} and',
+                    'a random {C:attention}Edition{} and',
                     '{C:attention}Seal{} to your Hand'
                 }
             },

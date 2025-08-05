@@ -5,12 +5,6 @@ return {
         Edition = {},
         Enhanced = {},
         Joker = {
-            j_reddit_gourmand = {
-                name = "Gourmand",
-                text = {
-                    "{C:attention}+1{} espacio consumible"
-                }
-            },
             j_reddit_abstinent_joker = {
                 name = 'Comodín Abstinente',
                 text = {
@@ -438,7 +432,7 @@ return {
             j_reddit_sinister_joker = {
                 name = 'Comodín Siniestro',
                 text = {
-                    "Gana {X:mult,C:white}X#1#{} multiplicador "por cada Comodín a la derecha",
+                    "Gana {X:mult,C:white}X#1#{} multiplicador por cada Comodín a la derecha",
                     "{C:inactive}(Actualmente {X:mult,C:white}X#2#{C:inactive} multiplicador)"
                 }
             },
