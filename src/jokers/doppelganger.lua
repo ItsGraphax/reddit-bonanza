@@ -35,7 +35,7 @@ SMODS.Joker {
             return {
                 message = localize('k_copied_ex'),
                 colour = G.C.CHIPS,
-                func = function() -- This is for timing purposes, it runs after the message
+                func = function()
                     G.E_MANAGER:add_event(Event({
                         func = function()
                             SMODS.calculate_context({ playing_card_added = true, cards = { copy_card } })
@@ -48,6 +48,7 @@ SMODS.Joker {
     end,
 
     set_badges = function(self, card, badges)
-        badges[#badges + 1] = credit_badge('USER', false)
+        badges[#badges + 1] = credit_badge('Thomassaurus', false)
+        badges[#badges + 1] = credit_badge('TSAMarioYTReddit', true)
     end
 }
