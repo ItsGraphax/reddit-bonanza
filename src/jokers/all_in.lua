@@ -14,8 +14,8 @@ SMODS.Joker {
 	cost = 6,
 	calculate = function(self, card, context)
         if context.setting_blind and not context.blueprint and
-		G.GAME.dollars > 0 then
-			ease_dollars(- G.GAME.dollars)
+		to_big(G.GAME.dollars) > 0 then
+			ease_dollars(- to_big(G.GAME.dollars))
 			return {
 				message = "All in!"
 			}

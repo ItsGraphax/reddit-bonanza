@@ -16,7 +16,7 @@ SMODS.Joker {
     cost = 4,
 
     calculate = function(self, card, context)
-        if context.buying_card then
+        if context.buying_card or context.open_booster then
             card.sell_cost = card.sell_cost + card.ability.extra.gain
             return {
                 message = 'CashBack!'

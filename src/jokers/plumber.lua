@@ -9,6 +9,7 @@ function level_up_hand(card, hand, instant, amount)
     }
     local plumber_cards = SMODS.find_card('j_reddit_plumber')
     if not next(plumber_cards) then return og_lv_up(card, hand, instant, amount) end
+    if amount < 1 then return og_lv_up(card, hand, instant, amount) end
     local card = plumber_cards[1]
     for i = 1, #plumber_hands do
         if hand == plumber_hands[i] then
@@ -54,10 +55,6 @@ SMODS.Joker {
 	pos = { x = 7, y = 0 },
 
 	cost = 6,
-
-	calculate = function(self, card, context)
-        -- CALCULATE
-	end,
 
     set_badges = function(self, card, badges)
         badges[#badges+1] = credit_badge('Kid4U_Reddit', false)

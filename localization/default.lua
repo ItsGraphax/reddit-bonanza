@@ -40,7 +40,7 @@ return {
                 name = 'Up the Sleeve',
                 text = {
                     'Gives {C:white,X:mult}x#1#{} Mult',
-                    'for every undrawn {C:attention} in Deck',
+                    'for every undrawn {C:attention}Ace{} in Deck',
                     '{C:inactive}(Currently {C:white,X:mult}x#2#{C:inactive} Mult)'
                 }
             },
