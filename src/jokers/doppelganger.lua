@@ -8,10 +8,10 @@ SMODS.Joker {
         return { vars = {} }
     end,
 
-    rarity = RARITY,
+    rarity = 2,
 
     atlas = 'reddit_jokers',
-    pos = { x = 12, y = 0 },
+    pos = { x = 13, y = 0 },
 
     cost = 4,
 
@@ -48,6 +48,7 @@ SMODS.Joker {
     end,
 
     set_badges = function(self, card, badges)
-        badges[#badges + 1] = credit_badge('USER', false)
+        badges[#badges + 1] = credit_badge('Thomassaurus', false)
+        badges[#badges + 1] = credit_badge('TSAMarioYTReddit', false)
     end
 }

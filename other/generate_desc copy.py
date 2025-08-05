@@ -7,12 +7,21 @@ creditregex = r'credit_badge\(\'(.+?)\''
 
 users = set()
 
+skip = [
+    'src/jokers/8_ball.lua'
+]
+
 for file in files:
+    oldname = file[:]
     file = 'src/jokers/' + file
+    
+    if file in skip:
+        continue
+    
     filetext = open(file).read()
 
-    name = re.findall(nameregex, filetext)[0]
-    credit = re.findall(creditregex, filetext)[0]
+    name = name = oldname.replace('_', ' ').title()[:-4] #re.findall(nameregex, filetext)[0]
+    credit = re.search(creditregex, filetext).group(1)
     
 
     users.add(f'    - [u/{credit}](https://reddit.com/u/{credit})')
