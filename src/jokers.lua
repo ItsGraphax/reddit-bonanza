@@ -1,11 +1,12 @@
+-- Credit Badge
 CREDIT_TEXT_BG_COLOR = G.C.RED
 CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
 CREDIT_TEXT_COLOR = G.C.WHITE
 CREDIT_TEXT_SIZE = 1
 
-reddit_config = SMODS.current_mod.config
+local reddit_config = SMODS.current_mod.config
 
-credit_badge = function(username, alt)
+ credit_badge = function(username, alt)
     local bg_col = CREDIT_TEXT_BG_COLOR
     if alt then
         bg_col = CREDIT_TEXT_BG_COLOR_ALT
@@ -29,6 +30,7 @@ local has_value = function(array, value)
     return false
 end
 
+-- Load Files
 local nativefs = require 'nativefs'
 local mod_path = SMODS.current_mod.path
 local all_files = NFS.getDirectoryItems(mod_path .. 'src/jokers')

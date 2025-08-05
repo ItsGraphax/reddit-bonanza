@@ -68,6 +68,15 @@ return {
                     '{C:money}$#3#{} a end of round'
                 }
             },
+            j_reddit_roasted_marshmallow = {
+                name = 'Roasted Marshmallow',
+                text = {
+                    '{C:white,X:red}X#1#{} Mult',
+                    '{C:green}#2# in #3#{} chance this joker',
+                    'gets destroyed when current',
+                    'hand exceeds blind score'
+                }
+            },
             j_reddit_artist = {
                 name = 'Artist',
                 text = {
