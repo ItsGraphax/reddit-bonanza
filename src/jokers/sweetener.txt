@@ -1,0 +1,68 @@
+SMODS.Joker {
+	key = 'sweetener',
+	blueprint_compat = true,
+
+  config = { extra = {uses_remaining = 3} },
+  loc_vars = function(self, info_queue, card)
+    info_queue[#info_queue + 1] = { key = 'e_negative_consumable', set = 'Edition', config = { extra = 1 } }
+    return { vars = {card.ability.extra.uses_remaining} }
+  end,
+
+	rarity = 2,
+	
+	atlas = 'reddit_jokers',
+	pos = { x = 0, y = 0 },
+
+	cost = 7,
+
+	calculate = function(self, card, context)
+
+    -- context.buying_card is called AFTER adding a card?? wth
+    -- this behavior is REALLY buggy right now and I don't know how to do it yet
+
+    if context.buying_card and context.card.negative_from_sweet then
+      context.card:set_edition({negative = false})
+      card.ability.extra.uses_remaining = card.ability.extra.uses_remaining + 1
+    end
+
+    if context.card_added and context.card.ability.set ~= 'Joker' and not context.buying_card then
+      context.card.negative_from_sweet = true
+      context.card:set_edition({negative = true})
+      card.ability.extra.uses_remaining = card.ability.extra.uses_remaining - 1
+      if card.ability.extra.uses_remaining < 1 then
+        G.E_MANAGER:add_event(Event({ -- empty animation
+          func = function()
+            play_sound('tarot1')
+            card.T.r = -0.2
+            card:juice_up(0.3, 0.4)
+            card.states.drag.is = true
+            card.children.center.pinch.x = true
+            G.E_MANAGER:add_event(Event({
+              trigger = 'after',
+              delay = 0.3,
+              blockable = false,
+              func = function()
+                G.jokers:remove_card(card)
+                card:remove()
+                card = nil
+                return true;
+              end
+            }))
+            return true
+          end
+        }))
+        return {
+          message = 'Empty!',
+          colour = G.C.FILTER
+        }
+      end
+      return {
+        message = 'Sweet!'
+      }
+    end
+	end,
+
+  set_badges = function(self, card, badges)
+    badges[#badges+1] = credit_badge('TheMonji', false)
+	end
+}

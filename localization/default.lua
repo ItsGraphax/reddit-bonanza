@@ -656,6 +656,20 @@ return {
                     'draw {C:attention}#1#{} extra cards'
                 }
             },
+            j_reddit_thunderstruck = {
+                name = 'Thunderstruck',
+                text = {
+                    '{C:green}#1# in #2#{} chance to',
+                    'retrigger adjacent {C:attention}Jokers'
+                }
+            },
+            j_reddit_sweetener = {
+                name = 'Artificial Sweetener',
+                text = {
+                    'The next {C:attention}#1#{} created {C:attention}consumable',
+                    'cards become {C:dark_edition}Negative{}'
+                }
+            }
         },
         Other = {},
         Planet = {},
