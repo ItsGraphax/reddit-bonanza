@@ -669,6 +669,16 @@ return {
                     'The next {C:attention}#1#{} created {C:attention}consumable',
                     'cards become {C:dark_edition}Negative{}'
                 }
+            },
+            j_reddit_decalcomania = {
+                name = 'Decalcomania',
+                text = {
+                    '{C:green}#1# in #2#{} chance to add',
+                    '{C:attention}Foil{}, {C:attention}Holographic{}, or',
+                    '{C:attention}Polychrome{} edition to',
+                    'played scoring cards'
+                }
+
             }
         },
         Other = {},
