@@ -679,6 +679,16 @@ return {
                     'played scoring cards'
                 }
 
+            },
+            j_reddit_class_notes = {
+                name = 'Class Notes',
+                text = {
+                    'Copies ability of',
+                    '{C:attention}Joker{} to the left.',
+                    '{C:green}#1# in #2#{} chance to',
+                    '{C:attention}destroy{} itself at the',
+                    'end of round'
+                }
             }
         },
         Other = {},

@@ -21,7 +21,7 @@ SMODS.Joker {
     if context.before and context.main_eval then
       local msg = false
       for _, v in ipairs(G.play.cards) do
-        if pseudorandom('event_horizon') < G.GAME.probabilities.normal / card.ability.extra.odds and not v.edition then
+        if pseudorandom('decalcomania') < G.GAME.probabilities.normal / card.ability.extra.odds and not v.edition then
           local edition = poll_edition('vremade_wheel_of_fortune', nil, true, true, {'e_polychrome', 'e_holo', 'e_foil'})
           msg = true
           v:set_edition(edition, true)
@@ -46,6 +46,6 @@ SMODS.Joker {
 	end,
 
   set_badges = function(self, card, badges)
-    badges[#badges+1] = credit_badge('USER', false)
+    badges[#badges+1] = credit_badge('McPaleo', false)
 	end
 }
