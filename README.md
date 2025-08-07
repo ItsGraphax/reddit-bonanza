@@ -90,6 +90,7 @@ Feel Free to open an Issue when you find a Problem!
     - [u/Professional_Toe8022 \(BLUE\)](https://reddit.com/u/Professional_Toe8022/) - Russian (Unfinished)
 - Special Thanks
     - [u/VALERock](https://reddit.com/u/VALERock) - Thank you for the support <3
+    - [nh6574](https://github.com/nh6574) - I literally copypasted code from him 👍
 - Jokers:
     - [u/GreedyHase](https://reddit.com/u/GreedyHase)
     - [u/Ethanlac](https://reddit.com/u/Ethanlac)

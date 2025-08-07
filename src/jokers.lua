@@ -2,7 +2,7 @@
 CREDIT_TEXT_BG_COLOR = G.C.RED
 CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
 CREDIT_TEXT_COLOR = G.C.WHITE
-CREDIT_TEXT_SIZE = 1
+CREDIT_TEXT_SIZE = 0.9
 
 local reddit_config = SMODS.current_mod.config
 
@@ -41,6 +41,7 @@ local skip_jokers = {
 
 local preferred_order = {
     'artist',
+    'class_notes',
     'diamond_pickaxe',
     'enigma',
     'entangled_joker',
