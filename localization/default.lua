@@ -689,6 +689,13 @@ return {
                     '{C:attention}destroy{} itself at the',
                     'end of round'
                 }
+            },
+            j_reddit_tough_crowd = {
+                name = 'Tough Crowd',
+                text = {
+                    'Retrigger each played',
+                    '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, or {C:attention}9'
+                }
             }
         },
         Other = {},
