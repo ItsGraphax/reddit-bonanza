@@ -33,7 +33,7 @@ SMODS.Joker {
 			
         elseif context.joker_main then
 			return {
-				chips = card.ability.extra.chip_mod * (G.GAME.interest_this_run or 0)
+				chips = to_big(card.ability.extra.chip_mod) * (to_big(G.GAME.interest_this_run) or to_big(0))
 			}
 		end
 	end,
