@@ -704,7 +704,34 @@ return {
         Stake = {},
         Tag = {},
         Tarot = {},
-        Voucher = {},
+        Voucher = {
+            v_reddit_trolley_problem = {
+                name = "Trolley Problem",
+                text = {
+                    "When skipping a blind, choose",
+                    "between 2 available tags"
+                }
+            },
+            v_reddit_track_drift = {
+                name = "Multi-Track Drift",
+                text = {
+                    "When skipping a blind,",
+                    "gain 2 tags"
+                }
+            },
+            v_reddit_deterioration = {
+                name = 'Deterioration',
+                text = {
+                    '{C:red}X0.75{} base {C:attention}Blind{} size'
+                }
+            },
+            v_reddit_decay = {
+                name = 'Decay',
+                text = {
+                    '{C:red}X0.5{} base {C:attention}Blind{} size'
+                }
+            }
+        },
     },
     misc = {
         achievement_descriptions = {},
