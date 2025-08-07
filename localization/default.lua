@@ -664,6 +664,47 @@ return {
                     'draw {C:attention}#1#{} extra cards'
                 }
             },
+            j_reddit_thunderstruck = {
+                name = 'Thunderstruck',
+                text = {
+                    '{C:green}#1# in #2#{} chance to',
+                    'retrigger adjacent {C:attention}Jokers'
+                }
+            },
+            j_reddit_sweetener = {
+                name = 'Artificial Sweetener',
+                text = {
+                    'The next {C:attention}#1#{} created {C:attention}consumable',
+                    'cards become {C:dark_edition}Negative{}'
+                }
+            },
+            j_reddit_decalcomania = {
+                name = 'Decalcomania',
+                text = {
+                    '{C:green}#1# in #2#{} chance to add',
+                    '{C:attention}Foil{}, {C:attention}Holographic{}, or',
+                    '{C:attention}Polychrome{} edition to',
+                    'played scoring cards'
+                }
+
+            },
+            j_reddit_class_notes = {
+                name = 'Class Notes',
+                text = {
+                    'Copies ability of',
+                    '{C:attention}Joker{} to the left.',
+                    '{C:green}#1# in #2#{} chance to',
+                    '{C:attention}destroy{} itself at the',
+                    'end of round'
+                }
+            },
+            j_reddit_tough_crowd = {
+                name = 'Tough Crowd',
+                text = {
+                    'Retrigger each played',
+                    '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, or {C:attention}9'
+                }
+            }
         },
         Other = {},
         Planet = {},
@@ -671,7 +712,34 @@ return {
         Stake = {},
         Tag = {},
         Tarot = {},
-        Voucher = {},
+        Voucher = {
+            v_reddit_trolley_problem = {
+                name = "Trolley Problem",
+                text = {
+                    "When skipping a blind, choose",
+                    "between 2 available tags"
+                }
+            },
+            v_reddit_track_drift = {
+                name = "Multi-Track Drift",
+                text = {
+                    "When skipping a blind,",
+                    "gain 2 tags"
+                }
+            },
+            v_reddit_deterioration = {
+                name = 'Deterioration',
+                text = {
+                    '{C:red}X0.75{} base {C:attention}Blind{} size'
+                }
+            },
+            v_reddit_decay = {
+                name = 'Decay',
+                text = {
+                    '{C:red}X0.5{} base {C:attention}Blind{} size'
+                }
+            }
+        },
     },
     misc = {
         achievement_descriptions = {},

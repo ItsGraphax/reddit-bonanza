@@ -1,4 +1,7 @@
-SMODS.optional_features.quantum_enhancements = true
+SMODS.current_mod.optional_features = {
+	retrigger_joker = true,
+	quantum_enhancements = true
+}
 
 SMODS.Atlas {
 	-- Key for code to find it with
