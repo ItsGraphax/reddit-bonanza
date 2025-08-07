@@ -36,7 +36,8 @@ local mod_path = SMODS.current_mod.path
 local all_files = NFS.getDirectoryItems(mod_path .. 'src/jokers')
 
 local skip_jokers = {
-    '8_ball.lua'
+    '8_ball.lua',
+    'roasted_marshmallow.lua'
 }
 
 local preferred_order = {
@@ -80,7 +81,8 @@ local preferred_order = {
     'lamb',
     'phoenix',
     'birbal',
-    'nichola'
+    'nichola',
+    'richard'
 }
 
 -- Loading Order

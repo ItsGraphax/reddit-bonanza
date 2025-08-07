@@ -22,7 +22,7 @@ SMODS.Joker {
                 message = 'Increase!'
             }
         elseif context.joker_main then
-            if G.GAME.dollars >= card.ability.extra.buffer then
+            if to_big(G.GAME.dollars) >= card.ability.extra.buffer then
                 return {
                     xmult = card.ability.extra.Xmult
                 }

@@ -28,6 +28,7 @@ Feel Free to open an Issue when you find a Problem!
 - Savings Account by [Chum724](https://reddit.com/u/Chum724)
 - Slothful by [NeoShard1](https://reddit.com/u/NeoShard1)
 - Triplets by [Deitiessoul](https://reddit.com/u/Deitiessoul)
+- Magic 8 Ball (8 Ball Rework) by [TheBardicToast](https://reddit.com/u/TheBardicToast)
 ### Uncommon
 - All In by [Kyuuseishu_](https://reddit.com/u/Kyuuseishu_)
 - Artist by [TSAMarioYTReddit](https://reddit.com/u/TSAMarioYTReddit)
@@ -125,3 +126,4 @@ Feel Free to open an Issue when you find a Problem!
     - [u/babisme](https://reddit.com/u/babisme)
     - [u/Unlikely_Movie_9073](https://reddit.com/u/Unlikely_Movie_9073)
     - [u/TheUn-Nottened](https://reddit.com/u/TheUn-Nottened)
+    - [u/TheBardicToast](https://reddit.com/u/TheBardicToast)

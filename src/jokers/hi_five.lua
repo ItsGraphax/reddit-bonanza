@@ -13,7 +13,7 @@ SMODS.Joker {
 	
 	config = { extra = { dollars = 2, rank = 5, sell_cost = 0 } },
     loc_vars = function(self, info_queue, card)
-		tally = 0
+		local tally = 0
 		if G.playing_cards then
 			tally = get_tally()
 		end
@@ -28,13 +28,13 @@ SMODS.Joker {
 	cost = 8,
 
 	add_to_deck = function (self, card, from_debuff)
-		tally = get_tally()
+		local tally = get_tally()
 		card.sell_cost = tally * card.ability.extra.dollars
 	end,
 
 	calculate = function (self, card, context)
 		if context.selling_self or context.playing_card_added and not context.blueprint then
-			tally = get_tally()
+			local tally = get_tally()
 			card.sell_cost = tally * card.ability.extra.dollars
 		end
 	end,

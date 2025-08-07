@@ -44,12 +44,11 @@ return {
                     '{C:inactive}(Currently {C:white,X:mult}x#2#{C:inactive} Mult)'
                 }
             },
-            j_reddit_class_notes = {
-                name = 'Class Notes',
+            j_reddit_richard = {
+                name = 'Richard',
                 text = {
-                    'Copies ability of {C:attention}Joker{} to the left',
-                    '{C:green}#1# in #2#{} chance to {C:attention}destroy{}',
-                    'itself at the end of the round'
+                    'Gains {C:chips}+#1#{} Chips every played {C:attention}Hand{}',
+                    '{C:inactive}(Currently {C:chips}#2#{C:inactive} Chips)'
                 }
             },
             j_reddit_doppelganger = {
@@ -268,7 +267,7 @@ return {
                 name = 'Hi Five',
                 text = {
                     "Gives {C:money}$#1#{} per",
-                    "{C:money}#2#{} in your deck",
+                    "{C:money}#2#{} in your deck when sold",
                     "{C:inactive}(Currently {C:money}$#3#{C:inactive}){}"
                 }
             },
@@ -481,7 +480,7 @@ return {
                 name = 'Rover',
                 text = {
                     'Gains {C:mult}+#1#{} Mult per {C:attention}Stone',
-                    '{C:attention}Card {}played',
+                    '{C:attention}Card{} scored',
                     '{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)'
                 }
             },
