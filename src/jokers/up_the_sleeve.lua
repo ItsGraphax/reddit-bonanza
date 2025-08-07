@@ -20,7 +20,7 @@ SMODS.Joker {
 
     config = { extra = { xmult = 0.25 } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.xmult, calc_aces() * card.ability.extra.xmult } }
+        return { vars = { card.ability.extra.xmult, 1 + calc_aces() * card.ability.extra.xmult } }
     end,
 
     rarity = 2,
@@ -32,7 +32,7 @@ SMODS.Joker {
 
     calculate = function(self, card, context)
         if context.joker_main then
-            local xmult = calc_aces() * card.ability.extra.xmult
+            local xmult = 1 + calc_aces() * card.ability.extra.xmult
             return {
                 xmult = xmult
             }
