@@ -27,6 +27,7 @@ SMODS.Voucher {
   loc_vars = function(self, info_queue)
     return {vars = {self.config.percent}}
   end,
+  requires = {'v_reddit_deterioration'},
 
   redeem = function(self)
     G.GAME.starting_params.ante_scaling = (G.GAME.starting_params.ante_scaling) - ((self.config.percent) / 100)
