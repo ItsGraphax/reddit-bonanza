@@ -19,7 +19,16 @@ return {
             },
         },
         Edition = {},
-        Enhanced = {},
+        Enhanced = {
+            m_reddit_mmc = {
+                name = 'Surprise!',
+                text = {
+                    'You have just catched an {C:attention}ultra rare{} bug!',
+                    'Here, have some {C:white,X:mult}x1.5{} Mult (Don\'t tell anyone!)',
+                    '{C:inactive}PS: I dont know atm how to fix it so please don\'t report this'
+                },
+            }
+        },
         Joker = {
             j_reddit_abstinent_joker = {
                 name = 'Abstinent Joker',
