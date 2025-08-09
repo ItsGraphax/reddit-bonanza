@@ -1,6 +1,7 @@
 SMODS.Joker { -- Event Horizon
   key = 'event_horizon',
   blueprint_compat = true,
+  perishable_compat = false,
 
   atlas = 'reddit_jokers',
   pos = {x = 8, y = 1},

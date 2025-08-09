@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'blank_joker',
 	blueprint_compat = true,
+	eternal_compat = false,
 	
 	config = { extra = { total_bosses = 2, current_bosses = 0, blind = false } },
     loc_vars = function(self, info_queue, card)

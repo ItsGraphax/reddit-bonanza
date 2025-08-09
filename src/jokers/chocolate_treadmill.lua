@@ -10,6 +10,7 @@ end
 SMODS.Joker {
 	key = 'chocolate_treadmill',
 	blueprint_compat = true,
+	eternal_compat = false,
 	
 	config = { extra = { chips = 500, hands = 2, good_mult = 2, bad_mult = 0.5 } },
     loc_vars = function(self, info_queue, card)

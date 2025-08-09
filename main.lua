@@ -1,6 +1,7 @@
 SMODS.current_mod.optional_features = {
 	retrigger_joker = true,
-	quantum_enhancements = true
+	quantum_enhancements = true,
+	post_trigger = true
 }
 
 SMODS.Atlas {

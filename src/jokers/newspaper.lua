@@ -1,4 +1,4 @@
-SMODS.Joker { -- Permission pending
+SMODS.Joker {
   key = 'newspaper',
   blueprint_compat = true,
 

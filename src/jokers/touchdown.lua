@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'touchdown',
 	blueprint_compat = true,
+	perishable_compat = false,
 	
 	config = { extra = { mult = 0, total_chips = 0, mult_mod = 7, total_limit = 100 } },
     loc_vars = function(self, info_queue, card)

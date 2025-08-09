@@ -2,6 +2,7 @@
 SMODS.Joker {
     key = 'lamb',
     blueprint_compat = false,
+		eternal_compat = false,
 
     config = { extra = { played_hands = {
 		["High Card"] = false,

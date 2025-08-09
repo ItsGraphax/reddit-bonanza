@@ -1,6 +1,7 @@
-SMODS.Joker { -- Permission pending
+SMODS.Joker {
   key = 'toiletpaper',
   blueprint_compat = true,
+  perishable_compat = false,
 
   atlas = 'reddit_jokers',
   pos = {x = 8, y = 7},

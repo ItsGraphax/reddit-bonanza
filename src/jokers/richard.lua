@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'richard',
 	blueprint_compat = true,
+    perishable_compat = false, -- even though it doesn't matter
 
     config = { extra = { chip_gain = 10, chips = 0 } },
     loc_vars = function(self, info_queue, card)

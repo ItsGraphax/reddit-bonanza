@@ -1,6 +1,7 @@
 SMODS.Joker {
   key = 'lemonade',
   blueprint_compat = true,
+  eternal_compat = false,
 
   atlas = 'reddit_jokers',
   pos = {x = 8, y = 4},

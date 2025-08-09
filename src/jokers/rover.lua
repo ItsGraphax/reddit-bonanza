@@ -2,6 +2,7 @@
 SMODS.Joker {
     key = 'rover',
     blueprint_compat = true,
+    perishable_compat = false,
 
     config = { extra = { gain = 1, mult = 0 } },
     loc_vars = function(self, info_queue, card)

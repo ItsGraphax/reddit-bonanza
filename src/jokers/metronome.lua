@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'metronome',
 	blueprint_compat = true,
+    perishable_compat = false,
 	
 	config = { extra = { mult_mod = 3, last_played = 'None', second_last_played = 'None', mult = 0 } },
     loc_vars = function(self, info_queue, card)

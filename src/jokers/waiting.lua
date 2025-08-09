@@ -1,6 +1,8 @@
 SMODS.Joker {
   key = 'waiting',
   blueprint_compat = false,
+  perishable_compat = false,
+  eternal_compat = false,
 
   atlas = 'reddit_jokers',
   pos = {x = 8, y = 3},

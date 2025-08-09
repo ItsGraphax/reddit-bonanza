@@ -37,7 +37,8 @@ local all_files = NFS.getDirectoryItems(mod_path .. 'src/jokers')
 
 local skip_jokers = {
     '8_ball.lua',
-    'roasted_marshmallow.lua'
+    'roasted_marshmallow.lua',
+    'sweetener.lua'
 }
 
 local preferred_order = {

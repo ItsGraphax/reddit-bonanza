@@ -1,4 +1,4 @@
-SMODS.Joker { -- Permission pending
+SMODS.Joker {
   key = '4head',
   blueprint_compat = true,
 

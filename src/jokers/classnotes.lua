@@ -1,6 +1,7 @@
 SMODS.Joker {
 	key = 'class_notes',
 	blueprint_compat = true,
+  perishable_compat = false,
 
   config = { extra = {odds = 5} },
   loc_vars = function(self, info_queue, card)
@@ -25,11 +26,11 @@ SMODS.Joker {
           }
         }
       }
-      return { 
-        main_end = main_end,
-        vars = {(G.GAME.probabilities.normal or 1), card.ability.extra.odds}
-    }
     end
+    return { 
+      vars = {(G.GAME.probabilities.normal or 1), card.ability.extra.odds},
+      main_end = main_end
+    }
   end,
 
 	rarity = 2,

@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'jimbos_loss',
 	blueprint_compat = true,
+    perishable_compat = false,
 	
 	config = { extra = { faces = 3, mult_mod = 0.2, Xmult = 1 } },
     loc_vars = function(self, info_queue, card)

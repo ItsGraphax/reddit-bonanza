@@ -1,6 +1,7 @@
 SMODS.Joker {
 	key = 'sweetener',
 	blueprint_compat = true,
+  eternal_compat = false,
 
   config = { extra = {uses_remaining = 3} },
   loc_vars = function(self, info_queue, card)

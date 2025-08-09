@@ -2,6 +2,7 @@
 SMODS.Joker {
 	key = 'trippy',
 	blueprint_compat = true,
+	perishable_compat = false,
 	
 	config = { extra = { Xmult = 1, mult_mod = 0.2, hand = 'High Card' } },
     loc_vars = function(self, info_queue, card)

@@ -1,6 +1,4 @@
 -- Birbal
-SMODS.optional_features.post_trigger = true
-SMODS.get_optional_features()
 SMODS.Joker {
 	key = "birbal",
     blueprint_compat = true,

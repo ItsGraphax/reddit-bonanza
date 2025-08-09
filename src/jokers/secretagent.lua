@@ -1,6 +1,7 @@
 SMODS.Joker {
   key = 'meninblack', -- funny reference guys get it right haha yeah i'm so smart and funny right guys
   blueprint_compat = false,
+  eternal_compat = false,
 
   atlas = 'reddit_jokers',
   pos = {x = 8, y = 6},
