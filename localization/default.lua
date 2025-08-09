@@ -712,6 +712,16 @@ return {
                     'Retrigger each played',
                     '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, or {C:attention}9'
                 }
+            },
+            j_reddit_distinguished = {
+                name = 'Distinguished',
+                text = {
+                    'When {C:attention}Blind{} is selected,',
+                    '{C:attention}Wild Cards{} gain an',
+                    'additional {C:attention}Enhancement{},',
+                    'changes every round',
+                    '{C:inactive}(Currently #1#)'
+                }
             }
         },
         Other = {},
