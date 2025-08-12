@@ -749,6 +749,15 @@ return {
                     'in one hand',
                     '{S:1.1,C:red,E:2}self destructs'
                 }
+            },
+            j_reddit_thalia = {
+                name = 'Thalia',
+                text = {
+                    'All cards in {C:attention}first',
+                    '{C:attention}discard{} of round',
+                    'are converted to',
+                    '{C:attention}Wild 8s'
+                }
             }
         },
         Other = {},
