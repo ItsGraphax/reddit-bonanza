@@ -49,3 +49,54 @@ payload = '''
         G.GAME.interest_this_run = G.GAME.interest_this_run + config.dollars
     end
 '''
+
+
+
+# Card Czar
+
+# [[patches]]
+# [patches.pattern]
+# target = 'card.lua'
+# pattern = '''if G.GAME.dollars ~= 0 then
+#                 ease_dollars(-G.GAME.dollars, true)
+#             end'''
+# position = "at"
+# match_indent = true
+# payload = '''if G.GAME.dollars ~= 0 + ((G.GAME.card_czar and 1) or 0) then
+#     ease_dollars(-G.GAME.dollars + ((G.GAME.card_czar and 1) or 0), true)
+# end'''
+# 
+# [[patches]]
+# [patches.pattern]
+# target = 'game.lua'
+# pattern = '''c_black_hole=       {order = 18,   discovered = false, cost = 4, consumeable = true, name = "Black Hole", pos = {x=9,y=3}, set = "Spectral", config = {}, hidden = true},'''
+# position = "at"
+# match_indent = true
+# payload = '''c_black_hole=       {order = 18,   discovered = false, cost = 4, consumeable = true, name = "Black Hole", pos = {x=9,y=3}, set = "Spectral", config = {levels = 1}, hidden = true},'''
+# 
+# [[patches]]
+# [patches.pattern]
+# target = 'game.lua'
+# pattern = '''c_wraith=           {order = 6,    discovered = false, cost = 4, consumeable = true, name = "Wraith", pos = {x=5,y=4}, set = "Spectral", config = {}},'''
+# position = "at"
+# match_indent = true
+# payload = '''c_wraith=           {order = 6,    discovered = false, cost = 4, consumeable = true, name = "Wraith", pos = {x=5,y=4}, set = "Spectral", config = {dollars = 0}},'''
+# 
+# [[patches]]
+# [patches.pattern]
+# target = 'functions/common_events.lua'
+# pattern = '''elseif _c.name == 'Talisman' then info_queue[#info_queue+1] = G.P_SEALS['gold_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['gold_seal'] or '']
+# elseif _c.name == 'Deja Vu' then info_queue[#info_queue+1] = G.P_SEALS['red_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['red_seal'] or '']
+# elseif _c.name == 'Trance' then info_queue[#info_queue+1] = G.P_SEALS['blue_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['blue_seal'] or '']
+# elseif _c.name == 'Medium' then info_queue[#info_queue+1] = G.P_SEALS['purple_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['purple_seal'] or '']'''
+# position = "at"
+# match_indent = true
+# payload = '''elseif _c.name == 'Talisman' then loc_vars = {cfg.max_highlighted}; info_queue[#info_queue+1] = G.P_SEALS['gold_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['gold_seal'] or '']
+# elseif _c.name == 'Deja Vu' then loc_vars = {cfg.max_highlighted}; info_queue[#info_queue+1] = G.P_SEALS['red_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['red_seal'] or '']
+# elseif _c.name == 'Trance' then loc_vars = {cfg.max_highlighted}; info_queue[#info_queue+1] = G.P_SEALS['blue_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['blue_seal'] or '']
+# elseif _c.name == 'Medium' then loc_vars = {cfg.max_highlighted}; info_queue[#info_queue+1] = G.P_SEALS['purple_seal'] or G.P_SEALS[SMODS.Seal.badge_to_key['purple_seal'] or '']
+# elseif _c.name == 'Wraith' then loc_vars = {cfg.dollars}
+# elseif _c.name == 'Black Hole' then loc_vars = {cfg.levels}'''
+
+# end of Card Czar woah that's a lot
+# commented out because buggy :(

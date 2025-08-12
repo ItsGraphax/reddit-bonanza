@@ -732,10 +732,72 @@ return {
                     "money to {C:money}0{}"
                 }
             },
+            j_reddit_snowman = {
+                name = 'Snowman',
+                text = {
+                    '{C:chips}+#1#{} chips for every hand played',
+                    '{C:chips}-#2#{} chips at the end of round',
+                    '{C:chips}-#3#{} chips when a {C:attention}Blind{} is skipped',
+                    '{C:inactive}(Currently {C:chips}+#4#{C:inactive} chips)'
+                }
+            },
+            j_reddit_molotov = {
+                name = 'Molotov',
+                text = {
+                    '{C:attention}+#1#{} hand size if scoring',
+                    'requirement is {C:attention}exceeded{}',
+                    'in one hand',
+                    '{S:1.1,C:red,E:2}self destructs'
+                }
+            }
         },
         Other = {},
         Planet = {},
-        Spectral = {},
+        Spectral = {
+        --     -- Card Czar compatibility (why did he hardcode it :pepehands:)
+        --     c_talisman = {
+        --         text = {
+        --             "Add a {C:attention}Gold Seal{}",
+        --             "to {C:attention}#1#{} selected",
+        --             "card in your hand"
+        --         }
+        --     },
+        --     c_deja_vu = {
+        --         text = {
+        --             "Add a {C:attention}Red Seal{}",
+        --             "to {C:attention}#1#{} selected",
+        --             "card in your hand"
+        --         }
+        --     },
+        --     c_trance = {
+        --         text = {
+        --             "Add a {C:attention}Blue Seal{}",
+        --             "to {C:attention}#1#{} selected",
+        --             "card in your hand"
+        --         }
+        --     },
+        --     c_medium = {
+        --         text = {
+        --             "Add a {C:attention}Purple Seal{}",
+        --             "to {C:attention}#1#{} selected",
+        --             "card in your hand"
+        --         }
+        --     },
+        --     c_wraith = {
+        --         text = {
+        --             "Creates a random",
+        --             "{C:red}Rare{C:attention} Joker{},",
+        --             "sets money to {C:money}$#1#",
+        --         }
+        --     },
+        --     c_black_hole = {
+        --         text = {
+        --             "Upgrade every",
+        --             "{C:legendary,E:1}poker hand",
+        --             "by {C:attention}#1#{} level",
+        --         }
+        --     }
+        },
         Stake = {},
         Tag = {},
         Tarot = {},
