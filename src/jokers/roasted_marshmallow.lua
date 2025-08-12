@@ -16,7 +16,7 @@ SMODS.Joker {
     cost = 6,
 
     add_to_deck = function(self, card, from_debuff)
-        card.ability.extra.old_chips = to_nubmer(G.GAME.chips)
+        card.ability.extra.old_chips = to_number(G.GAME.chips)
     end,
 
     calculate = function(self, card, context)

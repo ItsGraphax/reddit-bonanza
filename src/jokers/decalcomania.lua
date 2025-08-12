@@ -20,9 +20,9 @@ SMODS.Joker {
 	calculate = function(self, card, context)
     if context.before and context.main_eval then
       local msg = false
-      for _, v in ipairs(G.play.cards) do
+      for _, v in ipairs(context.scoring_hand) do
         if pseudorandom('decalcomania') < G.GAME.probabilities.normal / card.ability.extra.odds and not v.edition then
-          local edition = poll_edition('vremade_wheel_of_fortune', nil, true, true, {'e_polychrome', 'e_holo', 'e_foil'})
+          local edition = poll_edition('decalcomania', nil, true, true, {'e_polychrome', 'e_holo', 'e_foil'})
           msg = true
           v:set_edition(edition, true)
           G.E_MANAGER:add_event(Event({
