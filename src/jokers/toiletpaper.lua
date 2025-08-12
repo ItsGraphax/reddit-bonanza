@@ -16,7 +16,6 @@ SMODS.Joker {
 
   calculate = function(self, card, context)
     if context.using_consumeable and not context.blueprint then
-      print(context.consumeable.config.center.key)
       if context.consumeable.config.center.key == 'c_uranus' then
         card.ability.extra.Xmult = card.ability.extra.Xmult + card.ability.extra.Xmult_gain
         return {

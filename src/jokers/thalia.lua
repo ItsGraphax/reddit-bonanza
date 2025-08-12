@@ -16,7 +16,6 @@ SMODS.Joker {
 
 	calculate = function(self, card, context)
     if context.pre_discard and G.GAME.current_round.discards_used <= 0 and not context.hook then
-      print('pre discard')
       for i = 1, #G.hand.highlighted do
         assert(SMODS.change_base(G.hand.highlighted[i], nil, '8'))
         G.hand.highlighted[i]:set_ability('m_wild', nil, true)

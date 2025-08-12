@@ -758,6 +758,14 @@ return {
                     'are converted to',
                     '{C:attention}Wild 8s'
                 }
+            },
+            j_reddit_ufo = {
+                name = 'Unidentified Flying Object',
+                text = {
+                    'Levels up a random {C:attention}poker hand{} once',
+                    'for every {C:attention}unique{} hand type played',
+                    'this round at the end of round'
+                }
             }
         },
         Other = {},

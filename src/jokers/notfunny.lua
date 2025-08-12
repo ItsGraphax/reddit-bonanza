@@ -19,7 +19,6 @@ SMODS.Joker {
       for i = 1, #G.jokers.cards do
         if G.jokers.cards[i] == card then
           my_pos = i
-          print(my_pos)
           break
         end
       end

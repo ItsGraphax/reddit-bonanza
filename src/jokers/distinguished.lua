@@ -25,7 +25,6 @@ SMODS.Joker {
       end
       chosen = pool[pseudorandom("distinguished", 1, #pool)]
       card.ability.extra.enhancement = chosen
-      print(chosen)
       return {
         message = localize {type = 'name_text', set = 'Enhanced', key = card.ability.extra.enhancement}
       }

@@ -10,9 +10,6 @@ SMODS.Voucher {
   end,
 
   redeem = function(self)
-    print('base: ' .. G.GAME.starting_params.ante_scaling .. ', change: ' .. ((1 - self.config.percent) / 100) .. ', result: ' .. (G.GAME.starting_params.ante_scaling) - ((self.config.percent) / 100))
-
-
     G.GAME.starting_params.ante_scaling = (G.GAME.starting_params.ante_scaling) - ((self.config.percent) / 100)
   end
 }
