@@ -51,6 +51,6 @@ SMODS.Joker { -- Event Horizon
   end,
 
   set_badges = function(self, card, badges)
-    badges[#badges+1] = credit_badge('TheNeto06', false)
+    badges[#badges+1] = credit_badge('The_Neto06', false)
   end
 }

@@ -26,12 +26,19 @@ SMODS.Joker {
 	pos = { x = 0, y = 2 },
 	cost = 15,
 	calculate = function(self, card, context)
-		if context.selling_self then
+		-- i think it shouldn't give $7 when sold :thinking:
+
+		if context.setting_blind then
+			local eval = function() return G.GAME.blind.in_blindand not G.RESET_JIGGLES end
+			juice_card_until(card, eval, true)
+			return {
+				message = localize('k_active_ex')
+			}
+		end
+
+		if context.selling_self and G.GAME.blind.in_blind then
 			return {
 				func = function()
-					ease_ante(1)
-					win_blind()
-					ease_dollars(-G.GAME.dollars)
 					if
 						not G.GAME.won
 					then
@@ -40,6 +47,9 @@ SMODS.Joker {
 							blocking = false,
 							blockable = false,
 							func = (function()
+								ease_ante(1)
+								win_blind()
+								ease_dollars(-G.GAME.dollars)
 								if G.GAME.round_resets.ante > G.GAME.win_ante and not G.GAME.won then
 									G.GAME.won = true
 									G.GAME.win_notified = true
