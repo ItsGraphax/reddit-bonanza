@@ -5,7 +5,7 @@ SMODS.Joker {
 
     config = { extra = { suit = 'Spades', chips = 20 } },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.suit, card.ability.extra.chips } }
+        return { vars = {localize(card.ability.extra.suit, 'suits_singular'), card.ability.extra.chips } }
     end,
 
     rarity = 1,

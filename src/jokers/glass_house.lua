@@ -3,10 +3,10 @@ SMODS.Joker {
 	key = 'glass_house',
 	blueprint_compat = false,
 	
-	config = { extra = { enhancement = 'm_glass' } },
+	config = { extra = { enhancement = 'm_glass', poker_hand = 'Full House' } },
     loc_vars = function(self, info_queue, card)
 		info_queue[#info_queue+1] = G.P_CENTERS['m_glass']
-		return { vars = {  } }
+		return { vars = {localize(card.ability.extra.poker_hand, 'poker_hands')} }
 	end,
 
 	rarity = 2,

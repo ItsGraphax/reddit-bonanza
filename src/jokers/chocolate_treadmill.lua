@@ -1,9 +1,9 @@
 -- Chocolate Treadmill
 get_hand_loc = function(card)
 	if card.ability.extra.hands == 1 then
-		return "hand"
+		return localize('a_hand_singular')
 	else
-		return "hands"
+		return localize('a_hand_plural')
 	end
 end
 

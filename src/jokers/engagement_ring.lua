@@ -6,7 +6,7 @@ SMODS.Joker {
 	config = { extra = { odds = 2, suit = 'Diamonds', repetitions = 1 } },
     loc_vars = function(self, info_queue, card)
 		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
-		return { vars = { num, denum, card.ability.extra.suit } }
+		return { vars = { num, denum, localize(card.ability.extra.suit, 'suits_plural') } }
 	end,
 
 	rarity = 1,

@@ -48,8 +48,8 @@ return {
             j_reddit_up_the_sleeve = {
                 name = 'Up the Sleeve',
                 text = {
-                    'Gives {C:white,X:mult}X#1#{} Mult',
-                    'for every undrawn {C:attention}Ace{} in deck',
+                    '{C:white,X:mult}X#1#{} Mult for',
+                    'every undrawn {C:attention}Ace{} in deck',
                     '{C:inactive}(Currently {C:white,X:mult}X#2#{C:inactive} Mult)'
                 }
             },
@@ -65,7 +65,7 @@ return {
                 text = {
                     'When {C:attention}Blind{} is defeated with',
                     'at least {C:attention}double{} the requirement,',
-                    'add a permanent copy of the last ',
+                    'add a permanent copy of the last',
                     'played card and draw it to hand'
                 }
             },
@@ -228,7 +228,8 @@ return {
                 name = 'Engagement Ring',
                 text = {
                     '{C:green}#1# in #2#{} chance to retrigger',
-                    'played {C:diamonds}#3#'
+                    'played cards with {C:diamonds}#3#',
+                    "suit"
                 }
             },
             j_reddit_enigma = {
@@ -263,7 +264,7 @@ return {
                 text = {
                     "Enhances last played card",
                     "into a {C:attention}Glass Card{} if",
-                    "played hand contains a {C:attention}Full House{}"
+                    "played hand contains a {C:attention}#1#{}"
                 }
             },
             j_reddit_haunted_house = {
@@ -322,9 +323,9 @@ return {
                 text = {
                     "Refund all {C:attention}items{} bought",
                     "in the {C:attention}shop{}",
-                    "{C:green} #1# in #2#{} chance to deduct",
+                    "{C:green} #1# in #2#{} chance to lose",
                     "all refunded money instead",
-                    "{C:inactive}Deducts 30% of refunded",
+                    "{C:inactive}Lose 30% of refunded",
                     "{C:inactive}money on sell{}",
                     "{C:inactive}(Currently {C:money}$#3#{C:inactive}){}"
                 }
@@ -365,7 +366,7 @@ return {
             j_reddit_marvin = {
                 name = 'Marvin',
                 text = {
-                    'Gives {X:mult,C:white}X#1#{} Mult if',
+                    '{X:mult,C:white}X#1#{} Mult if',
                     'you have {C:money}$#2#{} or less'
                 }
             },
@@ -393,7 +394,7 @@ return {
                     "Gains {C:mult}+#1#{} Mult if",
                     "played hand is same as",
                     "second last hand, but not last",
-                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive})",
+                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                     "{C:inactive}(Current Last: {C:attention}#3#{C:inactive})",
                     "{C:inactive}(Current Second Last: {C:attention}#4#{C:inactive})"
                 }
@@ -864,6 +865,8 @@ return {
         dictionary = {
             b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs (Requires Restart!)',
             b_reddit_enable_joker_overrides = 'Enable Joker Overrides (Requires Restart!)',
+            a_hand_singular = "hand",
+            a_hand_plural = "hands",
         },
         high_scores = {},
         labels = {},
