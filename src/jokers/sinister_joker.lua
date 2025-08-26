@@ -1,7 +1,7 @@
 -- Sinister Joker
 amount_of_jokers = function (card, mm)
 	if not G.jokers then
-		return '?'
+		return '0'
 	end
 
 	for i=1, #G.jokers.cards do

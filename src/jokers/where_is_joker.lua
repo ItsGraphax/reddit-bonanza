@@ -9,7 +9,7 @@ SMODS.Joker {
 		if G.jokers and G.jokers.cards[1] then
 			current = math.min(G.jokers.cards[1].sell_cost, card.ability.extra.max)
 		else
-			current = '?'
+			current = '0'
 		end
 		
 		return { vars = { card.ability.extra.max, current } }

@@ -6,6 +6,7 @@ SMODS.Joker {
 
     config = { extra = { gain = 1, mult = 0 } },
     loc_vars = function(self, info_queue, card)
+        info_queue[#info_queue+1] = G.P_CENTERS['m_stone']
         return { vars = { card.ability.extra.gain, card.ability.extra.mult } }
     end,
 

@@ -4,19 +4,20 @@ SMODS.Joker {
 	blueprint_compat = true,
     eternal_compat = false,
 	
-	config = { extra = { being_sold = false } },
+	config = { extra = {being_sold = false, Xmult_gain = 1} },
     loc_vars = function(self, info_queue, card)
         local num, denum = SMODS.get_probability_vars(card, 1, G.GAME.reddit_phoenix_odds or 1)
 		return { vars = { 
             G.GAME.reddit_phoenix_mult or 1, 
             num,
             denum,
+            card.ability.extra.Xmult_gain
         } }
 	end,
     remove_from_deck = function(self, card, from_debuff)
         -- not from debuff or selling
         if not from_debuff and not card.ability.extra.being_sold then
-            G.GAME.reddit_phoenix_mult = G.GAME.reddit_phoenix_mult + 1
+            G.GAME.reddit_phoenix_mult = G.GAME.reddit_phoenix_mult + card.ability.extra.Xmult_gain
             G.GAME.reddit_phoenix_odds = G.GAME.reddit_phoenix_odds * 2
         end
     end,

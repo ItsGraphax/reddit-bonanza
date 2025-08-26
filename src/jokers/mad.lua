@@ -29,7 +29,7 @@ SMODS.Joker {
 		-- i think it shouldn't give $7 when sold :thinking:
 
 		if context.setting_blind then
-			local eval = function() return G.GAME.blind.in_blindand not G.RESET_JIGGLES end
+			local eval = function() return G.GAME.blind.in_blind and not G.RESET_JIGGLES end
 			juice_card_until(card, eval, true)
 			return {
 				message = localize('k_active_ex')

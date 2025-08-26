@@ -5,7 +5,7 @@ SMODS.Joker {
 	
 	config = { extra = { dollars = 1, dollars_max = 20 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.dollars, card.ability.extra.dollars * 2, card.ability.extra.dollars * 3 } }
+		return { vars = { card.ability.extra.dollars, card.ability.extra.dollars_max } }
 	end,
 
 	rarity = 2,

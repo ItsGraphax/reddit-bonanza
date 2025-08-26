@@ -4,6 +4,8 @@ SMODS.Joker {
 	
 	config = { extra = { odds = 10, owed = 0 } },
 	loc_vars = function(self, info_queue, card)
+		info_queue[#info_queue+1] = { set = "Other", key = "items" }
+
 		local num, denum = SMODS.get_probability_vars(card, 1, card.ability.extra.odds)
 		return { vars = { num, denum, card.ability.extra.owed}}
 	end,
