@@ -67,6 +67,7 @@ SMODS.Atlas({
 })
 
 REDDIT = SMODS.current_mod
+reddit_config = SMODS.current_mod.config
 
 if not Talisman then
 	to_big = function (n)
