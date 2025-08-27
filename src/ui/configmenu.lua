@@ -34,7 +34,9 @@ SMODS.current_mod.config_tab = function()
             -- Bonanza Packs
             create_config_toggle({ ref_value = 'enable_bonanza_packs', translate = 'b_reddit_enable_bonanza_packs' }),
             -- Joker Overrides
-            create_config_toggle({ ref_value = 'enable_joker_overrides', translate = 'b_reddit_enable_joker_overrides' })
+            create_config_toggle({ ref_value = 'enable_joker_overrides', translate = 'b_reddit_enable_joker_overrides' }),
+            -- Joker Overrides
+            create_config_toggle({ ref_value = 'enable_dev_jokers', translate = 'b_reddit_enable_dev_jokers' })
         }
     }
 end

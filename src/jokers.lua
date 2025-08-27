@@ -4,8 +4,6 @@ CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
 CREDIT_TEXT_COLOR = G.C.WHITE
 CREDIT_TEXT_SIZE = 0.9
 
-local reddit_config = SMODS.current_mod.config
-
  credit_badge = function(username, alt)
     local bg_col = CREDIT_TEXT_BG_COLOR
     if alt then
@@ -20,6 +18,7 @@ local reddit_config = SMODS.current_mod.config
     return create_badge(prefix .. username, bg_col, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
 end
 
+-- Search Function
 local has_value = function(array, value)
     for _, v in ipairs(array) do
         if v == value then
@@ -39,6 +38,20 @@ local skip_jokers = {
     '8_ball.lua',
     'roasted_marshmallow.lua',
     'sweetener.lua'
+}
+
+local dev_jokers = {
+    'thunderstruck.lua',
+    'decalcomania.lua',
+    'class_notes.lua',
+    'tough_crowd.lua',
+    'richard.lua',
+    'distinguished.lua',
+    'snowman.lua',
+    'thalia.lua',
+    'ufo.lua',
+    'molotov.lua',
+    'sweetener.luax'
 }
 
 local preferred_order = {
@@ -91,7 +104,7 @@ local loaded_set = {}
 
 for _, filename in ipairs(preferred_order) do
     local path = 'src/jokers/' .. filename .. '.lua'
-    if nativefs.getInfo(mod_path .. path) then
+    if nativefs.getInfo(mod_path .. path) and not (has_value(dev_jokers, filename..'.lua') and not reddit_config.enable_dev_jokers) then
         assert(SMODS.load_file(path))()
         loaded_set[filename .. '.lua'] = true
     end
@@ -99,7 +112,9 @@ end
 
 -- Remaining Jokers
 for _, file in ipairs(all_files) do
-    if not (loaded_set[file] or has_value(skip_jokers, file)) then
+    if not (loaded_set[file]
+    or has_value(skip_jokers, file)
+    or (has_value(dev_jokers, file) and not reddit_config.enable_dev_jokers)) then
         assert(SMODS.load_file('src/jokers/' .. file))()
     end
 end
