@@ -157,7 +157,7 @@ return {
                     "y, pierde {X:chips,C:white}X#5#{} fichas si la mano",
                     "jugada contiene una {C:attention}escalera{}, de lo ",
                     "contrario gana {X:chips,C:white}X#4#{} fichas.",
-                    "{C:inactive}(Actual: {C:attention}#1# #2#{C:inactive} y {C:chips}+#3# Fichas{C:inactive})"
+                    "{C:inactive}(Actual: {C:attention}#1# #2#{C:inactive} y {C:chips}+#3# fichas{C:inactive})"
                 }
             },
             j_reddit_contagious_laughter = {
@@ -248,7 +248,7 @@ return {
                 name = 'Casa embrujada',
                 text = {
                     "{C:green}#1# en #2#{} probabilidad de crear",
-                    "una {C:blue}Carta Espectral{} cuando la",
+                    "una carta {C:blue}espectral{} al azar cuando la",
                     "mano jugada contiene un {C:attention}#3#{}"
                 }
             },
@@ -378,65 +378,63 @@ return {
             j_reddit_nichola = {
                 name = 'Nichola',
                 text = {
-                    "Previene que la apuesta suba",
-                    "{C:inactive}(Restante: {C:attention}#1#{C:inactive} veces)"
+                    "Previene que la {C:attention}apuesta{}",
+                    "suba {C:attention}#1#{} #2#"
                 }
             },
             j_reddit_oracle = {
                 name = 'Oráculo',
                 text = {
-                    "Gana {X:mult,C:white}X#1#{} Multiplicador por",
-                    "cada Carta{C:spectral} Espectral{} usada en esta",
+                    "{X:mult,C:white}X#1#{} multi por cada carta",
+                    "{C:spectral}espectral{} usada en esta",
                     "partida",
-                    "{C:inactive}(Actualmente {X:mult,C:white}X#2#{C:inactive})"
+                    "{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive})"
                 }
             },
             j_reddit_pharaoh = {
                 name = 'Faraón',
                 text = {
-                    'Gana {X:mult,C:white}X#1#{} Multiplicador cuando el dinero',
-                    'obtenido es mayor que {C:money}$#2#',
+                    '{X:mult,C:white}X#1#{} multi si',
+                    'tienes {C:money}$#2#{} o más',
                     '{C:inactive}(Aumenta en {C:money}$#3#{C:inactive} cada ronda)'
                 }
             },
             j_reddit_phoenix = {
                 name = 'Fénix',
                 text = {
-                    "{X:mult,C:white}X#1#{} multiplicador.",
+                    "{X:mult,C:white}X#1#{} Mult",
                     "{C:green}#2# en #3#{} probabilidad de destruir",
-                    "esta carta al final de",
-                    "la ronda",
-                    "{C:inactive}({X:mult,C:white}X1{C:inactive} y la mitad de la",
-                    "{C:inactive}probabilidad de destrucción por{}",
-                    "{C:attention}Fénix{C:inactive} destruido en esta",
-                    "{C:attention}partida{C:inactive}){}"
+                    "esta carta al final de la ronda",
+                    "Gana {X:mult,C:white}X#4#{} multi y {C:attention}reduce{} la probabilidad",
+                    "de destrucción {C:attention}por la mitad{} cuando esta",
+                    "carta se destruye a sí misma"
                 }
             },
             j_reddit_biker = {
                 name = 'Motociclista',
                 text = {
-                    '{C:white,X:mult}X#1#{} Multiplicador por cada',
+                    '{C:white,X:mult}X#1#{} multi por cada',
                     '{C:attention}Motociclista{} en poseción',
-                    '{C:inactive}(Actualmente {X:mult,C:white}X#2#{C:inactive} Multiplicador)'
+                    '{C:inactive}(Actual {X:mult,C:white}X#2#{C:inactive} multi)'
                 }
             },
             j_reddit_gourmand = {
                 name = 'Goloso',
                 text = {
-                    '+1 {C:attention}Espacio Consumible{}'
+                    '{C:attention}+1{} ranura de consumible'
                 }
             },
             j_reddit_butter_fingers = {
-                name = 'Dedos de Mantequilla',
+                name = 'Dedos de mantequilla',
                 text = {
-                    'Cada carta descartada',
-                    'gana {C:mult}+#1#{} Multiplicador'
+                    'Cada carta {C:attention}descartada',
+                    'gana {C:mult}+#1#{} multi'
                 }
             },
             j_reddit_pier = {
                 name = 'Muelle',
                 text = {
-                    "Si el primer descarte de la ronda",
+                    "Si el {C:attention}primer descarte{} de la ronda",
                     "tiene solo 1 carta, obtiene",
                     "un sello aleatorio"
                 }
@@ -444,117 +442,117 @@ return {
             j_reddit_plumber = {
                 name = 'Fontanero',
                 text = {
-                    "Subir de nivel la mano {C:attention}Flush{}",
-                    "sube de nivel todos los tipos de {C:attention}Flush{}"
+                    "Subir de nivel la mano {C:attention}#1#{}",
+                    "sube de nivel todos los tipos de {C:attention}#1#{}"
                 }
             },
             j_reddit_promotion = {
                 name = 'Promoción',
                 text = {
-                    "Aumenta el rango de",
-                    "{C:attention}primera{} carta puntuadora en {C:attention}1{}"
+                    "Aumenta la categoría de",
+                    "{C:attention}primera{} carta anotada en {C:attention}1{}"
                 }
             },
             j_reddit_rainbow = {
-                name = 'Comodín Arcoíris',
+                name = 'Comodín arcoíris',
                 text = {
-                    "Gana {X:mult,C:white}X1{} multi",
+                    "{X:mult,C:white}X1{} multi",
                     "por cada {C:attention}palo{} único",
-                    "en las cartas que puntuan"
+                    "en las cartas que anotan"
                 }
             },
             j_reddit_rover = {
                 name = 'Rover',
                 text = {
-                    'Gana {C:mult}+#1#{} Multiplicador por cada',
-                    'Carta de {C:attention}Piedra jugada{}',
-                    '{C:inactive}(Actualmente {C:mult}+#2#{C:inactive} Multiplicador)'
+                    'Gana {C:mult}+#1#{} multi por cada',
+                    '{C:attention}carta de piedra{} anotada',
+                    '{C:inactive}(Actual: {C:mult}+#2#{C:inactive} multi)'
                 }
             },
             j_reddit_savings_account = {
-                name = 'Cuenta de Ahorros',
+                name = 'Cuenta de ahorros',
                 text = {
                     "{C:chips}+#1#{} fichas por cada {C:money}$1{} de",
                     "{C:attention}interés{} ganado en esta",
                     "partida",
-                    "{C:inactive}(Actualmente {C:chips}+#2#{C:inactive} fichas)"
+                    "{C:inactive}(Actual {C:chips}+#2#{C:inactive} fichas)"
                 }
             },
             j_reddit_sinister_joker = {
-                name = 'Comodín Siniestro',
+                name = 'Comodín siniestro',
                 text = {
-                    "Gana {X:mult,C:white}X#1#{} multiplicador por cada Comodín a la derecha",
-                    "{C:inactive}(Actualmente {X:mult,C:white}X#2#{C:inactive} multiplicador)"
+                    "{X:mult,C:white}X#1#{} multi",
+                    "por cada comodín a la derecha",
+                    "{C:inactive}(Actual {X:mult,C:white}X#2#{C:inactive} multi)"
                 }
             },
             j_reddit_slothful = {
-                name = 'Comodín Perezoso',
+                name = 'Comodín perezoso',
                 text = {
-                    "Las cartas {C:attention}de Piedra{} puntuadas",
-                    "dan {C:mult}+#1#{} mult"
+                    "Las {C:attention}cartas de piedra{} jugadas",
+                    "dan {C:mult}+#1#{} multi cuando anotan"
                 }
             },
             j_reddit_sphinx = {
-                name = 'Esfinge de Cuarzo Negro',
+                name = 'Esfinge de cuarzo negro',
                 text = {
-                    "Cuando se selecciona una {C:attention}Ciega{},",
-                    "crea {C:attention}1{} {C:green}Comodín{} {C:attention}Poco Común",
+                    "Cuando se selecciona la {C:attention}ciega{},",
+                    "crea un {C:attention}comodín{} {C:green}inusual{} al azar",
                     "{C:inactive}(Debe haber espacio)"
                 }
             },
             j_reddit_superstition = {
                 name = 'Superstición',
                 text = {
-                    "{X:mult,C:white}X#1#{} multiplicador por cada {C:attention}7{}",
-                    "en tu {C:attention}mazo completo{},",
-                    "-{X:mult,C:white}X#1#{} multiplicador por cada 6",
-                    "en tu {C:attention}mazo completo{}",
-                    "{C:inactive}(Actualmente {X:mult,C:white}X#2#{C:inactive}){}"
+                    "Gana {X:mult,C:white}X#1#{} multi por cada {C:attention}7{}",
+                    "en tu {C:attention}baraja completa{},",
+                    "Pierde {X:mult,C:white}X#1#{} multi por cada 6",
+                    "en tu {C:attention}baraja completa{}",
+                    "{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive}){}"
                 }
             },
             j_reddit_touchdown = {
-                name = 'Touchdown',
+                name = 'Ensayo',
                 text = {
-                    "Gana {C:mult}+#1#{} multiplicador",
-                    "una vez que las cartas",
-                    "puntuadas superen {C:attention}#2#{}",
-                    "{C:inactive}(Actualmente {C:mult}+#3#{C:inactive} mult)",
+                    "Gana {C:mult}+#1#{} multi una vez",
+                    "que los puntos de las cartas",
+                    "anotadas superen {C:attention}#2#{}",
+                    "{C:inactive}(Actual: {C:mult}+#3#{C:inactive} multi)",
                     "{C:inactive}(Total actual: {C:attention}#4#{C:inactive})"
                 }
             },
             j_reddit_trippy = {
-                name = 'Comodín Psicodélico',
+                name = 'Comodín psicodélico',
                 text = {
-                    "Gana {X:mult,C:white}X#1#{} mult",
-                    "si la mano jugada es {C:attention}#2#{},",
-                    "se reinicia de lo contrario",
-                    "{C:inactive}(Actualmente {X:mult,C:white}X#3#{C:inactive} multiplicador)"
+                    "{X:mult,C:white}X#1#{} multi por cada",
+                    "{C:attention}#2#{} jugada consecutivamente",
+                    "{C:inactive}(Actual {X:mult,C:white}X#3#{C:inactive} multi)"
                 }
             },
             j_reddit_where_is_joker = {
-                name = '¿Dónde está el Comodín?',
+                name = '¿Dónde está el comodín?',
                 text = {
-                    "Da el valor de venta",
-                    "del {C:attention}Comodín{} más a la izquierda al",
+                    "Gana el valor de venta del",
+                    "{C:attention}comodín más a la izquierda{} al",
                     "final de la ronda",
-                    "{C:inactive}(Máx {C:money}$#1#{C:inactive})",
-                    "{C:inactive}(Actualmente: {C:money}$#2#{C:inactive}){}"
+                    "{C:inactive}(Máx. de {C:money}$#1#{C:inactive})",
+                    "{C:inactive}(Actual: {C:money}$#2#{C:inactive}){}"
                 }
             },
             j_reddit_wild_west = {
-                name = 'Lejano Oeste',
+                name = 'Lejano oeste',
                 text = {
-                    "{X:mult,C:white}X#1#{} multiplicador si la mano jugada",
-                    "contiene {C:attention}3 o más cartas salvajes{}"
+                    "{X:mult,C:white}X#1#{} multi si la mano jugada",
+                    "contiene {C:attention}3 o más cartas versátiles{}"
                 }
             },
             j_reddit_wizard = {
                 name = 'Mago',
                 text = {
-                    "{C:attention}+#1#{} Espacios Consumibles.",
+                    "{C:attention}+#1#{} ranuras de consumibles.",
                     "{C:chips}+#2#{} fichas por cada",
                     "consumible en posesión",
-                    "{C:inactive}(Actualmente: {C:chips}+#3#{C:inactive} fichas){}"
+                    "{C:inactive}(Actual: {C:chips}+#3#{C:inactive} fichas){}"
                 }
             },
         },
@@ -584,8 +582,13 @@ return {
         dictionary = {
             b_reddit_enable_bonanza_packs = 'Habilitar Paquetes Bonanza (¡Requiere Reinicio!)',
             b_reddit_enable_joker_overrides = 'Habilitar Reemplazo de Comodines (¡Requiere Reinicio!)',
+
+            k_empty_ex = "Vacío!",
+
             a_hand_singular = "mano",
             a_hand_plural = "manos",
+            a_times_singular = "vez",
+            a_times_plural = "veces",
         },
         high_scores = {},
         labels = {},

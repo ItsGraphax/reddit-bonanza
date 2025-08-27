@@ -236,9 +236,9 @@ return {
                 name = 'Enigma',
                 text = {
                     "{C:green}#1# in #2#{} chance to create",
-                    "a {C:dark_edition}Negative {C:blue}Spectral{}",
-                    "card when a {C:tarot}Tarot",
-                    "or {C:planet}Planet{} card is used"
+                    "a random {C:dark_edition}Negative {C:blue}Spectral{}",
+                    "card when a {C:tarot}Tarot or",
+                    "{C:planet}Planet{} card is used"
                 }
             },
             j_reddit_entangled_joker = {
@@ -271,8 +271,9 @@ return {
                 name = 'Haunted House',
                 text = {
                     "{C:green}#1# in #2#{} chance to create",
-                    "a {C:blue}Spectral Card{} if played",
-                    "hand contains a {C:attention}#3#{}"
+                    "a random {C:blue}Spectral{} card if ",
+                    "played hand contains a",
+                    "{C:attention}#3#{}"
                 }
             },
             j_reddit_hi_five = {
@@ -333,9 +334,9 @@ return {
             j_reddit_lamb = {
                 name = 'Lamb',
                 text = {
-                    "After playing every",
-                    "base {C:attention}Poker Hand{}, sell this card",
-                    "to create a {C:legendary}Legendary{} {C:attention}Joker",
+                    "After playing every base",
+                    "{C:attention}Poker Hand{}, sell this card to",
+                    "create a random {C:legendary}Legendary{} {C:attention}Joker",
                     "{C:inactive}(#1#/9){}"
                 }
             },
@@ -403,22 +404,21 @@ return {
                 name = 'Nichola',
                 text = {
                     "Prevents the {C:attention}Ante{} from",
-                    "increasing {C:attention}#1#{} times",
+                    "increasing {C:attention}#1#{} #2#",
                 }
             },
             j_reddit_oracle = {
                 name = 'Oracle',
                 text = {
-                    "Gives {X:mult,C:white}X#1#{} Mult per",
-                    "{C:spectral}Spectral{} card used this",
-                    "run",
+                    "{X:mult,C:white}X#1#{} Mult per {C:spectral}Spectral{}",
+                    "card used this run",
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive})"
                 }
             },
             j_reddit_pharaoh = {
                 name = 'Pharaoh',
                 text = {
-                    'Gives {X:mult,C:white}X#1#{} Mult if',
+                    '{X:mult,C:white}X#1#{} Mult if',
                     'you have {C:money}$#2#{} or more',
                     '{C:inactive}(Increases by {C:money}$#3#{C:inactive} every round)'
                 }
@@ -466,8 +466,8 @@ return {
             j_reddit_plumber = {
                 name = 'Plumber',
                 text = {
-                    "Leveling up one {C:attention}Flush{} type",
-                    "levels up all {C:attention}Flush{} types"
+                    "Leveling up one {C:attention}#1#{} type",
+                    "levels up all {C:attention}#1#{} types"
                 }
             },
             j_reddit_promotion = {
@@ -480,7 +480,7 @@ return {
             j_reddit_rainbow = {
                 name = 'Rainbow Joker',
                 text = {
-                    "Gives {X:mult,C:white}X1{} Mult",
+                    "{X:mult,C:white}X1{} Mult",
                     "per unique {C:attention}suit{}",
                     "in scoring hand"
                 }
@@ -504,7 +504,7 @@ return {
             j_reddit_sinister_joker = {
                 name = 'Sinister Joker',
                 text = {
-                    "Gives {X:mult,C:white}X#1#{} Mult",
+                    "{X:mult,C:white}X#1#{} Mult",
                     "for every {C:attention}Joker{} to the right",
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
@@ -512,15 +512,15 @@ return {
             j_reddit_slothful = {
                 name = 'Slothful Joker',
                 text = {
-                    "Scored {C:attention}Stone Cards{}",
-                    "give {C:mult}+#1#{} Mult"
+                    "Played {C:attention}Stone Cards{}",
+                    "give {C:mult}+#1#{} Mult when scored"
                 }
             },
             j_reddit_sphinx = {
                 name = 'Sphinx of Black Quartz',
                 text = {
                     "When {C:attention}Blind{} is selected,",
-                    "create an {C:green}Uncommon{} {C:attention}Joker",
+                    "create a random {C:green}Uncommon{} {C:attention}Joker",
                     "{C:inactive}(Must have room)"
                 }
             },
@@ -555,7 +555,7 @@ return {
             j_reddit_where_is_joker = {
                 name = 'Where is Joker?',
                 text = {
-                    "Gives the sell value",
+                    "Earn the sell value",
                     "of the {C:attention}leftmost joker{} at",
                     "end of round",
                     "{C:inactive}(Max {C:money}$#1#{C:inactive})",
@@ -865,8 +865,13 @@ return {
         dictionary = {
             b_reddit_enable_bonanza_packs = 'Enable Bonanza Packs (Requires Restart!)',
             b_reddit_enable_joker_overrides = 'Enable Joker Overrides (Requires Restart!)',
+
+            k_empty_ex = "Empty!",
+
             a_hand_singular = "hand",
             a_hand_plural = "hands",
+            a_times_singular = "time",
+            a_times_plural = "times",
         },
         high_scores = {},
         labels = {},
