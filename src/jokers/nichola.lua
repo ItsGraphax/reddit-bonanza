@@ -13,13 +13,23 @@ function ease_ante(mod)
 
     og_ease_ante(mod)
 end
+
+get_loc = function(card)
+	if card.ability.extra.antes_left == 1 then
+		return localize('a_times_singular')
+	else
+		return localize('a_times_plural')
+	end
+end
+
 SMODS.Joker {
 	key = 'nichola',
 	blueprint_compat = false,
+    perishable_compat = false,
 	
 	config = { extra = { antes_left = 3 } },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.antes_left } }
+		return { vars = { card.ability.extra.antes_left, get_loc(card) } }
 	end,
 
 	rarity = 4,
@@ -33,7 +43,35 @@ SMODS.Joker {
 	calculate = function(self, card, context)
         if context.nichola_block_ante and context.other_card == card then
             card.ability.extra.antes_left = card.ability.extra.antes_left - 1
-            return { message = "Nope!" }
+            if card.ability.extra.antes_left <= 0 then
+                G.E_MANAGER:add_event(Event({
+                    func = function()
+                    play_sound('tarot1')
+                    card.T.r = -0.2
+                    card:juice_up(0.3, 0.4)
+                    card.states.drag.is = true
+                    card.children.center.pinch.x = true
+                    G.E_MANAGER:add_event(Event({
+                        trigger = 'after',
+                        delay = 0.3,
+                        blockable = false,
+                        func = function()
+                        G.jokers:remove_card(card)
+                        card:remove()
+                        card = nil
+                        return true;
+                        end
+                    }))
+                    return true
+                    end
+                }))
+                return {
+                    message = localize('k_empty_ex'),
+                    colour = G.C.FILTER
+                }
+            end
+
+            return { message = localize('k_nope_ex') }
         end
 	end,
 

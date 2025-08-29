@@ -44,9 +44,9 @@ SMODS.Joker {
 	key = 'plumber',
 	blueprint_compat = false,
 	
-	config = { extra = {  } },
+	config = { extra = {poker_hand = "Flush"} },
     loc_vars = function(self, info_queue, card)
-		return { vars = {  } }
+		return { vars = {localize(card.ability.extra.poker_hand, 'poker_hands')} }
 	end,
 
 	rarity = 1,
