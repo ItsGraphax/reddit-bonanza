@@ -41,7 +41,7 @@ return {
                     'Cuando la {C:attention}ciega{} es derrotada con',
                     'al menos el {C:attention}doble{} de lo requerido,',
                     'se agrega una copia permanente de la ',
-                    'última carta jugada y se saca a la mano'
+                    'última carta jugada y se saca a la {C:attention}mano'
                 }
             },
             j_reddit_ace_up_your_sleeve = {
@@ -90,8 +90,8 @@ return {
                     '{C:white,X:red}X#1#{} multi',
                     '{C:green}#2# en #3#{} probabilidad',
                     'de que la carta se destruya',
-                    'cuando la mano excede lo',
-                    'requerido'
+                    'cuando la mano excede la',
+                    'puntuacion requerida'
                 }
             },
             j_reddit_artist = {
@@ -555,6 +555,190 @@ return {
                     "{C:inactive}(Actual: {C:chips}+#3#{C:inactive} fichas){}"
                 }
             },
+            j_reddit_event_horizon = {
+                name = 'Horizonte de eventos',
+                text = {
+                    '{C:green}#3# en #4#{} probabilidad de',
+                    '{C:attention}destruir{} una carta cuando anota,',
+                    '{X:mult,C:white}X#1#{} multi por cada {C:attention}carta que ',
+                    '{C:attention}anota{} destruida', 
+                    '{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)'
+                }
+            },
+            j_reddit_golden_retriever = { 
+                name = 'Cobrador dorado',
+                text = {
+                    'Añade una {C:attention}carta de oro{} con',
+                    'un {C:attention}sello de oro{} al comienzo',
+                    'de cada ronda'
+                }
+            },
+            j_reddit_ore_vein = { 
+                name = 'Veta de mineral',
+                text = {
+                    '{C:attention}Cartas de piedra{} también',
+                    'cuentan como {C:attention}cartas de oro{}'
+                }
+            },
+            j_reddit_waiting = {
+                name = 'Esperanza',
+                text = {
+                    'Este comodín se convierte en una copia',
+                    'del próximo comodín {C:rare}raro{} que obtengas.',
+                    'Si no se consigue ningún comodín {C:rare}raro{}',
+                    'en {C:attention}#2#{} rondas, esta carta se {C:attention}destruye',
+                    '{C:inactive}(Actual {C:attention}#1#{C:inactive}/#2#)'
+                }
+            },
+            j_reddit_lemonade = {
+                name = 'Limonada',
+                text = {
+                    '{C:white,X:mult}X#1#{} multi',
+                    'Pierde {C:white,X:mult}X#2#{} por cada',
+                    'carta vendida o destruida'
+                }
+            },
+            j_reddit_meninblack = {
+                name = 'Agente secreto',
+                text = {
+                    'Después de {C:attention}#1#{} #3#, vende esta carta',
+                    'para crear un comodín {C:rare}raro{} al azar',
+                    '{C:inactive}(Must have room)',
+                    '{C:inactive}({C:attention}#2#{C:inactive} remaining)'
+                }
+            },
+            j_reddit_notfunny = {
+                name = 'No es gracioso',
+                text = {
+                    'Todos los {C:attention}comodines{} a la izquierda',
+                    'de esta carta se {C:attention}inhabilitan{}',
+                    'cuando se juega la mano,',
+                    '{X:mult,C:white}X#1#{} multi por cada comodín',
+                    'inhabilitado de esta manera',
+                    '{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)',
+                    '{C:inactive,s:0.7}(Comodines {C:dark_edition,s:0.7}negativos{C:inactive,s:0.7} se excluyen)'
+                }
+            },
+            j_reddit_toiletpaper = {
+                name = 'Papel higiénico',
+                text = {
+                    'Gana {X:mult,C:white}X#1#{} multi por',
+                    'cada carta de {C:planet}Urano{} usada,',
+                    'se reestablece cuando un',
+                    '{C:attention}Color{} es jugado',
+                    '{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)'
+                }
+            },
+            j_reddit_4head = {
+                name = 'Cabezota',
+                text = {
+                    '{X:mult,C:white}X#1#{} multi por',
+                    'cada {C:attention}#2#{} cartas de {C:attention}figura{}',
+                    'en tu {C:attention}baraja completa',
+                    '{C:inactive}(Actual: {X:mult,C:white}X#3#{C:inactive} multi)'
+                }
+            },
+            j_reddit_newspaper = {
+                name = 'Portada',
+                text = {
+                    'Al comienzo de la ronda,',
+                    'saca {C:attention}#1#{} cartas adicionales'
+                }
+            },
+            j_reddit_thunderstruck = {
+                name = 'Atónito',
+                text = {
+                    '{C:green}#1# en #2#{} probabilidad de',
+                    'reactivar {C:attention}comodines{} adyacentes'
+                }
+            },
+            j_reddit_sweetener = {
+                name = 'Edulcorante artificial',
+                text = {
+                    'Las {C:attention}#1#{} próximas cartas de',
+                    '{C:attention}consumibles{} se vuelven {C:dark_edition}negativas{}'
+                }
+            },
+            j_reddit_decalcomania = {
+                name = 'Decalcomanía',
+                text = {
+                    '{C:green}#1# en #2#{} probabilidad de agregar que sean',
+                    '{C:attention}laminadas{}, {C:attention}holográficas{}, o {C:attention}polícromo{}',
+                    ' a las cartas jugadas que anotan'
+                }
+
+            },
+            j_reddit_class_notes = {
+                name = 'Notas de clase',
+                text = {
+                    'Copia la habilidad del',
+                    '{C:attention}comodín{} a la izquierda,',
+                    '{C:green}#1# en #2#{} probabilidad de',
+                    '{C:attention}destruirse{} a sí misma al',
+                    'final de la ronda'
+                }
+            },
+            j_reddit_tough_crowd = {
+                name = 'Publico difícil',
+                text = {
+                    'Reactiva',
+                    'todas las cartas',
+                    '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, y {C:attention}9{} cuando se juegan'
+                }
+            },
+            j_reddit_distinguished = {
+                name = 'Distinguido',
+                text = {
+                    'Cuando se selecciona la {C:attention}ciega{},',
+                    'las {C:attention}cartas versátiles{} ganan una',
+                    '{C:attention}mejora{} adicional,',
+                    'cambia en cada ronda',
+                    '{C:inactive}(Actual: #1#)'
+                }
+            },
+            j_reddit_mad = {
+                name = 'D.M.A.',
+		        text = {
+                    "Vende este comodín para ",
+                    "vencer esta {C:attention}ciega{}, subir la",
+                    "{C:attention}apuesta{} en {C:attention}1{} y dejar",
+                    " el dinero en {C:money}$0{}"
+                }
+            },
+            j_reddit_snowman = {
+                name = 'Hombre de nieve',
+                text = {
+                    '{C:chips}+#1#{} fichas por cada mano jugada',
+                    '{C:chips}-#2#{} fichas al final de la ronda',
+                    '{C:chips}-#3#{} fichas cuando se salta una {C:attention}ciega{}',
+                    '{C:inactive}(Actual: {C:chips}+#4#{C:inactive} fhips)'
+                }
+            },
+            j_reddit_molotov = {
+                name = 'Molotov',
+                text = {
+                    '{C:attention}+#1#{} tamaño de mano si la',
+                    'puntuación requerida es {C:attention}excedida{}',
+                    'en una mano',
+                    '{S:1.1,C:red,E:2}se autodestruye'
+                }
+            },
+            j_reddit_thalia = {
+                name = 'Thalia',
+                text = {
+                    'Todas las cartas en el {C:attention}primer',
+                    '{C:attention}descarte{} de la ronda se',
+                    'convierten en {C:attention}8s versátiles'
+                }
+            },
+            j_reddit_ufo = {
+                name = 'Objeto Volador No Identificado',
+                text = {
+                    'Sube de nivel una {C:attention}mano de póker{} al azar',
+                    'una vez por cada tipo de mano {C:attention}único{} jugado',
+                    'esta ronda al final de la ronda'
+                }
+            }
         },
         Other = {
             items = {
@@ -571,7 +755,34 @@ return {
         Stake = {},
         Tag = {},
         Tarot = {},
-        Voucher = {},
+        Voucher = {
+            v_reddit_trolley_problem = {
+                name = "Problema del carrito",
+                text = {
+                    "Al saltar una {C:attention}ciega{}, elige",
+                    "entre 2 etiquetas disponibles"
+                }
+            },
+            v_reddit_track_drift = {
+                name = "Derrape multicarril",
+                text = {
+                    "Al saltar una {C:attention}ciega{},",
+                    "obtén 2 etiquetas"
+                }
+            },
+            v_reddit_deterioration = {
+                name = 'Deterioración',
+                text = {
+                    '{C:red}X0.75{} tamaño base de {C:attention}ciega'
+                }
+            },
+            v_reddit_decay = {
+                name = 'Decadencia',
+                text = {
+                    '{C:red}X0.5{} tamaño base de {C:attention}ciega{}'
+                }
+            }
+        },
     },
     misc = {
         achievement_descriptions = {},
@@ -582,6 +793,7 @@ return {
         dictionary = {
             b_reddit_enable_bonanza_packs = 'Habilitar Paquetes Bonanza (¡Requiere Reinicio!)',
             b_reddit_enable_joker_overrides = 'Habilitar Reemplazo de Comodines (¡Requiere Reinicio!)',
+            b_reddit_enable_dev_jokers = 'Habilitar Comodines en Desarrollo (¡Requiere Reinicio!)',
 
             k_empty_ex = "Vacío!",
 

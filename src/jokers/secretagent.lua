@@ -1,3 +1,11 @@
+get_loc = function(card)
+	if card.ability.extra.hands == 1 then
+		return localize('a_hand_singular')
+	else
+		return localize('a_hand_plural')
+	end
+end
+
 SMODS.Joker {
   key = 'meninblack', -- funny reference guys get it right haha yeah i'm so smart and funny right guys
   blueprint_compat = false,
@@ -10,7 +18,7 @@ SMODS.Joker {
   cost = 8,
   config = {extra = {total_hands = 10, hands_remaining = 10}},
   loc_vars = function(self, info_queue, card)
-    return { vars = {card.ability.extra.total_hands, card.ability.extra.hands_remaining}}
+    return { vars = {card.ability.extra.total_hands, card.ability.extra.hands_remaining, get_loc(card)}}
   end,
 
   calculate = function(self, card, context)

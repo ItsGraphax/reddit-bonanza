@@ -613,7 +613,7 @@ return {
                     'obtain. If no {C:rare}Rare{} Jokers',
                     'are acquired in {C:attention}#2#{} rounds,',
                     'this card is {C:attention}destroyed',
-                    '{C:inactive}(Currently #1#/#2#)'
+                    '{C:inactive}(Currently {C:attention#1#{C:inactive}/#2#)'
                 }
             },
             j_reddit_lemonade = {
@@ -627,7 +627,7 @@ return {
             j_reddit_meninblack = {
                 name = 'Secret Agent',
                 text = {
-                    'After {C:attention}#1#{} hands, sell this card to',
+                    'After {C:attention}#1#{} #3#, sell this card to',
                     'create a random {C:rare}Rare{} Joker',
                     '{C:inactive}(Must have room)',
                     '{C:inactive}({C:attention}#2#{C:inactive} remaining)'
@@ -638,7 +638,7 @@ return {
                 text = {
                     'All {C:attention}Jokers{} to the left',
                     'of this card are {C:attention}disabled{}',
-                    'when a hand is played.',
+                    'when a hand is played,',
                     '{X:mult,C:white}X#1#{} Mult for every Joker',
                     'disabled this way',
                     '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)',
@@ -648,8 +648,8 @@ return {
             j_reddit_toiletpaper = {
                 name = 'Toilet Paper',
                 text = {
-                    'Gains {X:mult,C:white}X#1#{} Mult for',
-                    'every {C:planet}Uranus{} used,',
+                    '{X:mult,C:white}X#1#{} Mult for',
+                    'every {C:planet}Uranus{} card used,',
                     'resets when a {C:attention}Flush',
                     'is played',
                     '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
@@ -708,7 +708,8 @@ return {
             j_reddit_tough_crowd = {
                 name = 'Tough Crowd',
                 text = {
-                    'Retrigger each played',
+                    'Retrigger', 
+                    'each played',
                     '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, or {C:attention}9'
                 }
             },
@@ -830,14 +831,14 @@ return {
             v_reddit_trolley_problem = {
                 name = "Trolley Problem",
                 text = {
-                    "When skipping a blind, choose",
+                    "When skipping a {C:attention}blind{}, choose",
                     "between 2 available tags"
                 }
             },
             v_reddit_track_drift = {
                 name = "Multi-Track Drift",
                 text = {
-                    "When skipping a blind,",
+                    "When skipping a {C:attention}blind{},",
                     "gain 2 tags"
                 }
             },
