@@ -735,10 +735,10 @@ return {
             j_reddit_snowman = {
                 name = 'Snowman',
                 text = {
-                    '{C:chips}+#1#{} Chips for every hand played',
-                    '{C:chips}-#2#{} Chips at the end of round',
-                    '{C:chips}-#3#{} Chips when a {C:attention}Blind{} is skipped',
-                    '{C:inactive}(Currently {C:chips}+#4#{C:inactive} Chips)'
+                    'This Joker gains {C:chips}+#1#{} Chips',
+                    'per scoring {C:attention}Bonus Card{} played,',
+                    'removes card {C:attention}Enhancement',
+                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
                 }
             },
             j_reddit_molotov = {

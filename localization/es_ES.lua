@@ -724,10 +724,10 @@ return {
             j_reddit_snowman = {
                 name = 'Hombre de nieve',
                 text = {
-                    '{C:chips}+#1#{} fichas por cada mano jugada',
-                    '{C:chips}-#2#{} fichas al final de la ronda',
-                    '{C:chips}-#3#{} fichas cuando se salta una {C:attention}ciega{}',
-                    '{C:inactive}(Actual: {C:chips}+#4#{C:inactive} fhips)'
+                    'Este comodín gana {C:chips}+#1#{} fichas por cada',
+                    '{C:attention}carta adicional{} jugada que anota,',
+                    'remueve la {C:attention}mejora{} de la carta',
+                    '{C:inactive}(Actual {C:chips}+#2#{C:inactive} fichas)'
                 }
             },
             j_reddit_molotov = {
