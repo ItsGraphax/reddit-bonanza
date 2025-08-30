@@ -2,14 +2,14 @@ return {
     descriptions = {
         Back = {},
         Blind = {
-            j_reddit_spotlight = {
+            bl_reddit_spotlight = {
                 name = 'The Spotlight',
                 text = {
                     'Non-enhanced cards',
                     'are drawn face down'
                 }
             },
-            j_reddit_gourmet= {
+            bl_reddit_gourmet= {
                 name = 'The Gourmet',
                 text = {
                     'All cards are debuffed',
@@ -769,6 +769,39 @@ return {
             }
         },
         Other = {
+            p_reddit_bonanza_pack1 = {
+                name = "Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers",
+                },
+                group_name = "Bonanza Pack"
+            },
+            p_reddit_bonanza_pack2 = {
+                name = "Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+                group_name = "Bonanza Pack"
+            },
+            p_reddit_bonanza_pack_jumbo1 = {
+                name = "Jumbo Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+                group_name = "Bonanza Pack"
+            },
+            p_reddit_bonanza_pack_mega1 = {
+                name = "Mega Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+                group_name = "Bonanza Pack"
+            },
+
             items = {
                 name = 'Items',
                 text = {

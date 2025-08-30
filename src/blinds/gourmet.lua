@@ -1,13 +1,5 @@
 SMODS.Blind { -- Permission pending
   key = "gourmet",
-  loc_txt = {
-    name = 'The Gourmet',
-    text = {
-      'All cards are debuffed',
-      'until a consumable is',
-      'used or sold'
-    }
-  },
 
   pos = {y = 1},
   atlas = 'reddit_blinds',

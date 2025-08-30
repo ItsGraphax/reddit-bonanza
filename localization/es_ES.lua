@@ -1,7 +1,23 @@
 return {
     descriptions = {
         Back = {},
-        Blind = {},
+        Blind = {
+            bl_reddit_spotlight = {
+                name = 'El foco',
+                text = {
+                    'Las cartas sin mejorar',
+                    'se sacan boca abajo'
+                }
+            },
+            bl_reddit_gourmet= {
+                name = 'El gastrónomo',
+                text = {
+                    'Todas las cartas se debilitan',
+                    'hasta que un consumible sea',
+                    'usado o vendido'
+                }
+            },
+        },
         Edition = {},
         Enhanced = {},
         Joker = {
@@ -741,6 +757,39 @@ return {
             }
         },
         Other = {
+            p_reddit_bonanza_pack1 = {
+                name = "Paquete bonanza",
+                text = {
+                    "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
+                    "comodines de {V:1}Reddit Bonanza{}"
+                },
+                group_name = "Paquete bonanza"
+            },
+            p_reddit_bonanza_pack2 = {
+                name = "Paquete bonanza",
+                text = {
+                    "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
+                    "comodines de {V:1}Reddit Bonanza{}"
+                },
+                group_name = "Paquete bonanza"
+            },
+            p_reddit_bonanza_pack_jumbo1 = {
+                name = "Paquete bonanza jumbo",
+                text = {
+                    "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
+                    "comodines de {V:1}Reddit Bonanza{}"
+                },
+                group_name = "Paquete bonanza"
+            },
+            p_reddit_bonanza_pack_mega1 = {
+                name = "Paquete bonanza mega",
+                text = {
+                    "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
+                    "comodines de {V:1}Reddit Bonanza{}"
+                },
+                group_name = "Paquete bonanza"
+            },
+
             items = {
                 name = 'Artículos',
                 text = {

@@ -1,12 +1,5 @@
 SMODS.Blind { -- Permission pending
   key = 'spotlight',
-  loc_txt = {
-    name = 'The Spotlight',
-    text = {
-      'Non-enhanced cards',
-      'are drawn face down'
-    }
-  },
 
   pos = {y = 0},
   atlas = 'reddit_blinds',
