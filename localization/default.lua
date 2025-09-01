@@ -775,7 +775,6 @@ return {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers",
                 },
-                group_name = "Bonanza Pack"
             },
             p_reddit_bonanza_pack2 = {
                 name = "Bonanza Pack",
@@ -783,7 +782,6 @@ return {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
                 },
-                group_name = "Bonanza Pack"
             },
             p_reddit_bonanza_pack_jumbo1 = {
                 name = "Jumbo Bonanza Pack",
@@ -791,7 +789,6 @@ return {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
                 },
-                group_name = "Bonanza Pack"
             },
             p_reddit_bonanza_pack_mega1 = {
                 name = "Mega Bonanza Pack",
@@ -799,7 +796,6 @@ return {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
                 },
-                group_name = "Bonanza Pack"
             },
 
             items = {
@@ -858,7 +854,15 @@ return {
         --     }
         },
         Stake = {},
-        Tag = {},
+        Tag = {
+            tag_reddit_reddit = { -- this isn't gonna get confusing
+                name = 'Bonanza Tag',
+                text = {
+                    'Gives a free',
+                    '{C:attention}Mega Bonanza Pack'
+                }
+            }
+        },
         Tarot = {},
         Voucher = {
             v_reddit_trolley_problem = {
@@ -901,6 +905,7 @@ return {
             b_reddit_enable_dev_jokers = 'Enable Development Jokers (Requires Restart!)',
 
             k_empty_ex = "Empty!",
+            reddit_bonanza_pack = 'Bonanza Pack',
 
             a_hand_singular = "hand",
             a_hand_plural = "hands",

@@ -1,6 +1,7 @@
 local reddit_orange =  {1.0, 0.337, 0, 1}
 SMODS.Booster {
     key = 'bonanza_pack2',
+    group_key = "reddit_bonanza_pack",
 
     loc_vars = function(self, info_queue, card)
         return { vars = {
