@@ -805,7 +805,8 @@ return {
                     'Jokers, Consumables and',
                     'playing cards'
                 }
-            }
+            },
+            -- reddit_flipped = 'The joker is flipped' -- Why is it breaking :<
         },
         Planet = {},
         Spectral = {
@@ -891,7 +892,7 @@ return {
                     '{C:red}X0.5{} base {C:attention}Blind{} size'
                 }
             }
-        },
+        }
     },
     misc = {
         achievement_descriptions = {},
@@ -913,7 +914,9 @@ return {
             a_times_plural = "times",
         },
         high_scores = {},
-        labels = {},
+        labels = {
+            reddit_flipped = 'Flipped'
+        },
         poker_hand_descriptions = {},
         poker_hands = {},
         quips = {},

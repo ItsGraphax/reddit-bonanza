@@ -51,7 +51,7 @@ local dev_jokers = {
     'thalia.lua',
     'ufo.lua',
     'molotov.lua',
-    'sweetener.luax'
+    'sweetener.lua'
 }
 
 local preferred_order = {
