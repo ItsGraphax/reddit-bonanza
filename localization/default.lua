@@ -2,14 +2,14 @@ return {
     descriptions = {
         Back = {},
         Blind = {
-            j_reddit_spotlight = {
+            bl_reddit_spotlight = {
                 name = 'The Spotlight',
                 text = {
                     'Non-enhanced cards',
                     'are drawn face down'
                 }
             },
-            j_reddit_gourmet= {
+            bl_reddit_gourmet= {
                 name = 'The Gourmet',
                 text = {
                     'All cards are debuffed',
@@ -735,10 +735,10 @@ return {
             j_reddit_snowman = {
                 name = 'Snowman',
                 text = {
-                    '{C:chips}+#1#{} Chips for every hand played',
-                    '{C:chips}-#2#{} Chips at the end of round',
-                    '{C:chips}-#3#{} Chips when a {C:attention}Blind{} is skipped',
-                    '{C:inactive}(Currently {C:chips}+#4#{C:inactive} Chips)'
+                    'This Joker gains {C:chips}+#1#{} Chips',
+                    'per scoring {C:attention}Bonus Card{} played,',
+                    'removes card {C:attention}Enhancement',
+                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
                 }
             },
             j_reddit_molotov = {
@@ -769,6 +769,35 @@ return {
             }
         },
         Other = {
+            p_reddit_bonanza_pack1 = {
+                name = "Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers",
+                },
+            },
+            p_reddit_bonanza_pack2 = {
+                name = "Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+            },
+            p_reddit_bonanza_pack_jumbo1 = {
+                name = "Jumbo Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+            },
+            p_reddit_bonanza_pack_mega1 = {
+                name = "Mega Bonanza Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
+                    "{V:1}Reddit Bonanza{} Jokers"
+                },
+            },
+
             items = {
                 name = 'Items',
                 text = {
@@ -825,7 +854,15 @@ return {
         --     }
         },
         Stake = {},
-        Tag = {},
+        Tag = {
+            tag_reddit_reddit = { -- this isn't gonna get confusing
+                name = 'Bonanza Tag',
+                text = {
+                    'Gives a free',
+                    '{C:attention}Mega Bonanza Pack'
+                }
+            }
+        },
         Tarot = {},
         Voucher = {
             v_reddit_trolley_problem = {
@@ -868,6 +905,7 @@ return {
             b_reddit_enable_dev_jokers = 'Enable Development Jokers (Requires Restart!)',
 
             k_empty_ex = "Empty!",
+            reddit_bonanza_pack = 'Bonanza Pack',
 
             a_hand_singular = "hand",
             a_hand_plural = "hands",

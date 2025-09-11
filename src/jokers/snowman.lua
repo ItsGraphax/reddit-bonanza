@@ -3,12 +3,10 @@ SMODS.Joker {
 	blueprint_compat = true,
   perishable_compat = false,
 
-  config = {extra = {chips_gain = 25, chips_lose = 25, chips_penalty = 50, chips = 0, message = false}},
+  config = {extra = {chips_gain = 30, chips = 0,}},
   loc_vars = function(self, info_queue, card)
       return {vars = {
         card.ability.extra.chips_gain,
-        card.ability.extra.chips_lose,
-        card.ability.extra.chips_penalty,
         card.ability.extra.chips
       }}
   end,
@@ -21,35 +19,29 @@ SMODS.Joker {
 	cost = 8,
 
 	calculate = function(self, card, context)
-    if card.ability.extra.message then
-      card.ability.extra.message = false
-      return {
-          colour = G.C.BLUE,
-          message = '-' .. card.ability.extra.chips_penalty -- why does this not work is it stupid
-        }
-    end
-    if card.ability.extra.chips < 0 then
-      card.ability.extra.chips = 0
-    end
-    if context.before then
-      card.ability.extra.chips = card.ability.extra.chips + card.ability.extra.chips_gain
-    end
-    if context.end_of_round and context.cardarea == G.jokers then 
-      if card.ability.extra.chips > 0 then
-        card.ability.extra.chips = card.ability.extra.chips - card.ability.extra.chips_lose
-        return {
-          colour = G.C.BLUE,
-          message = '-' .. card.ability.extra.chips_lose
-        }
+    if context.before and context.main_eval and not context.blueprint then
+      local enhanced = {}
+      for _, scored_card in ipairs(context.scoring_hand) do
+        if next(SMODS.get_enhancements(scored_card)) == 'm_bonus' and not scored_card.debuff and not scored_card.snowman_suck then
+          print(next(SMODS.get_enhancements(scored_card)))
+          enhanced[#enhanced + 1] = scored_card
+          scored_card.snowman_suck = true
+          scored_card:set_ability('c_base', nil, true)
+          G.E_MANAGER:add_event(Event({
+            func = function()
+              scored_card:juice_up()
+              scored_card.snowman_suck = nil
+              return true
+            end
+          }))
+        end
       end
-    end
-    if context.skip_blind then 
-      if card.ability.extra.chips > 0 then
-        card.ability.extra.chips = card.ability.extra.chips - card.ability.extra.chips_penalty
-        card.ability.extra.message = true
+
+      if #enhanced > 0 then
+        card.ability.extra.chips = card.ability.extra.chips + card.ability.extra.chips_gain * #enhanced
         return {
-          colour = G.C.BLUE,
-          message = '-' .. card.ability.extra.chips_penalty -- why does this not work is it stupid
+          message = localize { type = 'variable', key = 'a_chips', vars = { card.ability.extra.chips } },
+          colour = G.C.CHIPS
         }
       end
     end

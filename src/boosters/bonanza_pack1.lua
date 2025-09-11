@@ -1,14 +1,8 @@
 local reddit_orange =  {1.0, 0.337, 0, 1}
 SMODS.Booster {
     key = 'bonanza_pack1',
-    loc_txt = {
-        name = "Bonanza Pack",
-        text = {
-            "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
-            "{V:1}Reddit Bonanza{} Jokers"
-        },
-        group_name = "Bonanza Pack"
-    },
+    group_key = "reddit_bonanza_pack",
+    
     loc_vars = function(self, info_queue, card)
         return { vars = {
             card.ability.choose, 
