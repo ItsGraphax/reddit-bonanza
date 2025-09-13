@@ -763,7 +763,6 @@ return {
                     "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
                     "comodines de {V:1}Reddit Bonanza{}"
                 },
-                group_name = "Paquete bonanza"
             },
             p_reddit_bonanza_pack2 = {
                 name = "Paquete bonanza",
@@ -771,7 +770,6 @@ return {
                     "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
                     "comodines de {V:1}Reddit Bonanza{}"
                 },
-                group_name = "Paquete bonanza"
             },
             p_reddit_bonanza_pack_jumbo1 = {
                 name = "Paquete bonanza jumbo",
@@ -779,7 +777,6 @@ return {
                     "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
                     "comodines de {V:1}Reddit Bonanza{}"
                 },
-                group_name = "Paquete bonanza"
             },
             p_reddit_bonanza_pack_mega1 = {
                 name = "Paquete bonanza mega",
@@ -787,7 +784,6 @@ return {
                     "Elige {C:attention}#1#{} de hasta {C:attention}#2#{}",
                     "comodines de {V:1}Reddit Bonanza{}"
                 },
-                group_name = "Paquete bonanza"
             },
 
             items = {
@@ -802,7 +798,14 @@ return {
         Planet = {},
         Spectral = {},
         Stake = {},
-        Tag = {},
+        Tag = {
+            tag_reddit_reddit = { -- this isn't gonna get confusing
+                name = 'Etiqueta de bonanza',
+                text = {
+                    'Otorga gratis un',
+                    '{C:attention}paquete bonanza'
+                }
+            }},
         Tarot = {},
         Voucher = {
             v_reddit_trolley_problem = {
@@ -845,6 +848,8 @@ return {
             b_reddit_enable_dev_jokers = 'Habilitar Comodines en Desarrollo (¡Requiere Reinicio!)',
 
             k_empty_ex = "Vacío!",
+            k_destroyed_ex = "Destruído!",
+            reddit_bonanza_pack = 'Paquete bonanza',
 
             a_hand_singular = "mano",
             a_hand_plural = "manos",

@@ -12,7 +12,7 @@ SMODS.Joker {
 	rarity = 1,
 	atlas = 'reddit_jokers',
 	pos = { x = 1, y = 2 },
-	cost = COST,
+	cost = 7,
 	calculate = function(self, card, context)
         if context.before and context.main_eval and not context.blueprint then
             local faces = 0
