@@ -579,6 +579,7 @@ return {
                 }
             },
             -- i can't be bothered to alphabetize it rn; TheNeto06
+            -- me neither; ItsGraphax
 
             j_reddit_event_horizon = {
                 name = 'Event Horizon',
@@ -588,6 +589,15 @@ return {
                     '{X:mult,C:white}X#1#{} Mult for every destroyed',
                     '{C:attention}scoring card', 
                     '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
+                }
+            },
+            j_reddit_sisyphean_task = {
+                name = "Sisyphean Task",
+                text = {
+                    "Gains {X:mult,C:white}X#1#{} Mult when each",
+                    "played {C:attention}Stone{} card is scored. Resets",
+                    "after playing a {C:attention}High Card{} or {C:attention}Pair{}",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
             },
             j_reddit_golden_retriever = { 
@@ -906,6 +916,7 @@ return {
             b_reddit_enable_dev_jokers = 'Enable Development Jokers (Requires Restart!)',
 
             k_empty_ex = "Empty!",
+            k_up = "Up!",
             reddit_bonanza_pack = 'Bonanza Pack',
 
             a_hand_singular = "hand",
