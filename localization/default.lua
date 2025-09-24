@@ -658,7 +658,7 @@ return {
             j_reddit_4head = {
                 name = '4Head',
                 text = {
-                    'Gains {X:mult,C:white}X#1#{} Mult for',
+                    'Gives {X:mult,C:white}X#1#{} Mult for',
                     'every {C:attention}#2# face{} cards',
                     'in your {C:attention}full deck',
                     '{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} Mult)'

@@ -27,8 +27,13 @@ SMODS.Joker {
             if my_pos and G.jokers.cards[my_pos + 1] and
             not G.jokers.cards[my_pos + 1].ability.eternal and
             not G.jokers.cards[my_pos + 1].getting_sliced and
-            G.jokers.cards[my_pos + 1].config.center_key ~= 'j_reddit_contagious_laughter' then
+            not (G.jokers.cards[my_pos + 1].config.center_key == 'j_reddit_contagious_laughter' and G.jokers.cards[my_pos + 1].edition.key ~= "e_negative") then
                 local infect_card = G.jokers.cards[my_pos + 1]
+            
+                if infect_card.remove_from_deck then
+                    infect_card:remove_from_deck(infect_card, false)
+                end
+
                 G.E_MANAGER:add_event(Event({
                     func = function()
                         infect_card:set_ability('j_reddit_contagious_laughter')

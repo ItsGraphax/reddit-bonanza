@@ -3,7 +3,7 @@ SMODS.Joker {
 	key = 'enigma',
 	blueprint_compat = true,
 	
-	config = { extra = { odds = 10 } },
+	config = { extra = { odds = 8 } },
     loc_vars = function(self, info_queue, card)
 		return { vars = { SMODS.get_probability_vars(card, 1, card.ability.extra.odds) } }
 	end,

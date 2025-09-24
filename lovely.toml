@@ -28,7 +28,7 @@ SMODS.OPENED_BOOSTER.ability.extra = SMODS.OPENED_BOOSTER.ability.extra + (G.GAM
 [[patches]]
 [patches.pattern]
 target = 'card.lua'
-pattern = "G.GAME.pack_choices = self.ability.choose or self.config.center.config.choose or 1"
+pattern = "G.GAME.pack_choices = self.config.center.config.choose or 1"
 position = "after"
 match_indent = true
 payload = '''
