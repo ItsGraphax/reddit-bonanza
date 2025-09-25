@@ -848,7 +848,6 @@ return {
             b_reddit_enable_dev_jokers = 'Habilitar Comodines en Desarrollo (¡Requiere Reinicio!)',
 
             k_empty_ex = "Vacío!",
-            k_destroyed_ex = "Destruído!",
             reddit_bonanza_pack = 'Paquete bonanza',
 
             a_hand_singular = "mano",

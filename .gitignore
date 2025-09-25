@@ -1,3 +1,6 @@
 .luarc.json
 .lovelyignore
 mod.zip
+
+# (TheNeto06) I have a script that runs git fetch, pull so that i don't end up merging every time...
+updater.bat

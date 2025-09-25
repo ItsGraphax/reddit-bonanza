@@ -7,7 +7,7 @@ SMODS.Joker {
 
 	config = { extra = { } },
 	loc_vars = function(self, info_queue, card)
-			return { vars = { } }
+		return { vars = { } }
 	end,
 
 	rarity = RARITY, -- 1 for common through 4 for legendary

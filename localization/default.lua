@@ -776,6 +776,13 @@ return {
                     'for every {C:attention}unique{} hand type played',
                     'this round at the end of round'
                 }
+            },
+            j_reddit_sheet_music = {
+                name = 'Sheet Music',
+                text = {
+                    'Earn {C:money}$1{} when each played',
+                    '{C:attention}Ace{}, {C:attention}2{}, {C:attention}3{}, or {C:attention}4{} is scored'
+                }
             }
         },
         Other = {
