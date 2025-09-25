@@ -783,6 +783,14 @@ return {
                     'Earn {C:money}$1{} when each played',
                     '{C:attention}Ace{}, {C:attention}2{}, {C:attention}3{}, or {C:attention}4{} is scored'
                 }
+            },
+            j_reddit_irises = {
+                name = "Irises",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played hand",
+                    "contains at least {C:attention}#2#{} unique",
+                    "{C:attention}Enhancements{}"
+                }
             }
         },
         Other = {
