@@ -190,7 +190,8 @@ return {
                     "{C:mult}+#1#{} Mult",
                     "When {C:attention}Blind{} is selected, replace",
                     "Joker to the right with a {C:dark_edition}Negative{}",
-                    "copy of {C:attention}Contagious Laughter{}"
+                    "copy of {C:attention}Contagious Laughter{}",
+                    "{C:inactive}(Excluding Contagious Laughter){}"
                 }
             },
             j_reddit_con_artist = {
@@ -733,6 +734,13 @@ return {
                     '{C:inactive}(Currently #1#)'
                 }
             },
+            j_reddit_pizza = {
+                name = "Pizza",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult",
+                    "Loses {X:mult,C:white}X#2#{} Mult per round played"
+                }
+            },
             j_reddit_mad = {
                 name = 'M.A.D.',
 		        text = {
@@ -767,6 +775,15 @@ return {
                     '{C:attention}discard{} of round',
                     'are converted to',
                     '{C:attention}Wild 8s'
+                }
+            },
+            j_reddit_seal_clubber = {
+                name = "Seal Clubber",
+                text = {
+                    "Gains {X:mult,C:white}X#1#{} Mult per",
+                    "scoring card with a {C:attention}seal{},",
+                    "removes {C:attention}seal{}",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
             },
             j_reddit_ufo = {

@@ -4,27 +4,20 @@ CREDIT_TEXT_BG_COLOR_ALT = G.C.PURPLE
 CREDIT_TEXT_COLOR = G.C.WHITE
 CREDIT_TEXT_SIZE = 0.9
 
- credit_badge = function(username, alt)
+credit_badge = function(username, alt)
     local bg_col = CREDIT_TEXT_BG_COLOR
-    if alt then
-        bg_col = CREDIT_TEXT_BG_COLOR_ALT
-    end
+    if alt then bg_col = CREDIT_TEXT_BG_COLOR_ALT end
 
     local prefix = 'by u/'
-    if alt then
-        prefix = 'art by u/'
-    end
+    if alt then prefix = 'art by u/' end
 
-    return create_badge(prefix .. username, bg_col, CREDIT_TEXT_COLOR, CREDIT_TEXT_SIZE)
+    return create_badge(prefix .. username, bg_col, CREDIT_TEXT_COLOR,
+                        CREDIT_TEXT_SIZE)
 end
 
 -- Search Function
 local has_value = function(array, value)
-    for _, v in ipairs(array) do
-        if v == value then
-            return true
-        end
-    end
+    for _, v in ipairs(array) do if v == value then return true end end
 
     return false
 end
@@ -34,69 +27,23 @@ local nativefs = require 'nativefs'
 local mod_path = SMODS.current_mod.path
 local all_files = NFS.getDirectoryItems(mod_path .. 'src/jokers')
 
-local skip_jokers = {
-    '8_ball.lua',
-    'roasted_marshmallow.lua',
-    'sweetener.lua'
-}
+local skip_jokers = {'8_ball.lua', 'roasted_marshmallow.lua', 'sweetener.lua'}
 
 local dev_jokers = {
-    'thunderstruck.lua',
-    'decalcomania.lua',
-    'class_notes.lua',
-    'tough_crowd.lua',
-    'richard.lua',
-    'distinguished.lua',
-    'snowman.lua',
-    'thalia.lua',
-    'ufo.lua',
-    'molotov.lua',
-    'sweetener.lua'
+    'thunderstruck.lua', 'decalcomania.lua', 'class_notes.lua',
+    'tough_crowd.lua', 'richard.lua', 'distinguished.lua', 'snowman.lua',
+    'thalia.lua', 'ufo.lua', 'molotov.lua', 'sweetener.lua'
 }
 
 local preferred_order = {
-    'artist',
-    'class_notes',
-    'diamond_pickaxe',
-    'enigma',
-    'entangled_joker',
-    'feelin_lucky',
-    'mad',
-    'match3',
-    'wizard',
-    'bingo',
-    'blank_joker',
-    'cashback',
-    'glass_house',
-    'kleptomaniac',
-    'phoenix',
-    'touchdown',
-    'trippy',
-    'album_cover',
-    'butter_fingers',
-    'crimsown_dawn',
-    'hollow_point',
-    'pharaoh',
-    'pier',
-    'rover',
-    'sphinx',
-    'superstition',
-    'rover',
-    'chaste_joker',
-    'charitable_joker',
-    'kind_joker',
-    'abstinent_joker',
-    'medusa',
-    'laundromat',
-    'bingo',
-    'cashback',
-    'contagious_laughter',
-    'engagement_ring',
-    'lamb',
-    'phoenix',
-    'birbal',
-    'nichola',
-    'richard'
+    'artist', 'class_notes', 'diamond_pickaxe', 'enigma', 'entangled_joker',
+    'feelin_lucky', 'mad', 'match3', 'wizard', 'bingo', 'blank_joker',
+    'cashback', 'glass_house', 'kleptomaniac', 'phoenix', 'touchdown', 'trippy',
+    'album_cover', 'butter_fingers', 'crimsown_dawn', 'hollow_point', 'pharaoh',
+    'pier', 'rover', 'sphinx', 'superstition', 'rover', 'chaste_joker',
+    'charitable_joker', 'kind_joker', 'abstinent_joker', 'medusa', 'laundromat',
+    'bingo', 'cashback', 'contagious_laughter', 'engagement_ring', 'lamb',
+    'phoenix', 'birbal', 'nichola', 'richard'
 }
 
 -- Loading Order
@@ -104,7 +51,9 @@ local loaded_set = {}
 
 for _, filename in ipairs(preferred_order) do
     local path = 'src/jokers/' .. filename .. '.lua'
-    if nativefs.getInfo(mod_path .. path) and not (has_value(dev_jokers, filename..'.lua') and not reddit_config.enable_dev_jokers) then
+    if nativefs.getInfo(mod_path .. path) and
+        not (has_value(dev_jokers, filename .. '.lua') and
+            not reddit_config.enable_dev_jokers) then
         assert(SMODS.load_file(path))()
         loaded_set[filename .. '.lua'] = true
     end
@@ -112,9 +61,8 @@ end
 
 -- Remaining Jokers
 for _, file in ipairs(all_files) do
-    if not (loaded_set[file]
-    or has_value(skip_jokers, file)
-    or (has_value(dev_jokers, file) and not reddit_config.enable_dev_jokers)) then
+    if not (loaded_set[file] or has_value(skip_jokers, file) or
+        (has_value(dev_jokers, file) and not reddit_config.enable_dev_jokers)) then
         assert(SMODS.load_file('src/jokers/' .. file))()
     end
 end

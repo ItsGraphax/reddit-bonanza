@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'class_notes',
 	blueprint_compat = true,
   perishable_compat = false,
+  eternal_compat = false,
 
   config = { extra = {odds = 5} },
   loc_vars = function(self, info_queue, card)
