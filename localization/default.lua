@@ -194,6 +194,14 @@ return {
                     "{C:inactive}(Excluding Contagious Laughter){}"
                 }
             },
+            j_reddit_demon_core = {
+                name = "Demon Core",
+                text = {
+                    "Retrigger all played cards",
+                    "{C:attention}#2#{} times,",
+                    "{C:chips}-#1#{} hands each round"
+                }
+            },
             j_reddit_con_artist = {
                 name = 'Con Artist',
                 text = {
