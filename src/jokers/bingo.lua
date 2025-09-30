@@ -13,7 +13,7 @@ SMODS.Joker {
 		end
 		local final_string = ""
 		if #played_rank_strs == 0 then
-			final_string = "None"
+			final_string = localize('k_none')
 		else
 			table.sort(played_rank_strs, function (a, b)
 				return SMODS.Ranks[a].id < SMODS.Ranks[b].id

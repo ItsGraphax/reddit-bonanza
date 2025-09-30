@@ -15,7 +15,8 @@ SMODS.Joker {
     eternal_compat = true,
     perishable_compat = false,
 
-    config = {extra = {xmult_mod = 0.2, xmult = 1, trigger_hands = {"High Card", "Pair"}}},
+    config = {extra = {xmult_mod = 0.2, xmult = 1, trigger_hands = {"High Card", "Pair"}
+}},
     loc_vars = function(self, info_queue, card)
         return {vars = {card.ability.extra.xmult_mod, card.ability.extra.xmult}}
     end,
@@ -50,7 +51,7 @@ SMODS.Joker {
             if scale then
                 card.ability.extra.xmult = card.ability.extra.xmult + card.ability.extra.xmult_mod
                 return {
-                    message = localize("k_up")
+                    message = localize("k_up_ex")
                 }
             end
         end

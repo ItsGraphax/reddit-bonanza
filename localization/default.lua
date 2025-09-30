@@ -604,7 +604,7 @@ return {
                 name = "Sisyphean Task",
                 text = {
                     "Gains {X:mult,C:white}X#1#{} Mult when each",
-                    "played {C:attention}Stone{} card is scored. Resets",
+                    "played {C:attention}Stone Card{} is scored. Resets",
                     "after playing a {C:attention}High Card{} or {C:attention}Pair{}",
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
@@ -805,7 +805,7 @@ return {
             j_reddit_sheet_music = {
                 name = 'Sheet Music',
                 text = {
-                    'Earn {C:money}$1{} when each played',
+                    'Earn {C:money}$#1#{} when each played',
                     '{C:attention}Ace{}, {C:attention}2{}, {C:attention}3{}, or {C:attention}4{} is scored'
                 }
             },
@@ -956,7 +956,8 @@ return {
             b_reddit_enable_dev_jokers = 'Enable Development Jokers (Requires Restart!)',
 
             k_empty_ex = "Empty!",
-            k_up = "Up!",
+            k_up_ex = "Up!",
+            k_none = "None",
             reddit_bonanza_pack = 'Bonanza Pack',
 
             a_hand_singular = "hand",

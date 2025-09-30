@@ -138,7 +138,7 @@ SMODS.Joker {
                 }
             }
         } }
-        if not card.ability.extra.other_joker then return { vars = { "None" } } end
+        if not card.ability.extra.other_joker then return { vars = { localize('k_none') } } end
 
         info_queue[#info_queue+1] = copy_table(card.ability.extra.other_joker.config.center)
         info_queue[#info_queue].config = card.ability.extra.other_joker.ability

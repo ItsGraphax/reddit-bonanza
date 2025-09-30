@@ -85,7 +85,7 @@ return {
                 }
             },
             j_reddit_all_in = {
-                name = 'Todo o Nada',
+                name = 'Todo o nada',
                 text = {
                     "{X:mult,C:white}X#1#{} multi",
                     "Pierde todo tu dinero cuando se",
@@ -184,6 +184,14 @@ return {
                     "reemplaza el comodín a la derecha ",
                     "con una copia {C:dark_edition}negativa{} de",
                     "{C:attention}Risa contagiosa{}"
+                }
+            },
+            j_reddit_demon_core = {
+                name = "Núcleo del demonio",
+                text = {
+                    "Reactiva todas las cartas jugadas",
+                    "{C:attention}#2#{} veces,",
+                    "{C:chips}-#1#{} manos cada ronda"
                 }
             },
             j_reddit_con_artist = {
@@ -319,7 +327,7 @@ return {
                     "{C:green} #1# en #2#{} probabilidad de perder todo el",
                     " dinero adeudado en vez de reembolsar",
                     "{C:inactive}Pierde el 30% del dinero", "{C:inactive}adeudado al vender{}",
-                    "{C:inactive}(Actual: {C:money}#3#${C:inactive}){}"
+                    "{C:inactive}(Actual: {C:money}$#3#{C:inactive}){}"
                 }
             },
             j_reddit_lamb = {
@@ -581,6 +589,16 @@ return {
                     '{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)'
                 }
             },
+            j_reddit_sisyphean_task = {
+                name = "Tarea de Sísifo",
+                text = {
+                    "Gana {X:mult,C:white}X#1#{} multi cuando cada",
+                    "{C:attention}carta de piedra{} jugada anota. Se",
+                    "reestablece al jugar una {C:attention}carta más alta{}",
+                    "o {C:attention}par{}",
+                    "{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)"
+                }
+            },
             j_reddit_golden_retriever = { 
                 name = 'Cobrador dorado',
                 text = {
@@ -619,8 +637,8 @@ return {
                 text = {
                     'Después de {C:attention}#1#{} #3#, vende esta carta',
                     'para crear un comodín {C:rare}raro{} al azar',
-                    '{C:inactive}(Must have room)',
-                    '{C:inactive}({C:attention}#2#{C:inactive} remaining)'
+                    '{C:inactive}(Debe haber espacio)',
+                    '{C:inactive}({C:attention}#2#{C:inactive} restantes)'
                 }
             },
             j_reddit_notfunny = {
@@ -712,6 +730,13 @@ return {
                     '{C:inactive}(Actual: #1#)'
                 }
             },
+            j_reddit_pizza = {
+                name = "Pizza",
+                text = {
+                    "{X:mult,C:white}X#1#{} multi",
+                    "Pierde {X:mult,C:white}X#2#{} multi por ronda jugada"
+                }
+            },
             j_reddit_mad = {
                 name = 'D.M.A.',
 		        text = {
@@ -747,12 +772,36 @@ return {
                     'convierten en {C:attention}8s versátiles'
                 }
             },
+            j_reddit_seal_clubber = {
+                name = "Seal Clubber", -- what the FUCK IS A SEAL CLUBBER?????
+                text = {
+                    "Gana {X:mult,C:white}X#1#{} multi por cada",
+                    "carta que anota con un {C:attention}sello{},",
+                    "remueve el {C:attention}sello{}",
+                    "{C:inactive}(Actual: {X:mult,C:white}X#2#{C:inactive} multi)"
+                }
+            },
             j_reddit_ufo = {
                 name = 'Objeto Volador No Identificado',
                 text = {
                     'Sube de nivel una {C:attention}mano de póker{} al azar',
                     'una vez por cada tipo de mano {C:attention}único{} jugado',
                     'esta ronda al final de la ronda'
+                }
+            },
+            j_reddit_sheet_music = {
+                name = 'Partitura',
+                text = {
+                    'Gana {C:money}$#1#{} cuando cada {C:attention}as{},',
+                    '{C:attention}2{}, {C:attention}3{}, o {C:attention}4{} jugado anota'
+                }
+            },
+            j_reddit_irises = {
+                name = "Irises",
+                text = {
+                    "{X:mult,C:white}X#1#{} multi si la mano jugada",
+                    "contiene al menos {C:attention}#2#{}",
+                    "{C:attention}mejoras{} únicas"
                 }
             }
         },
@@ -848,6 +897,8 @@ return {
             b_reddit_enable_dev_jokers = 'Habilitar Comodines en Desarrollo (¡Requiere Reinicio!)',
 
             k_empty_ex = "Vacío!",
+            k_up_ex = "Sube!",
+            k_none = "Ninguno",
             reddit_bonanza_pack = 'Paquete bonanza',
 
             a_hand_singular = "mano",

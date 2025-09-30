@@ -24,7 +24,7 @@ SMODS.Joker {
             card.ability.extra.last_played = context.scoring_name
 
             if card.ability.extra.last_played == card.ability.extra.second_last_played then
-                card.ability.extra.second_last_played = 'None'
+                card.ability.extra.second_last_played = localize('k_none')
             end
 
             if context.scoring_name == second_last_played then
