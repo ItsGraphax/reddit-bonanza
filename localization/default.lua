@@ -816,6 +816,13 @@ return {
                     "contains at least {C:attention}#2#{} unique",
                     "{C:attention}Enhancements{}"
                 }
+            },
+            j_reddit_crown = {
+                name = "Crown",
+                text = {
+                    "Earn {C:money}$#1#{} if played hand",
+                    "is a {C:attention}#2#{}"
+                }
             }
         },
         Other = {
