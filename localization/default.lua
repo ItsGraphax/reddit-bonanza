@@ -823,6 +823,15 @@ return {
                     "Earn {C:money}$#1#{} if played hand",
                     "is a {C:attention}#2#{}"
                 }
+            },
+            j_reddit_ping_pong = {
+                name = "Ping Pong",
+                text = {
+                    "Retrigger all scored {C:attention}Playing{}",
+                    "{C:attention}Cards{} if you have {C:attention}#1#{} or fewer",
+                    "{C:attention}Jokers{}",
+                    "{C:inactive}(Ping Pong included){}"
+                }
             }
         },
         Other = {

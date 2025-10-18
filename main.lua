@@ -109,7 +109,7 @@ loader.load({
         '8_ball.lua', 'roasted_marshmallow.lua', 'sweetener.lua'
     },
     item_overrides = {'8_ball.lua'},
-    last_items = {'birbal.lua', 'nichola.lua', 'richard.lua'}
+    last_items = {'birbal.lua', 'nichola.lua', 'richard.lua', 'thalia.lua'}
 })
 
 -- assert(SMODS.load_file("src/jokers.lua"))()
