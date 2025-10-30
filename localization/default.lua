@@ -832,6 +832,14 @@ return {
                     "{C:attention}Jokers{}",
                     "{C:inactive}(Ping Pong included){}"
                 }
+            },
+            j_reddit_resting_joker = {
+                name = "Resting Joker",
+                text = {
+                    'Gains {C:chips}+#1#{} Chips when a {C:attention}7',
+                    'is played but not scored',
+                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
+                }
             }
         },
         Other = {
