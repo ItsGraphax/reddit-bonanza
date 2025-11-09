@@ -13,7 +13,7 @@ SMODS.Joker {
     atlas = 'reddit_jokers',
     pos = {x = 1, y = 5},
 
-    cost = 6,
+    cost = 6, 
 
     calculate = function(self, card, context)
         if context.setting_blind and not context.blueprint then

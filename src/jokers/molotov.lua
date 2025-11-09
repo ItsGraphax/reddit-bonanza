@@ -2,14 +2,14 @@
 SMODS.Joker {
 	key = 'molotov',
 	blueprint_compat = true,
-	eternal_compat = false, -- false if the joker has to be sold or can destroy itself
+	eternal_compat = false,
 
 	config = {extra = {size = 1}},
 	loc_vars = function(self, info_queue, card)
 			return {vars = {card.ability.extra.size}}
 	end,
 
-	rarity = 2, -- 1 for common through 4 for legendary,
+	rarity = 2,
 	
 	atlas = 'reddit_jokers',
 	pos = {x = 10, y = 4},

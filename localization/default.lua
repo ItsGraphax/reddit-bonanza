@@ -832,6 +832,30 @@ return {
                     "{C:attention}Jokers{}",
                     "{C:inactive}(Ping Pong included){}"
                 }
+            },
+            j_reddit_grenade_png = {
+                name = "PNG of a grenade",
+                text = {
+                    "If hand has {C:attention}#1#{} scoring",
+                    "cards, destroy {C:attention}this Joker{}",
+                    "and all {C:attention}played cards{}"
+                }
+            },
+            j_reddit_aleister = {
+                name = "Aleister",
+                text = {
+                    "Played {C:attention}Jacks{} gain a random",
+                    "{C:attention}edition{}, {C:attention}enhancement{} and",
+                    "{C:attention}seal{}"
+                }
+            },
+            j_reddit_pineapple = {
+                name = "Pineapple",
+                text = {
+                    "{X:mult,C:white}X#1#{} or {X:mult,C:white}X0{} Mult,",
+                    "Alternates every round.",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
+                }
             }
         },
         Other = {

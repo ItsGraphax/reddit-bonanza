@@ -8,8 +8,8 @@ end
 SMODS.Joker {
     key = 'irises',
     blueprint_compat = true,
-    eternal_compat = true, -- false if the joker has to be sold or can destroy itself
-    perishable_compat = true, -- false if is a scaling joker, except retroactive scaling
+    eternal_compat = true,
+    perishable_compat = true,
 
     config = {extra = {xmult = 3, min_enhancements = 2}},
     loc_vars = function(self, info_queue, card)
@@ -20,7 +20,7 @@ SMODS.Joker {
         }
     end,
 
-    rarity = 2, -- 1 for common through 4 for legendary
+    rarity = 2,
 
     atlas = 'reddit_jokers',
     pos = {x = 11, y = 1},

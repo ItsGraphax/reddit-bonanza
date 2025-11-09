@@ -29,5 +29,6 @@ SMODS.Joker {
 
     set_badges = function(self, card, badges)
         badges[#badges+1] = credit_badge('PokeAreddit', false)
+        badges[#badges+1] = credit_badge('TSAMarioYTReddit', true)
 	end
 }

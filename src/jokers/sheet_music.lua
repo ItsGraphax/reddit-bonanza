@@ -8,7 +8,7 @@ SMODS.Joker {
 			return { vars = {card.ability.extra.dollars} }
 	end,
 
-	rarity = 1, -- 1 for common through 4 for legendary
+	rarity = 1,
 	
 	atlas = 'reddit_jokers',
 	pos = { x = 10, y = 6 },
