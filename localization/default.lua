@@ -4,19 +4,15 @@ return {
         Blind = {
             bl_reddit_spotlight = {
                 name = 'The Spotlight',
-                text = {
-                    'Non-enhanced cards',
-                    'are drawn face down'
-                }
+                text = {'Non-enhanced cards', 'are drawn face down'}
             },
-            bl_reddit_gourmet= {
+            bl_reddit_gourmet = {
                 name = 'The Gourmet',
                 text = {
-                    'All cards are debuffed',
-                    'until a consumable is',
+                    'All cards are debuffed', 'until a consumable is',
                     'used or sold'
                 }
-            },
+            }
         },
         Edition = {},
         Enhanced = {
@@ -26,15 +22,14 @@ return {
                     'You have just catched an {C:attention}ultra rare{} bug!',
                     'Here, have some {C:white,X:mult}x1.5{} Mult (Don\'t tell anyone!)',
                     '{C:inactive}PS: I dont know atm how to fix it so please don\'t report this'
-                },
+                }
             }
         },
         Joker = {
             j_reddit_abstinent_joker = {
                 name = 'Abstinent Joker',
                 text = {
-                    'Played cards with',
-                    '{C:clubs}#1#{} suit give',
+                    'Played cards with', '{C:clubs}#1#{} suit give',
                     '{C:chips}+#2#{} Chips when scored'
                 }
             },
@@ -72,8 +67,7 @@ return {
             j_reddit_ace_up_your_sleeve = {
                 name = 'Ace Up Your Sleeve',
                 text = {
-                    'When round begins,',
-                    'add an {C:attention}Ace{} with',
+                    'When round begins,', 'add an {C:attention}Ace{} with',
                     'a random {C:attention}Edition{} and',
                     '{C:attention}Seal{} to your hand'
                 }
@@ -82,22 +76,19 @@ return {
                 name = 'Ad Break',
                 text = {
                     "{C:attention}End of round{} effects",
-                    "trigger after every",
-                    "hand played"
+                    "trigger after every", "hand played"
                 }
             },
             j_reddit_album_cover = {
                 name = 'Album Cover',
                 text = {
-                    "All {C:attention}Booster Packs{} contain",
-                    "an extra card"
+                    "All {C:attention}Booster Packs{} contain", "an extra card"
                 }
             },
             j_reddit_all_in = {
                 name = 'All In',
                 text = {
-                    "{X:mult,C:white}X#1#{} Mult",
-                    "Lose all money when",
+                    "{X:mult,C:white}X#1#{} Mult", "Lose all money when",
                     "{C:attention}Blind{} is selected"
                 }
             },
@@ -114,8 +105,7 @@ return {
                 text = {
                     '{C:white,X:red}X#1#{} Mult',
                     '{C:green}#2# in #3#{} chance this joker',
-                    'gets destroyed when current',
-                    'hand exceeds blind score'
+                    'gets destroyed when current', 'hand exceeds blind score'
                 }
             },
             j_reddit_artist = {
@@ -139,7 +129,7 @@ return {
                 name = 'Birbal',
                 text = {
                     "{X:mult,C:white}X#1#{} Mult when a",
-                    "{C:attention}Joker{} is triggered",
+                    "{C:attention}Joker{} is triggered"
                 }
             },
             j_reddit_blank_joker = {
@@ -161,16 +151,14 @@ return {
             j_reddit_charitable_joker = {
                 name = 'Charitable Joker',
                 text = {
-                    'Played cards with',
-                    '{C:diamonds}#1#{} suit give',
+                    'Played cards with', '{C:diamonds}#1#{} suit give',
                     '{C:chips}+#2#{} Chips when scored'
                 }
             },
             j_reddit_chaste_joker = {
                 name = 'Chaste Joker',
                 text = {
-                    'Played cards with',
-                    '{C:hearts}#1#{} suit give',
+                    'Played cards with', '{C:hearts}#1#{} suit give',
                     '{C:chips}+#2#{} Chips when scored'
                 }
             },
@@ -197,8 +185,7 @@ return {
             j_reddit_demon_core = {
                 name = "Demon Core",
                 text = {
-                    "Retrigger all played cards",
-                    "{C:attention}#2#{} times,",
+                    "Retrigger all played cards", "{C:attention}#2#{} times,",
                     "{C:chips}-#1#{} hands each round"
                 }
             },
@@ -212,8 +199,7 @@ return {
             j_reddit_crimson_dawn = {
                 name = 'Crimson Dawn',
                 text = {
-                    "Retrigger all played",
-                    "cards in {C:attention}first",
+                    "Retrigger all played", "cards in {C:attention}first",
                     "{C:attention}hand{} of round"
                 }
             },
@@ -229,16 +215,14 @@ return {
                 name = 'Double Glazing',
                 text = {
                     "{C:attention}Glass Cards{} have a",
-                    "{C:green}#1# in #2#{} chance of being",
-                    "destroyed"
+                    "{C:green}#1# in #2#{} chance of being", "destroyed"
                 }
             },
             j_reddit_engagement_ring = {
                 name = 'Engagement Ring',
                 text = {
                     '{C:green}#1# in #2#{} chance to retrigger',
-                    'played cards with {C:diamonds}#3#',
-                    "suit"
+                    'played cards with {C:diamonds}#3#', "suit"
                 }
             },
             j_reddit_enigma = {
@@ -257,7 +241,7 @@ return {
                     "of a random {C:attention}Joker{}, changes",
                     "when {C:attention}Blind{} is selected",
                     "{s:0.8}Cannot copy Entangled Joker{}",
-                    "{C:inactive}(Currently: #1#){}",
+                    "{C:inactive}(Currently: #1#){}"
                 }
             },
             j_reddit_feelin_lucky = {
@@ -281,8 +265,7 @@ return {
                 text = {
                     "{C:green}#1# in #2#{} chance to create",
                     "a random {C:blue}Spectral{} card if ",
-                    "played hand contains a",
-                    "{C:attention}#3#{}"
+                    "played hand contains a", "{C:attention}#3#{}"
                 }
             },
             j_reddit_hi_five = {
@@ -315,16 +298,14 @@ return {
                 name = 'Jokerdex',
                 text = {
                     "{C:mult}+#1#{} Mult for every",
-                    "unique {C:attention}Joker{} obtained",
-                    "this run",
+                    "unique {C:attention}Joker{} obtained", "this run",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
                 }
             },
             j_reddit_kind_joker = {
                 name = 'Kind Joker',
                 text = {
-                    'Played cards with',
-                    '{C:spades}#1#{} suit give',
+                    'Played cards with', '{C:spades}#1#{} suit give',
                     '{C:chips}+#2#{} Chips when scored'
                 }
             },
@@ -355,15 +336,14 @@ return {
                     "Earn {C:money}$#1#{} for each time you exceed",
                     "the {C:attention}Blind{} score requirement by {C:attention}5%",
                     "Requirement doubles with every {C:money}$#1#",
-                    "{C:inactive}(Max of {C:money}$#2#{C:inactive})",
+                    "{C:inactive}(Max of {C:money}$#2#{C:inactive})"
                 }
             },
             j_reddit_legally_distinct = {
                 name = 'Legally Distinct',
                 text = {
                     'All played {C:attention}face{} cards',
-                    'become {C:attention}Steel Cards{}',
-                    'when scored'
+                    'become {C:attention}Steel Cards{}', 'when scored'
                 }
             },
             j_reddit_lets_go_gambling = {
@@ -386,23 +366,20 @@ return {
                     "If at least {C:attention}#1#{} scored",
                     "cards are of the same",
                     "{C:attention}rank{} and {C:attention}suit{}, {C:chips}+#2#{} Chips",
-                    "and {C:money}$#3#{} for every",
-                    "scored qualifying card"
+                    "and {C:money}$#3#{} for every", "scored qualifying card"
                 }
             },
             j_reddit_medusa = {
                 name = 'Medusa',
                 text = {
                     "All played {C:attention}face{} cards",
-                    "become {C:attention}Stone Cards",
-                    "when scored"
+                    "become {C:attention}Stone Cards", "when scored"
                 }
             },
             j_reddit_metronome = {
                 name = 'Metronome',
                 text = {
-                    "Gains {C:mult}+#1#{} Mult if",
-                    "played hand is same as",
+                    "Gains {C:mult}+#1#{} Mult if", "played hand is same as",
                     "second last hand, but not last",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                     "{C:inactive}(Current Last: {C:attention}#3#{C:inactive})",
@@ -413,7 +390,7 @@ return {
                 name = 'Nichola',
                 text = {
                     "Prevents the {C:attention}Ante{} from",
-                    "increasing {C:attention}#1#{} #2#",
+                    "increasing {C:attention}#1#{} #2#"
                 }
             },
             j_reddit_oracle = {
@@ -453,9 +430,7 @@ return {
             },
             j_reddit_gourmand = {
                 name = 'Gourmand',
-                text = {
-                    '{C:attention}+1{} consumable slot'
-                }
+                text = {'{C:attention}+1{} consumable slot'}
             },
             j_reddit_butter_fingers = {
                 name = 'Butter Fingers',
@@ -468,8 +443,7 @@ return {
                 name = 'Pier',
                 text = {
                     "If {C:attention}first discard{} of round",
-                    "has only {C:attention}1{} card, add",
-                    "a random seal"
+                    "has only {C:attention}1{} card, add", "a random seal"
                 }
             },
             j_reddit_plumber = {
@@ -490,8 +464,7 @@ return {
                 name = 'Rainbow Joker',
                 text = {
                     "{X:mult,C:white}X1{} Mult",
-                    "per unique {C:attention}suit{}",
-                    "in scoring hand"
+                    "per unique {C:attention}suit{}", "in scoring hand"
                 }
             },
             j_reddit_rover = {
@@ -546,8 +519,7 @@ return {
             j_reddit_touchdown = {
                 name = 'Touchdown',
                 text = {
-                    "Gains {C:mult}+#1#{} Mult",
-                    "once playing cards",
+                    "Gains {C:mult}+#1#{} Mult", "once playing cards",
                     "scores exceed {C:attention}#2#{}",
                     "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)",
                     "{C:inactive}(Current total: {C:attention}#4#{C:inactive})"
@@ -565,8 +537,7 @@ return {
                 name = 'Where is Joker?',
                 text = {
                     "Earn the sell value",
-                    "of the {C:attention}leftmost joker{} at",
-                    "end of round",
+                    "of the {C:attention}leftmost joker{} at", "end of round",
                     "{C:inactive}(Max {C:money}$#1#{C:inactive})",
                     "{C:inactive}(Currently: {C:money}$#2#{C:inactive}){}"
                 }
@@ -582,8 +553,7 @@ return {
                 name = 'Wizard',
                 text = {
                     "{C:attention}+#1#{} consumable slots,",
-                    "{C:chips}+#2#{} Chips for every",
-                    "consumable held",
+                    "{C:chips}+#2#{} Chips for every", "consumable held",
                     "{C:inactive}(Currently: {C:chips}+#3#{C:inactive} Chips){}"
                 }
             },
@@ -596,7 +566,7 @@ return {
                     '{C:green}#3# in #4#{} chance to {C:attention}destroy{}',
                     'a card when scored,',
                     '{X:mult,C:white}X#1#{} Mult for every destroyed',
-                    '{C:attention}scoring card', 
+                    '{C:attention}scoring card',
                     '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
                 }
             },
@@ -609,15 +579,14 @@ return {
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
             },
-            j_reddit_golden_retriever = { 
+            j_reddit_golden_retriever = {
                 name = 'Golden Retriever',
                 text = {
                     'Add a {C:attention}Gold Card{} with a',
-                    '{C:attention}Gold Seal{} at the start',
-                    'of every round'
+                    '{C:attention}Gold Seal{} at the start', 'of every round'
                 }
             },
-            j_reddit_ore_vein = { 
+            j_reddit_ore_vein = {
                 name = 'Ore Vein',
                 text = {
                     '{C:attention}Stone Cards{} also',
@@ -669,8 +638,7 @@ return {
                 text = {
                     '{X:mult,C:white}X#1#{} Mult for',
                     'every {C:planet}Uranus{} card used,',
-                    'resets when a {C:attention}Flush',
-                    'is played',
+                    'resets when a {C:attention}Flush', 'is played',
                     '{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)'
                 }
             },
@@ -686,8 +654,7 @@ return {
             j_reddit_newspaper = {
                 name = 'Frontpage',
                 text = {
-                    'When round begins,',
-                    'draw {C:attention}#1#{} extra cards'
+                    'When round begins,', 'draw {C:attention}#1#{} extra cards'
                 }
             },
             j_reddit_thunderstruck = {
@@ -717,18 +684,15 @@ return {
             j_reddit_class_notes = {
                 name = 'Class Notes',
                 text = {
-                    'Copies ability of',
-                    '{C:attention}Joker{} to the left,',
+                    'Copies ability of', '{C:attention}Joker{} to the left,',
                     '{C:green}#1# in #2#{} chance to',
-                    '{C:attention}destroy{} itself at the',
-                    'end of round'
+                    '{C:attention}destroy{} itself at the', 'end of round'
                 }
             },
             j_reddit_tough_crowd = {
                 name = 'Tough Crowd',
                 text = {
-                    'Retrigger', 
-                    'each played',
+                    'Retrigger', 'each played',
                     '{C:attention}6{}, {C:attention}7{}, {C:attention}8{}, or {C:attention}9'
                 }
             },
@@ -738,8 +702,7 @@ return {
                     'When {C:attention}Blind{} is selected,',
                     '{C:attention}Wild Cards{} gain an',
                     'additional {C:attention}Enhancement{},',
-                    'changes every round',
-                    '{C:inactive}(Currently #1#)'
+                    'changes every round', '{C:inactive}(Currently #1#)'
                 }
             },
             j_reddit_pizza = {
@@ -751,7 +714,7 @@ return {
             },
             j_reddit_mad = {
                 name = 'M.A.D.',
-		        text = {
+                text = {
                     "Sell this Joker to defeat",
                     "this {C:attention}Blind{}, increase",
                     "{C:attention}Ante{} by {C:attention}1{} and set",
@@ -771,8 +734,7 @@ return {
                 name = 'Molotov',
                 text = {
                     '{C:attention}+#1#{} hand size if scoring',
-                    'requirement is {C:attention}exceeded{}',
-                    'in one hand',
+                    'requirement is {C:attention}exceeded{}', 'in one hand',
                     '{S:1.1,C:red,E:2}self destructs'
                 }
             },
@@ -780,8 +742,7 @@ return {
                 name = 'Thalia',
                 text = {
                     'All cards in {C:attention}first',
-                    '{C:attention}discard{} of round',
-                    'are converted to',
+                    '{C:attention}discard{} of round', 'are converted to',
                     '{C:attention}Wild 8s'
                 }
             },
@@ -856,6 +817,14 @@ return {
                     "Alternates every round.",
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
                 }
+            },
+            j_reddit_resting_joker = {
+                name = "Resting Joker",
+                text = {
+                    'Gains {C:chips}+#1#{} Chips when a {C:attention}7',
+                    'is played but not scored',
+                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
+                }
             }
         },
         Other = {
@@ -863,95 +832,91 @@ return {
                 name = "Bonanza Pack",
                 text = {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
-                    "{V:1}Reddit Bonanza{} Jokers",
-                },
+                    "{V:1}Reddit Bonanza{} Jokers"
+                }
             },
             p_reddit_bonanza_pack2 = {
                 name = "Bonanza Pack",
                 text = {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
-                },
+                }
             },
             p_reddit_bonanza_pack_jumbo1 = {
                 name = "Jumbo Bonanza Pack",
                 text = {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
-                },
+                }
             },
             p_reddit_bonanza_pack_mega1 = {
                 name = "Mega Bonanza Pack",
                 text = {
                     "Choose {C:attention}#1#{} of up to {C:attention}#2#{}",
                     "{V:1}Reddit Bonanza{} Jokers"
-                },
+                }
             },
 
             items = {
                 name = 'Items',
                 text = {
-                    'Vouchers, Booster Packs',
-                    'Jokers, Consumables and',
+                    'Vouchers, Booster Packs', 'Jokers, Consumables and',
                     'playing cards'
                 }
-            },
+            }
             -- reddit_flipped = 'The joker is flipped' -- Why is it breaking :<
         },
         Planet = {},
         Spectral = {
-        --     -- Card Czar compatibility (why did he hardcode it :pepehands:)
-        --     c_talisman = {
-        --         text = {
-        --             "Add a {C:attention}Gold Seal{}",
-        --             "to {C:attention}#1#{} selected",
-        --             "card in your hand"
-        --         }
-        --     },
-        --     c_deja_vu = {
-        --         text = {
-        --             "Add a {C:attention}Red Seal{}",
-        --             "to {C:attention}#1#{} selected",
-        --             "card in your hand"
-        --         }
-        --     },
-        --     c_trance = {
-        --         text = {
-        --             "Add a {C:attention}Blue Seal{}",
-        --             "to {C:attention}#1#{} selected",
-        --             "card in your hand"
-        --         }
-        --     },
-        --     c_medium = {
-        --         text = {
-        --             "Add a {C:attention}Purple Seal{}",
-        --             "to {C:attention}#1#{} selected",
-        --             "card in your hand"
-        --         }
-        --     },
-        --     c_wraith = {
-        --         text = {
-        --             "Creates a random",
-        --             "{C:red}Rare{C:attention} Joker{},",
-        --             "sets money to {C:money}$#1#",
-        --         }
-        --     },
-        --     c_black_hole = {
-        --         text = {
-        --             "Upgrade every",
-        --             "{C:legendary,E:1}poker hand",
-        --             "by {C:attention}#1#{} level",
-        --         }
-        --     }
+            --     -- Card Czar compatibility (why did he hardcode it :pepehands:)
+            --     c_talisman = {
+            --         text = {
+            --             "Add a {C:attention}Gold Seal{}",
+            --             "to {C:attention}#1#{} selected",
+            --             "card in your hand"
+            --         }
+            --     },
+            --     c_deja_vu = {
+            --         text = {
+            --             "Add a {C:attention}Red Seal{}",
+            --             "to {C:attention}#1#{} selected",
+            --             "card in your hand"
+            --         }
+            --     },
+            --     c_trance = {
+            --         text = {
+            --             "Add a {C:attention}Blue Seal{}",
+            --             "to {C:attention}#1#{} selected",
+            --             "card in your hand"
+            --         }
+            --     },
+            --     c_medium = {
+            --         text = {
+            --             "Add a {C:attention}Purple Seal{}",
+            --             "to {C:attention}#1#{} selected",
+            --             "card in your hand"
+            --         }
+            --     },
+            --     c_wraith = {
+            --         text = {
+            --             "Creates a random",
+            --             "{C:red}Rare{C:attention} Joker{},",
+            --             "sets money to {C:money}$#1#",
+            --         }
+            --     },
+            --     c_black_hole = {
+            --         text = {
+            --             "Upgrade every",
+            --             "{C:legendary,E:1}poker hand",
+            --             "by {C:attention}#1#{} level",
+            --         }
+            --     }
         },
         Stake = {},
         Tag = {
             tag_reddit_reddit = { -- this isn't gonna get confusing
                 name = 'Bonanza Tag',
-                text = {
-                    'Gives a free',
-                    '{C:attention}Mega Bonanza Pack'
-                }
+                text = {'Gives a free', '{C:attention}Mega Bonanza Pack'}
             }
         },
         Tarot = {},
@@ -965,22 +930,15 @@ return {
             },
             v_reddit_track_drift = {
                 name = "Multi-Track Drift",
-                text = {
-                    "When skipping a {C:attention}blind{},",
-                    "gain 2 tags"
-                }
+                text = {"When skipping a {C:attention}blind{},", "gain 2 tags"}
             },
             v_reddit_deterioration = {
                 name = 'Deterioration',
-                text = {
-                    '{C:red}X0.75{} base {C:attention}Blind{} size'
-                }
+                text = {'{C:red}X0.75{} base {C:attention}Blind{} size'}
             },
             v_reddit_decay = {
                 name = 'Decay',
-                text = {
-                    '{C:red}X0.5{} base {C:attention}Blind{} size'
-                }
+                text = {'{C:red}X0.5{} base {C:attention}Blind{} size'}
             }
         }
     },
@@ -1003,12 +961,10 @@ return {
             a_hand_singular = "hand",
             a_hand_plural = "hands",
             a_times_singular = "time",
-            a_times_plural = "times",
+            a_times_plural = "times"
         },
         high_scores = {},
-        labels = {
-            reddit_flipped = 'Flipped'
-        },
+        labels = {reddit_flipped = 'Flipped'},
         poker_hand_descriptions = {},
         poker_hands = {},
         quips = {},
@@ -1017,6 +973,6 @@ return {
         suits_singular = {},
         tutorial = {},
         v_dictionary = {},
-        v_text = {},
-    },
+        v_text = {}
+    }
 }
