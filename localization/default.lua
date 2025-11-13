@@ -825,6 +825,14 @@ return {
                     'is played but not scored',
                     '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)'
                 }
+            },
+            j_reddit_joke_free_zone = {
+                name = "Joke-Free Zone", -- Joke Free Zone means "Free Zone that is a Joke"
+                text = {
+                    "All {C:common}Common {C:attention}Jokers{} are disabled,",
+                    "{C:chips}+#1#{} Chips for each disabled {C:attention}Joker",
+                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)"
+                }
             }
         },
         Other = {
