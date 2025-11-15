@@ -6,7 +6,7 @@ SMODS.Joker {
 
     config = { extra = { gain = 1, mult = 0 } },
     loc_vars = function(self, info_queue, card)
-        info_queue[#info_queue+1] = G.P_CENTERS['m_stone']
+        info_queue[#info_queue + 1] = G.P_CENTERS['m_stone']
         return { vars = { card.ability.extra.gain, card.ability.extra.mult } }
     end,
 
@@ -32,8 +32,16 @@ SMODS.Joker {
             end
         end
     end,
+    in_pool = function(self, args) --equivalent to `enhancement_gate = 'm_stone'`
+        for _, playing_card in ipairs(G.playing_cards or {}) do
+            if SMODS.has_enhancement(playing_card, 'm_stone') then
+                return true
+            end
+        end
+        return false
+    end,
 
     set_badges = function(self, card, badges)
-        badges[#badges+1] = credit_badge('Omicra98', false)
+        badges[#badges + 1] = credit_badge('Omicra98', false)
     end
 }
