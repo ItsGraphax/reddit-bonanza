@@ -5,7 +5,7 @@ SMODS.Joker {
 
     config = { extra = {  } },
     loc_vars = function(self, info_queue, card)
-        return { vars = {  } }
+        info_queue[#info_queue+1] = G.P_CENTERS['c_wheel_of_fortune']
     end,
 
     rarity = 2,

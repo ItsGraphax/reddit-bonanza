@@ -833,6 +833,20 @@ return {
                     "{C:chips}+#1#{} Chips for each disabled {C:attention}Joker",
                     "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)"
                 }
+            },
+            j_reddit_whos_that_joker = {
+                name = "Who's That Joker?!",
+                text = {
+                    "Creates a {C:attention}Judgement {C:tarot}Tarot{}",
+                    "Card when {C:attention}Blind{} is selected"
+                }
+            },
+            j_reddit_predictable = {
+                name = "Predictable Joker",
+                text = {
+                    "Each {C:attention}Lucky{} card held in hand",
+                    "gives {C:mult}+#1#{} Mult and {C:money}$#2#"
+                }
             }
         },
         Other = {
