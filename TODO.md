@@ -1,0 +1,38 @@
+# A nice TODO with all the things I wanna do
+- [ ] Make a better system for organizing jokers (probs pr w/ projects)
+    - [x] Setup project
+    - [ ] Finish and commit all recent changes
+    - [ ] Migrate old ideas to gh issues
+- [ ] Add art
+    - [x] Find out what is missing
+    - [ ] Fix (Art that *could* be improved on)
+        - [ ] Up the Sleeve
+        - [ ] Hi Five
+        - [ ] Golden Retreiver
+        - [ ] Jimbo's Loss
+        - [ ] Legally Distinct (Blurred)
+        - [ ] Lemonade
+        - [ ] Touchdown
+        - [ ] Metronome
+    - [ ] Missing (Check for exist first!!!!)
+        - [ ] Triplets
+        - [ ] Whos that joker
+        - [ ] Ore Vein
+        - [ ] Pineapple
+        - [ ] Ping Pong
+        - [ ] Pizza
+        - [ ] Predictable Joker
+        - [ ] Seal Clubber
+        - [ ] Resting Joker
+        - [ ] Grenade PNG
+        - [ ] Joke-Free Zone
+        - [ ] Let's Go Gambling
+        - [ ] Biker
+        - [ ] Aleister
+        - [ ] Good Jokers (eg. kind)
+
+- [ ] Fix bugs
+    - [ ] Find out bugs
+- [ ] Browse some of the recent joker ideas
+    - [ ] Idk top 50
+- [ ] TIME FOR FRICKING UPDATE

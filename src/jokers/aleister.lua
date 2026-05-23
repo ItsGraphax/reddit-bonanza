@@ -17,15 +17,34 @@ SMODS.Joker {
 
     calculate = function(self, card, context)
         if context.before and context.main_eval and not context.blueprint then
-            for _, scored_card in ipairs(context.scoring_hand) do
-                if scored_card:get_id() == 11 then
-                    scored_card:set_seal(SMODS.poll_seal({
-                        guaranteed = true,
-                        type_key = 'reddit_aleister'
+            for _, card in ipairs(context.scoring_hand) do
+                if card:get_id() == 11 then
+
+                    card:set_seal(SMODS.poll_seal({ -- add seal
+                        key = 'reddit_aleister',
+                        guaranteed = true
                     }))
-                    scored_card:set_ability(
-                        poll_edition('reddit_aleister', nil, true, true), nil,
-                        true)
+
+                    card:set_edition( -- add edition
+                    SMODS.poll_edition({
+                        key = "reddit_aleister",
+                        no_negative = true,
+                        guaranteed = true
+                    }), true)
+
+                    card:set_ability( -- add enhancement
+                    SMODS.poll_enhancement({
+                        key = "reddit_aleister",
+                        guaranteed = true
+                    }), true)
+
+                    G.E_MANAGER:add_event(Event({
+                        func = function()
+                            card:juice_up(0.3, 0.5)
+                            return true
+                        end
+                    }))
+
                 end
             end
         end
