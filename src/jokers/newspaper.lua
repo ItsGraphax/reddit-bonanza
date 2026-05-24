@@ -3,42 +3,21 @@ SMODS.Joker {
     blueprint_compat = true,
 
     atlas = 'reddit_jokers',
-    pos = {
-        x = 9,
-        y = 2
-    },
+    pos = {x = 9, y = 2},
 
     rarity = 1,
     cost = 5,
-    config = {
-        extra = {
-            h_size = 4,
-            has_size = false
-        }
-    },
+    config = {extra = {h_size = 4}},
     loc_vars = function(self, info_queue, card)
-        return {
-            vars = {card.ability.extra.h_size}
-        }
+        return {vars = {card.ability.extra.h_size}}
     end,
 
     calculate = function(self, card, context)
-        if context.setting_blind then
-            G.hand:change_size(card.ability.extra.h_size)
-            card.ability.extra.has_size = true
+        if context.drawing_cards and G.GAME.current_round.hands_played == 0 and G.GAME.current_round.discards_used == 0 then
             return {
-                message = '+4 Cards'
+                message = '+4 Cards',
+                cards_to_draw = G.hand.config.card_limit + card.ability.extra.h_size
             }
-        end
-        if context.first_hand_drawn then
-            card.ability.extra.has_size = false
-            G.hand:change_size(-card.ability.extra.h_size)
-        end
-    end,
-    remove_from_deck = function(self, card, from_debuff)
-        if card.ability.extra.has_size then
-            card.ability.extra.has_size = false
-            G.hand:change_size(-card.ability.extra.h_size)
         end
     end,
 
