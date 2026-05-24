@@ -1,8 +1,8 @@
 # A nice TODO with all the things I wanna do
 - [ ] Make a better system for organizing jokers (probs pr w/ projects)
     - [x] Setup project
-    - [ ] Finish and commit all recent changes
-    - [ ] Migrate old ideas to gh issues
+    - [x] Finish and commit all recent changes
+    - [x] Migrate old ideas to gh issues
 - [ ] Add art
     - [x] Find out what is missing
     - [ ] Fix (Art that *could* be improved on)
