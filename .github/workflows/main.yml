@@ -8,6 +8,7 @@ on:
 jobs:
   notify-discord:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -20,18 +21,24 @@ jobs:
           TITLE=$(git log -1 --pretty=%s)
           DESCRIPTION=$(git log -1 --pretty=%b)
           DESCRIPTION=${DESCRIPTION:-"No description"}
+
+          PING=""
+
+          if [[ "$DESCRIPTION" == *"[Ping]"* ]]; then
+            PING="<@&1380928942558679133>"
+          fi
           
-          # Send payload
           jq -n \
             --arg title "$TITLE" \
             --arg description "$DESCRIPTION" \
+            --arg ping "$PING" \
             '{
-              content: "<@&1380928942558679133>",
+              content: $ping,
               embeds: [
                 {
                   title: $title,
                   description: $description,
-                  color: 16730184,
+                  color: 16730184
                 }
               ],
               attachments: []
