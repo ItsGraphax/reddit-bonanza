@@ -30,6 +30,13 @@
         - [ ] Biker
         - [ ] Aleister
         - [ ] Good Jokers (eg. kind)
+        - [ ] Richard
+        - [ ] Thalia
+        - [ ] UFO
+        - [ ] Snowman
+        - [ ] Molotov
+        - [ ] Irises
+        - [ ] Decalomania
 
 - [ ] Fix bugs
     - [ ] Find out bugs
