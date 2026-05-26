@@ -105,21 +105,16 @@ loader.load({
         'thalia.lua', 'ufo.lua', 'molotov.lua', 'sweetener.lua',
         'sisyphean_task.lua', 'sheet_music.lua', 'irises.lua'
     },
-    skip_items = {
-        '8_ball.lua', 'roasted_marshmallow.lua', 'sweetener.lua'
-    },
+    skip_items = {'8_ball.lua', 'roasted_marshmallow.lua', 'sweetener.lua'},
     item_overrides = {'8_ball.lua'},
     last_items = {'birbal.lua', 'nichola.lua', 'richard.lua', 'thalia.lua'}
 })
 
--- assert(SMODS.load_file("src/jokers.lua"))()
-assert(SMODS.load_file("src/vouchers.lua"))()
-assert(SMODS.load_file("src/enhancements.lua"))()
-assert(SMODS.load_file("src/overrides.lua"))()
+loader.load({subdir = "vouchers"})
+loader.load({subdir = "enhancements"})
+loader.load({subdir = "boosters"})
+loader.load({subdir = "blinds"})
+loader.load({subdir = "tags"})
+loader.load({subdir = "stickers"})
+loader.load({subdir = "stakes"})
 assert(SMODS.load_file("src/ui.lua"))()
-assert(SMODS.load_file("src/boosters.lua"))()
-assert(SMODS.load_file("src/blinds.lua"))()
-assert(SMODS.load_file("src/tags.lua"))()
-assert(SMODS.load_file("src/stickers.lua"))()
-assert(SMODS.load_file("src/stakes.lua"))()
--- assert(SMODS.load_file("src/credits_tab.lua"))()

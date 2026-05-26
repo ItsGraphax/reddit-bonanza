@@ -57,6 +57,11 @@ end
 -- item_overrides (filename with .lua)
 
 local load = function(args)
+    args.preferred_order = args.preferred_order or {}
+    args.dev_items = args.dev_items or {}
+    args.skip_items = args.skip_items or {}
+    args.item_overrides = args.item_overrides or {}
+    args.last_items = args.last_items or {}
     -- file, fileformat = filename.lua
     -- filename = filename
 
